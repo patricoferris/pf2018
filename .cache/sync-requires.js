@@ -21,5 +21,6 @@ exports.json = {
   "404.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404.json"),
   "blog-page.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/blog-page.json"),
   "index.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/index.json"),
-  "404-html.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404-html.json")
+  "404-html.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404-html.json"),
+  "tensorflow-and-word-2-vec.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/tensorflow-and-word-2-vec.json")
 }

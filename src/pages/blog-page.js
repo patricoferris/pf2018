@@ -3,13 +3,10 @@ import Link from 'gatsby-link';
 import Blogpost from '../components/Blogpost';
 
 const BlogPage = ({ data }) => (
-  <div>
-    <h1>Blogs</h1>
-    <Link to="/">Go back to the homepage</Link>
+  <div className='blog-block-container'>
     {data.allMarkdownRemark.edges.map(post =>
       <Blogpost data={post.node.frontmatter}></Blogpost>
     )}
-
   </div>
 );
 

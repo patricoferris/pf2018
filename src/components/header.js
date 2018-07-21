@@ -27,9 +27,11 @@ const Header = ({ siteTitle, subTitle }) => (
       gridColumnStart: `1`,
       gridColumnEnd: `1`,
     }}>
-      <h1 className='title' style={{
-        fontFamily: `Helvetica Neue`,
-      }}> {siteTitle} </h1>
+      <Link style={{textDecoration: `none`}} to='/'>
+        <h1 className='title' style={{
+          fontFamily: `Helvetica Neue`,
+        }}> {siteTitle} </h1>
+      </Link>
       <h3 className='subtitle' style={{
         fontFamily: `Helvetica Neue`,
         fontSize: `0.9em`

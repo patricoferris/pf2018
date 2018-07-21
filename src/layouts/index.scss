@@ -23,6 +23,7 @@ body {
     display: grid;
     grid-template-columns: 70% 10% 10% 10%;
     grid-template-rows: 100%;
+    padding-bottom: 15px;
   }
 }
 
@@ -42,6 +43,9 @@ body {
     color: black;
     margin-bottom: 0px;
     font-size: 2em;
+  }
+  &:hover{
+    color: grey;
   }
 }
 
@@ -63,6 +67,43 @@ body {
   &:hover {
     color: $orange-color;
   }
+}
+
+.main-grid {
+  display: grid;
+  height: 400px;
+  padding-top: 60px;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100%;
+  grid-gap: 40px;
+}
+
+#home-image {
+  height: 200px;
+  width: 200px;
+  transition-duration: 200ms;
+  margin: auto;
+  background-image: url('https://res.cloudinary.com/patricoferris/image/upload/e_vignette:20/v1532216313/pf2018/IMG_0913.jpg');
+  background-size: cover;
+  @media (min-width: 64em) {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+.blog-block-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 100%;
+  column-gap: 25px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.blog-block {
+  width: 100%;
+  height: 100%;
+  background-color: grey;
 }
 
 .blog-title {

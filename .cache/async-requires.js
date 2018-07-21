@@ -16,7 +16,8 @@ exports.json = {
   "404.json": require("gatsby-module-loader?name=path---404!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404.json"),
   "blog-page.json": require("gatsby-module-loader?name=path---blog-page!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/blog-page.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/index.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404-html.json")
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404-html.json"),
+  "tensorflow-and-word-2-vec.json": require("gatsby-module-loader?name=path---tensorflow-and-word-2-vec!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/tensorflow-and-word-2-vec.json")
 }
 
 exports.layouts = {
