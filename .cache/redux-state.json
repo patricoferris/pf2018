@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f74344f993614ae4b5ee3995eb197ce3",
+        "contentDigest": "f410861923be6025663074bd19caf5fa",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -366,7 +366,7 @@
       "resolve": "/Users/patrickferris/Documents/Projects/pf2018",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "0c37a0cd5e5da88d8fb4bff1693daf3d",
+      "version": "fe9067f113dfce027d675b5d794ca901",
       "pluginOptions": {
         "plugins": []
       },
@@ -422,7 +422,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0317f6174856ec77dfe6340308c93ea8",
+        "contentDigest": "873052974d998ecc1c6b5a55db1d73b0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -511,18 +511,17 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Patrick Ferris"
+        "title": "Patrick Ferris",
+        "subtitle": "Second Year Computer Science Student @ Cambridge University"
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2018-07-20T22:51:59.616Z",
+      "buildTime": "2018-07-21T15:30:04.584Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "13a1a6095a8f624c69b0842c45603deb",
+        "contentDigest": "ab86896f3e6faeed93cf2405d0e015ef",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -543,7 +542,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "24c1f6087e774d8b84219df64bd57a1a",
+        "contentDigest": "221cce0a572e0acff00d4552c1d16e8f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog-page/": {
+      "layout": "index",
+      "jsonName": "blog-page.json",
+      "internalComponentName": "ComponentBlogPage",
+      "path": "/blog-page/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
+      "componentChunkName": "component---src-pages-blog-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
+      "id": "SitePage /blog-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ea82387640b9a17ba37c20f6b2e441ba",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -564,28 +584,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e341d137c65bbcc09c6dd44ecea990ab",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "1e5b174163b35b600b8be7a67ee1b9b9",
+        "contentDigest": "d6b91bb8dbfb3afbfa93e227180b9f2d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -606,7 +605,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "543f9f0d89489df4defa022bf0c8b64f",
+        "contentDigest": "e10048c8bf5df4e40d9ba793214bd5e6",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -614,7 +613,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "fa56dece842a5d782a36a087bb205cc5"
+    "PLUGINS_HASH": "deda76425b9bd2a7e82a21ec8fe6f98f"
   },
   "componentDataDependencies": {
     "nodes": {

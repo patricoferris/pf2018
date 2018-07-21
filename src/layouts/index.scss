@@ -1,3 +1,5 @@
+$orange-color: rgb(238, 144, 53);
+
 html {
   font-family: Helvetica;
   -ms-text-size-adjust: 100%;
@@ -6,7 +8,22 @@ html {
 
 body {
   margin: 0px;
-  padding: 50px 0px;
+}
+
+.container{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.subtitle {
+  color: $orange-color;
+}
+
+.nav{
+  transition-duration: 300ms;
+  &:hover {
+    color: $orange-color;
+  }
 }
 
 .blog-title {
