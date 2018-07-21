@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-const Blogpost = ({ metablog }) => (
+const Blogpost = ({ data }) => (
   <div>
-    <h1>{ metablog.Title }</h1>
+    <h3>{ data.title }</h3>
   </div>
 );
 

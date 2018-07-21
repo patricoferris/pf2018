@@ -7,6 +7,7 @@ exports.layouts = {
 }
 
 exports.components = {
+  "component---src-templates-post-js": preferDefault(require("/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js")),
   "component---cache-dev-404-page-js": preferDefault(require("/Users/patrickferris/Documents/Projects/pf2018/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js")),
   "component---src-pages-blog-page-js": preferDefault(require("/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js")),
@@ -15,6 +16,7 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/layout-index.json"),
+  "graphics-and-p-5.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/graphics-and-p-5.json"),
   "dev-404-page.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404.json"),
   "blog-page.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/blog-page.json"),

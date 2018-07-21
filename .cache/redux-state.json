@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f410861923be6025663074bd19caf5fa",
+        "contentDigest": "de5d804cd9879cd288150df6afe8de87",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -362,15 +362,258 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/patrickferris/Documents/Projects/pf2018/src/posts",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e373e1320a08e70d4a037c5942ba429f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ea5d53efe5b755b0903c5149d59c31da",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/patrickferris/Documents/Projects/pf2018",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "fe9067f113dfce027d675b5d794ca901",
+      "version": "566ae804c1f354e36bf13a912b4b2c49",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "createPages"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/patrickferris/Documents/Projects/pf2018",
@@ -401,6 +644,14 @@
             "version": "^1.0.26"
           },
           {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.39"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.44"
+          },
+          {
             "name": "node-sass",
             "version": "^4.9.2"
           },
@@ -422,7 +673,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "873052974d998ecc1c6b5a55db1d73b0",
+        "contentDigest": "e62bbfd3d520c1ceb6ddbb4af25fda92",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -516,13 +767,191 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2018-07-21T15:30:04.584Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-07-21T16:18:01.347Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ab86896f3e6faeed93cf2405d0e015ef",
+        "contentDigest": "7856775b11bc34d9716c1d5afc975e6d",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "155281bd29b3695aee912d540b0cee31",
+        "type": "Directory",
+        "description": "Directory \"src/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-07-21T15:44:22.915Z",
+      "accessTime": "2018-07-21T16:18:05.481Z",
+      "changeTime": "2018-07-21T15:44:22.915Z",
+      "birthTime": "2018-07-21T15:43:49.673Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617091460,
+      "blocks": 0,
+      "atimeMs": 1532189885481.158,
+      "mtimeMs": 1532187862914.7222,
+      "ctimeMs": 1532187862914.7222,
+      "birthtimeMs": 1532187829672.5415,
+      "atime": "2018-07-21T16:18:05.481Z",
+      "mtime": "2018-07-21T15:44:22.915Z",
+      "ctime": "2018-07-21T15:44:22.915Z",
+      "birthtime": "2018-07-21T15:43:49.673Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018 absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "40372ed6c8f4bf1da6c6207d3936bd1c",
+        "type": "Directory",
+        "description": "Directory \"src/posts/27-02-2018\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018",
+      "relativePath": "27-02-2018",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-07-21T15:44:52.071Z",
+      "accessTime": "2018-07-21T16:18:05.483Z",
+      "changeTime": "2018-07-21T15:44:52.071Z",
+      "birthTime": "2018-07-21T15:44:22.915Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts",
+      "base": "27-02-2018",
+      "ext": "",
+      "name": "27-02-2018",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617091493,
+      "blocks": 0,
+      "atimeMs": 1532189885482.6619,
+      "mtimeMs": 1532187892071.2732,
+      "ctimeMs": 1532187892071.2732,
+      "birthtimeMs": 1532187862914.7139,
+      "atime": "2018-07-21T16:18:05.483Z",
+      "mtime": "2018-07-21T15:44:52.071Z",
+      "ctime": "2018-07-21T15:44:52.071Z",
+      "birthtime": "2018-07-21T15:44:22.915Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+      "children": [
+        "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9aac7062cfc6916624f477bcd21c1454",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/27-02-2018/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md",
+      "relativePath": "27-02-2018/index.md",
+      "extension": "md",
+      "size": 95,
+      "prettySize": "95 B",
+      "modifiedTime": "2018-07-21T15:46:05.277Z",
+      "accessTime": "2018-07-21T16:17:37.076Z",
+      "changeTime": "2018-07-21T15:46:05.277Z",
+      "birthTime": "2018-07-21T15:44:52.071Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "27-02-2018",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617091516,
+      "blocks": 8,
+      "atimeMs": 1532189857076.459,
+      "mtimeMs": 1532187965276.6409,
+      "ctimeMs": 1532187965276.6409,
+      "birthtimeMs": 1532187892071.2644,
+      "atime": "2018-07-21T16:17:37.076Z",
+      "mtime": "2018-07-21T15:46:05.277Z",
+      "ctime": "2018-07-21T15:46:05.277Z",
+      "birthtime": "2018-07-21T15:44:52.071Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: '/graphics-and-p5'\ntitle: 'Introduction to Graphics'\n---\n\n# Introduction to Graphics\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "af2c3f65cf9de5a04c16a780c097acda",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Introduction to Graphics",
+        "path": "/graphics-and-p5",
+        "_PARENT": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+        "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Introduction to Graphics\n",
+      "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md"
+    },
+    "SitePage /graphics-and-p5": {
+      "layout": "index",
+      "jsonName": "graphics-and-p-5.json",
+      "internalComponentName": "ComponentGraphicsAndP5",
+      "path": "/graphics-and-p5",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "id": "SitePage /graphics-and-p5",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "71000c85f60adc468c56c46c9a64a633",
+        "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
     },
@@ -542,7 +971,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "221cce0a572e0acff00d4552c1d16e8f",
+        "contentDigest": "387455a16d98f8fbbd5c9092ae43c0b2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -563,7 +992,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ea82387640b9a17ba37c20f6b2e441ba",
+        "contentDigest": "3f461f79578661b3177689be1304106b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -584,7 +1013,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d6b91bb8dbfb3afbfa93e227180b9f2d",
+        "contentDigest": "9796591deabaab36565a5f560d9363fa",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -605,7 +1034,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e10048c8bf5df4e40d9ba793214bd5e6",
+        "contentDigest": "506e5be6e5c5c4a653017fc5796a13f7",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -613,17 +1042,25 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "deda76425b9bd2a7e82a21ec8fe6f98f"
+    "PLUGINS_HASH": "13d1ab9f563fdcb5299320fb2cae9846"
   },
   "componentDataDependencies": {
     "nodes": {
+      "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": [
+        "/",
+        "/graphics-and-p5"
+      ],
       "Site": [
-        "LAYOUT___index"
+        "LAYOUT___index",
+        "/"
       ]
     },
     "connections": {
       "SitePage": [
         "/dev-404-page/"
+      ],
+      "MarkdownRemark": [
+        "/blog-page/"
       ]
     }
   }
