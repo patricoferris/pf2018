@@ -22,25 +22,17 @@ const navigation = [
 ];
 
 const Header = ({ siteTitle, subTitle }) => (
-  <div style={{
-    width: `100%`,
-    borderBottom: `solid lightgrey 3px`,
-    display: `grid`,
-    gridTemplateColumns: `70% 10% 10% 10%`,
-    gridTemplateRows: `100%`
-  }}>
+  <div className='header-container'>
     <div style={{
       gridColumnStart: `1`,
       gridColumnEnd: `1`,
     }}>
-      <h1 style={{
+      <h1 className='title' style={{
         fontFamily: `Helvetica Neue`,
-        marginBottom: `0px`
       }}> {siteTitle} </h1>
       <h3 className='subtitle' style={{
         fontFamily: `Helvetica Neue`,
-        fontSize: `0.9em`,
-        marginTop: `0px`
+        fontSize: `0.9em`
       }}> {subTitle.toUpperCase()} </h3>
     </div>
     {navigation.map(nav =>

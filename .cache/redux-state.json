@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "de5d804cd9879cd288150df6afe8de87",
+        "contentDigest": "6023b8037a42896f8373a8d26ea7fa34",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -607,7 +607,7 @@
       "resolve": "/Users/patrickferris/Documents/Projects/pf2018",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "566ae804c1f354e36bf13a912b4b2c49",
+      "version": "3c4025f77521e50c66446cbf1c2b0569",
       "pluginOptions": {
         "plugins": []
       },
@@ -627,6 +627,10 @@
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
           {
             "name": "gatsby",
             "version": "^1.9.277"
@@ -658,6 +662,14 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "request",
+            "version": "^2.87.0"
+          },
+          {
+            "name": "request-promise",
+            "version": "^4.2.2"
           }
         ],
         "devDependencies": [
@@ -673,7 +685,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e62bbfd3d520c1ceb6ddbb4af25fda92",
+        "contentDigest": "3c85e5cbbffe9749f8b3ff5c3fe1b45e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -769,12 +781,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-21T16:18:01.347Z",
+      "buildTime": "2018-07-21T22:47:13.115Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7856775b11bc34d9716c1d5afc975e6d",
+        "contentDigest": "00544ee55734f51e9af5876191a93e93",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -784,7 +796,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "155281bd29b3695aee912d540b0cee31",
+        "contentDigest": "7e29cff1105903c5ccb51ba0669f7105",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -793,11 +805,11 @@
       "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts",
       "relativePath": "",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2018-07-21T15:44:22.915Z",
-      "accessTime": "2018-07-21T16:18:05.481Z",
-      "changeTime": "2018-07-21T15:44:22.915Z",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-07-21T17:13:09.268Z",
+      "accessTime": "2018-07-21T22:47:17.843Z",
+      "changeTime": "2018-07-21T17:13:09.268Z",
       "birthTime": "2018-07-21T15:43:49.673Z",
       "root": "/",
       "dir": "/Users/patrickferris/Documents/Projects/pf2018/src",
@@ -807,20 +819,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8617091460,
       "blocks": 0,
-      "atimeMs": 1532189885481.158,
-      "mtimeMs": 1532187862914.7222,
-      "ctimeMs": 1532187862914.7222,
+      "atimeMs": 1532213237843.1152,
+      "mtimeMs": 1532193189267.7058,
+      "ctimeMs": 1532193189267.7058,
       "birthtimeMs": 1532187829672.5415,
-      "atime": "2018-07-21T16:18:05.481Z",
-      "mtime": "2018-07-21T15:44:22.915Z",
-      "ctime": "2018-07-21T15:44:22.915Z",
+      "atime": "2018-07-21T22:47:17.843Z",
+      "mtime": "2018-07-21T17:13:09.268Z",
+      "ctime": "2018-07-21T17:13:09.268Z",
       "birthtime": "2018-07-21T15:43:49.673Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018 absPath of file": {
@@ -828,7 +840,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "40372ed6c8f4bf1da6c6207d3936bd1c",
+        "contentDigest": "8cff7cb9843e5f1932768b204fc25fb0",
         "type": "Directory",
         "description": "Directory \"src/posts/27-02-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -840,7 +852,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T15:44:52.071Z",
-      "accessTime": "2018-07-21T16:18:05.483Z",
+      "accessTime": "2018-07-21T22:47:17.845Z",
       "changeTime": "2018-07-21T15:44:52.071Z",
       "birthTime": "2018-07-21T15:44:22.915Z",
       "root": "/",
@@ -858,14 +870,103 @@
       "blksize": 4194304,
       "ino": 8617091493,
       "blocks": 0,
-      "atimeMs": 1532189885482.6619,
+      "atimeMs": 1532213237845.346,
       "mtimeMs": 1532187892071.2732,
       "ctimeMs": 1532187892071.2732,
       "birthtimeMs": 1532187862914.7139,
-      "atime": "2018-07-21T16:18:05.483Z",
+      "atime": "2018-07-21T22:47:17.845Z",
       "mtime": "2018-07-21T15:44:52.071Z",
       "ctime": "2018-07-21T15:44:52.071Z",
       "birthtime": "2018-07-21T15:44:22.915Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "74ab2e9d786ef68b1c9c1990b9402e4b",
+        "type": "Directory",
+        "description": "Directory \"src/posts/claps\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps",
+      "relativePath": "claps",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-07-21T17:13:20.949Z",
+      "accessTime": "2018-07-21T22:47:17.845Z",
+      "changeTime": "2018-07-21T17:13:20.949Z",
+      "birthTime": "2018-07-21T17:13:09.268Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts",
+      "base": "claps",
+      "ext": "",
+      "name": "claps",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617100366,
+      "blocks": 0,
+      "atimeMs": 1532213237845.3716,
+      "mtimeMs": 1532193200949.1204,
+      "ctimeMs": 1532193200949.1204,
+      "birthtimeMs": 1532193189267.6887,
+      "atime": "2018-07-21T22:47:17.845Z",
+      "mtime": "2018-07-21T17:13:20.949Z",
+      "ctime": "2018-07-21T17:13:20.949Z",
+      "birthtime": "2018-07-21T17:13:09.268Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e4bfdcb3eaa1e90b9ac9e1d350f2ee47",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/posts/claps/scraper.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js",
+      "relativePath": "claps/scraper.js",
+      "extension": "js",
+      "size": 715,
+      "prettySize": "715 B",
+      "modifiedTime": "2018-07-21T18:24:24.768Z",
+      "accessTime": "2018-07-21T18:24:48.633Z",
+      "changeTime": "2018-07-21T18:24:24.768Z",
+      "birthTime": "2018-07-21T17:13:20.949Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps",
+      "base": "scraper.js",
+      "ext": ".js",
+      "name": "scraper",
+      "relativeDirectory": "claps",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617100375,
+      "blocks": 8,
+      "atimeMs": 1532197488632.9126,
+      "mtimeMs": 1532197464767.6497,
+      "ctimeMs": 1532197464767.6497,
+      "birthtimeMs": 1532193200949.1062,
+      "atime": "2018-07-21T18:24:48.633Z",
+      "mtime": "2018-07-21T18:24:24.768Z",
+      "ctime": "2018-07-21T18:24:24.768Z",
+      "birthtime": "2018-07-21T17:13:20.949Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
@@ -887,7 +988,7 @@
       "size": 95,
       "prettySize": "95 B",
       "modifiedTime": "2018-07-21T15:46:05.277Z",
-      "accessTime": "2018-07-21T16:17:37.076Z",
+      "accessTime": "2018-07-21T17:00:10.388Z",
       "changeTime": "2018-07-21T15:46:05.277Z",
       "birthTime": "2018-07-21T15:44:52.071Z",
       "root": "/",
@@ -905,11 +1006,11 @@
       "blksize": 4194304,
       "ino": 8617091516,
       "blocks": 8,
-      "atimeMs": 1532189857076.459,
+      "atimeMs": 1532192410388.036,
       "mtimeMs": 1532187965276.6409,
       "ctimeMs": 1532187965276.6409,
       "birthtimeMs": 1532187892071.2644,
-      "atime": "2018-07-21T16:17:37.076Z",
+      "atime": "2018-07-21T17:00:10.388Z",
       "mtime": "2018-07-21T15:46:05.277Z",
       "ctime": "2018-07-21T15:46:05.277Z",
       "birthtime": "2018-07-21T15:44:52.071Z"
@@ -950,7 +1051,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "71000c85f60adc468c56c46c9a64a633",
+        "contentDigest": "c5069a549706ce04c95540b6b15ddd5b",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -971,7 +1072,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "387455a16d98f8fbbd5c9092ae43c0b2",
+        "contentDigest": "4a57593693e898468a8471fa0511d1e7",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -992,7 +1093,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3f461f79578661b3177689be1304106b",
+        "contentDigest": "b7979537d3808c22f953b84e77334384",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1013,7 +1114,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9796591deabaab36565a5f560d9363fa",
+        "contentDigest": "d8e87889a0f0928c30d1daacd0f62be2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1034,7 +1135,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "506e5be6e5c5c4a653017fc5796a13f7",
+        "contentDigest": "d2ad278d7bea1e1c0fac57d7e75dc8bd",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -1042,25 +1143,23 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "13d1ab9f563fdcb5299320fb2cae9846"
+    "PLUGINS_HASH": "b53bc34eb7a6de4d3a9844ecfc387ba6"
   },
   "componentDataDependencies": {
     "nodes": {
       "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": [
-        "/",
         "/graphics-and-p5"
       ],
       "Site": [
-        "LAYOUT___index",
-        "/"
+        "LAYOUT___index"
       ]
     },
     "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ],
       "MarkdownRemark": [
         "/blog-page/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
       ]
     }
   }
