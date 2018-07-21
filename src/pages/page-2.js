@@ -1,12 +1,14 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+import Blogpost from '../components/Blogpost';
 
 const SecondPage = () => (
   <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <h1>Blogs</h1>
     <Link to="/">Go back to the homepage</Link>
+    <Blogpost metablog='Testing'>
+    </Blogpost>
   </div>
-)
+);
 
-export default SecondPage
+export default SecondPage;

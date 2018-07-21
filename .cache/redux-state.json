@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "74dd15e49832081456a99516069c4362",
+        "contentDigest": "f74344f993614ae4b5ee3995eb197ce3",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -279,11 +279,94 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.26",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "09ff95514aa686ddf44bb37e44c4a04c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/patrickferris/Documents/Projects/pf2018",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a77c4ad8ddfd7c099694aea8fa852ba5",
+      "version": "0c37a0cd5e5da88d8fb4bff1693daf3d",
       "pluginOptions": {
         "plugins": []
       },
@@ -314,6 +397,14 @@
             "version": "^2.0.10"
           },
           {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.26"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.2"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
           }
@@ -331,7 +422,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0d7022e48577ef478972157bcc1b4893",
+        "contentDigest": "0317f6174856ec77dfe6340308c93ea8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -420,18 +511,18 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter"
+        "title": "Patrick Ferris"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-20T22:23:44.239Z",
+      "buildTime": "2018-07-20T22:51:59.616Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7af24624fdaeea5984df6b87557f3c1f",
+        "contentDigest": "13a1a6095a8f624c69b0842c45603deb",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -452,7 +543,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7250e567d6603d60ca993489f42ee109",
+        "contentDigest": "24c1f6087e774d8b84219df64bd57a1a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -473,7 +564,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f2bc70546f7ade2d9d7b88ef2b179f3c",
+        "contentDigest": "e341d137c65bbcc09c6dd44ecea990ab",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -494,7 +585,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2f4b08b9c1d7e969df2d9d325095cefd",
+        "contentDigest": "1e5b174163b35b600b8be7a67ee1b9b9",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -515,7 +606,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d5c55c716e52107f9680f7d7611fbff4",
+        "contentDigest": "543f9f0d89489df4defa022bf0c8b64f",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -523,7 +614,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "10529c5c9dc119f023f5ba1f1d57a690"
+    "PLUGINS_HASH": "fa56dece842a5d782a36a087bb205cc5"
   },
   "componentDataDependencies": {
     "nodes": {

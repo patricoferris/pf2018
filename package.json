@@ -7,6 +7,8 @@
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sass": "^1.0.26",
+    "node-sass": "^4.9.2",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
