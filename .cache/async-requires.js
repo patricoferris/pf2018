@@ -11,13 +11,13 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/layout-index.json"),
+  "tensorflow-and-word-2-vec.json": require("gatsby-module-loader?name=path---tensorflow-and-word-2-vec!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/tensorflow-and-word-2-vec.json"),
   "graphics-and-p-5.json": require("gatsby-module-loader?name=path---graphics-and-p-5!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/graphics-and-p-5.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/dev-404-page.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404.json"),
   "blog-page.json": require("gatsby-module-loader?name=path---blog-page!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/blog-page.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/index.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404-html.json"),
-  "tensorflow-and-word-2-vec.json": require("gatsby-module-loader?name=path---tensorflow-and-word-2-vec!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/tensorflow-and-word-2-vec.json")
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404-html.json")
 }
 
 exports.layouts = {

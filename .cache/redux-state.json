@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "765fe67c9bc5195036876facb42ba427",
+        "contentDigest": "4fe6fabb7269f111973762f14184e607",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -660,6 +660,10 @@
             "version": "^4.9.2"
           },
           {
+            "name": "react-gist-embed",
+            "version": "0.0.3"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
           },
@@ -781,12 +785,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-21T22:51:04.205Z",
+      "buildTime": "2018-07-22T00:22:53.154Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a5f677631af30df00d1c19dafa538764",
+        "contentDigest": "a1458018bff2c35a547b126b53caa99c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -796,7 +800,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "86b0122e61f0f574df0d3d470bafb965",
+        "contentDigest": "bd5dae4bcf262067e4891048d7cd7b4d",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -805,11 +809,11 @@
       "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts",
       "relativePath": "",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-07-21T17:13:09.268Z",
-      "accessTime": "2018-07-21T22:51:09.369Z",
-      "changeTime": "2018-07-21T17:13:09.268Z",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-07-21T22:56:00.582Z",
+      "accessTime": "2018-07-22T00:22:58.110Z",
+      "changeTime": "2018-07-21T22:56:00.582Z",
       "birthTime": "2018-07-21T15:43:49.673Z",
       "root": "/",
       "dir": "/Users/patrickferris/Documents/Projects/pf2018/src",
@@ -819,28 +823,72 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 5,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8617091460,
       "blocks": 0,
-      "atimeMs": 1532213469368.9722,
-      "mtimeMs": 1532193189267.7058,
-      "ctimeMs": 1532193189267.7058,
+      "atimeMs": 1532218978110.0378,
+      "mtimeMs": 1532213760581.524,
+      "ctimeMs": 1532213760581.524,
       "birthtimeMs": 1532187829672.5415,
-      "atime": "2018-07-21T22:51:09.369Z",
-      "mtime": "2018-07-21T17:13:09.268Z",
-      "ctime": "2018-07-21T17:13:09.268Z",
+      "atime": "2018-07-22T00:22:58.110Z",
+      "mtime": "2018-07-21T22:56:00.582Z",
+      "ctime": "2018-07-21T22:56:00.582Z",
       "birthtime": "2018-07-21T15:43:49.673Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018 absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "75b4961ffc177c3d26a9bd6a5e838fad",
+        "type": "Directory",
+        "description": "Directory \"src/posts/23-07-2018\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018",
+      "relativePath": "23-07-2018",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-07-21T22:56:07.653Z",
+      "accessTime": "2018-07-22T00:22:58.113Z",
+      "changeTime": "2018-07-21T22:56:07.653Z",
+      "birthTime": "2018-07-21T22:56:00.582Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts",
+      "base": "23-07-2018",
+      "ext": "",
+      "name": "23-07-2018",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617115444,
+      "blocks": 0,
+      "atimeMs": 1532218978112.768,
+      "mtimeMs": 1532213767652.5022,
+      "ctimeMs": 1532213767652.5022,
+      "birthtimeMs": 1532213760581.5076,
+      "atime": "2018-07-22T00:22:58.113Z",
+      "mtime": "2018-07-21T22:56:07.653Z",
+      "ctime": "2018-07-21T22:56:07.653Z",
+      "birthtime": "2018-07-21T22:56:00.582Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018 absPath of file": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018 absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6a4519cbb1c514e0fcc7b6cd43bc4794",
+        "contentDigest": "d92718e174551a3e375f579c6a4639eb",
         "type": "Directory",
         "description": "Directory \"src/posts/27-02-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -852,7 +900,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T15:44:52.071Z",
-      "accessTime": "2018-07-21T22:51:09.371Z",
+      "accessTime": "2018-07-22T00:22:58.113Z",
       "changeTime": "2018-07-21T15:44:52.071Z",
       "birthTime": "2018-07-21T15:44:22.915Z",
       "root": "/",
@@ -870,11 +918,11 @@
       "blksize": 4194304,
       "ino": 8617091493,
       "blocks": 0,
-      "atimeMs": 1532213469371.1301,
+      "atimeMs": 1532218978112.817,
       "mtimeMs": 1532187892071.2732,
       "ctimeMs": 1532187892071.2732,
       "birthtimeMs": 1532187862914.7139,
-      "atime": "2018-07-21T22:51:09.371Z",
+      "atime": "2018-07-22T00:22:58.113Z",
       "mtime": "2018-07-21T15:44:52.071Z",
       "ctime": "2018-07-21T15:44:52.071Z",
       "birthtime": "2018-07-21T15:44:22.915Z"
@@ -884,7 +932,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "dd343e57c7b7535aa050ff037ea5559d",
+        "contentDigest": "17cb768c41419a978366698fa0c3e749",
         "type": "Directory",
         "description": "Directory \"src/posts/claps\"",
         "owner": "gatsby-source-filesystem"
@@ -896,7 +944,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T17:13:20.949Z",
-      "accessTime": "2018-07-21T22:51:09.371Z",
+      "accessTime": "2018-07-22T00:22:58.113Z",
       "changeTime": "2018-07-21T17:13:20.949Z",
       "birthTime": "2018-07-21T17:13:09.268Z",
       "root": "/",
@@ -914,14 +962,61 @@
       "blksize": 4194304,
       "ino": 8617100366,
       "blocks": 0,
-      "atimeMs": 1532213469371.2998,
+      "atimeMs": 1532218978112.7896,
       "mtimeMs": 1532193200949.1204,
       "ctimeMs": 1532193200949.1204,
       "birthtimeMs": 1532193189267.6887,
-      "atime": "2018-07-21T22:51:09.371Z",
+      "atime": "2018-07-22T00:22:58.113Z",
       "mtime": "2018-07-21T17:13:20.949Z",
       "ctime": "2018-07-21T17:13:20.949Z",
       "birthtime": "2018-07-21T17:13:09.268Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file",
+      "children": [
+        "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e22193213a07c73ab6d7099d2e58482b",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/23-07-2018/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md",
+      "relativePath": "23-07-2018/index.md",
+      "extension": "md",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-07-21T22:56:45.709Z",
+      "accessTime": "2018-07-21T23:50:17.629Z",
+      "changeTime": "2018-07-21T22:56:45.709Z",
+      "birthTime": "2018-07-21T22:56:07.652Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "23-07-2018",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617115465,
+      "blocks": 8,
+      "atimeMs": 1532217017629.394,
+      "mtimeMs": 1532213805709.3328,
+      "ctimeMs": 1532213805709.3328,
+      "birthtimeMs": 1532213767652.4912,
+      "atime": "2018-07-21T23:50:17.629Z",
+      "mtime": "2018-07-21T22:56:45.709Z",
+      "ctime": "2018-07-21T22:56:45.709Z",
+      "birthtime": "2018-07-21T22:56:07.652Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js absPath of file": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js absPath of file",
@@ -941,7 +1036,7 @@
       "size": 715,
       "prettySize": "715 B",
       "modifiedTime": "2018-07-21T18:24:24.768Z",
-      "accessTime": "2018-07-21T18:24:48.633Z",
+      "accessTime": "2018-07-22T00:16:31.372Z",
       "changeTime": "2018-07-21T18:24:24.768Z",
       "birthTime": "2018-07-21T17:13:20.949Z",
       "root": "/",
@@ -959,11 +1054,11 @@
       "blksize": 4194304,
       "ino": 8617100375,
       "blocks": 8,
-      "atimeMs": 1532197488632.9126,
+      "atimeMs": 1532218591371.805,
       "mtimeMs": 1532197464767.6497,
       "ctimeMs": 1532197464767.6497,
       "birthtimeMs": 1532193200949.1062,
-      "atime": "2018-07-21T18:24:48.633Z",
+      "atime": "2018-07-22T00:16:31.372Z",
       "mtime": "2018-07-21T18:24:24.768Z",
       "ctime": "2018-07-21T18:24:24.768Z",
       "birthtime": "2018-07-21T17:13:20.949Z"
@@ -988,7 +1083,7 @@
       "size": 95,
       "prettySize": "95 B",
       "modifiedTime": "2018-07-21T15:46:05.277Z",
-      "accessTime": "2018-07-21T17:00:10.388Z",
+      "accessTime": "2018-07-21T23:50:17.629Z",
       "changeTime": "2018-07-21T15:46:05.277Z",
       "birthTime": "2018-07-21T15:44:52.071Z",
       "root": "/",
@@ -1006,230 +1101,14 @@
       "blksize": 4194304,
       "ino": 8617091516,
       "blocks": 8,
-      "atimeMs": 1532192410388.036,
+      "atimeMs": 1532217017629.4287,
       "mtimeMs": 1532187965276.6409,
       "ctimeMs": 1532187965276.6409,
       "birthtimeMs": 1532187892071.2644,
-      "atime": "2018-07-21T17:00:10.388Z",
+      "atime": "2018-07-21T23:50:17.629Z",
       "mtime": "2018-07-21T15:46:05.277Z",
       "ctime": "2018-07-21T15:46:05.277Z",
       "birthtime": "2018-07-21T15:44:52.071Z"
-    },
-    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
-      "internal": {
-        "content": "---\npath: '/graphics-and-p5'\ntitle: 'Introduction to Graphics'\n---\n\n# Introduction to Graphics\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "af2c3f65cf9de5a04c16a780c097acda",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Introduction to Graphics",
-        "path": "/graphics-and-p5",
-        "_PARENT": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
-        "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n# Introduction to Graphics\n",
-      "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md"
-    },
-    "SitePage /graphics-and-p5": {
-      "layout": "index",
-      "jsonName": "graphics-and-p-5.json",
-      "internalComponentName": "ComponentGraphicsAndP5",
-      "path": "/graphics-and-p5",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "id": "SitePage /graphics-and-p5",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "893805d8c3a6f91a5846d360aa7e2035",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "0fd7e5c0e374a2419f68774577b05413",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /blog-page/": {
-      "layout": "index",
-      "jsonName": "blog-page.json",
-      "internalComponentName": "ComponentBlogPage",
-      "path": "/blog-page/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
-      "componentChunkName": "component---src-pages-blog-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
-      "id": "SitePage /blog-page/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "e11b692eb4416ec19c8db533413718de",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "08f40353dcf0de96b252d03aefa58660",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "16267c287fb2160d40f0174c37554dad",
-        "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018 absPath of file": {
-      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018 absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "c3d5d6b23378554dcccf63ce2eafa190",
-        "type": "Directory",
-        "description": "Directory \"src/posts/23-07-2018\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018",
-      "relativePath": "23-07-2018",
-      "extension": "",
-      "size": 64,
-      "prettySize": "64 B",
-      "modifiedTime": "2018-07-21T22:56:00.582Z",
-      "accessTime": "2018-07-21T22:56:00.874Z",
-      "changeTime": "2018-07-21T22:56:00.582Z",
-      "birthTime": "2018-07-21T22:56:00.582Z",
-      "root": "/",
-      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts",
-      "base": "23-07-2018",
-      "ext": "",
-      "name": "23-07-2018",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 2,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8617115444,
-      "blocks": 0,
-      "atimeMs": 1532213760874.3333,
-      "mtimeMs": 1532213760581.5076,
-      "ctimeMs": 1532213760581.5076,
-      "birthtimeMs": 1532213760581.5076,
-      "atime": "2018-07-21T22:56:00.874Z",
-      "mtime": "2018-07-21T22:56:00.582Z",
-      "ctime": "2018-07-21T22:56:00.582Z",
-      "birthtime": "2018-07-21T22:56:00.582Z"
-    },
-    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file": {
-      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file",
-      "children": [
-        "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "e22193213a07c73ab6d7099d2e58482b",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/posts/23-07-2018/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md",
-      "relativePath": "23-07-2018/index.md",
-      "extension": "md",
-      "size": 102,
-      "prettySize": "102 B",
-      "modifiedTime": "2018-07-21T22:56:45.709Z",
-      "accessTime": "2018-07-21T22:56:45.709Z",
-      "changeTime": "2018-07-21T22:56:45.709Z",
-      "birthTime": "2018-07-21T22:56:07.652Z",
-      "root": "/",
-      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "23-07-2018",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8617115465,
-      "blocks": 8,
-      "atimeMs": 1532213805709.148,
-      "mtimeMs": 1532213805709.3328,
-      "ctimeMs": 1532213805709.3328,
-      "birthtimeMs": 1532213767652.4912,
-      "atime": "2018-07-21T22:56:45.709Z",
-      "mtime": "2018-07-21T22:56:45.709Z",
-      "ctime": "2018-07-21T22:56:45.709Z",
-      "birthtime": "2018-07-21T22:56:07.652Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark",
@@ -1251,6 +1130,26 @@
       "rawMarkdownBody": "\n# Machine Learning\n",
       "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md"
     },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: '/graphics-and-p5'\ntitle: 'Introduction to Graphics'\n---\n\n# Introduction to Graphics\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "af2c3f65cf9de5a04c16a780c097acda",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Introduction to Graphics",
+        "path": "/graphics-and-p5",
+        "_PARENT": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+        "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Introduction to Graphics\n",
+      "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md"
+    },
     "SitePage /tensorflow-and-word2vec": {
       "layout": "index",
       "jsonName": "tensorflow-and-word-2-vec.json",
@@ -1267,34 +1166,139 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e5ba992e45c34f729a771a4d171db961",
+        "contentDigest": "057f587ee1f5e0285f193044c9e814a6",
         "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /graphics-and-p5": {
+      "layout": "index",
+      "jsonName": "graphics-and-p-5.json",
+      "internalComponentName": "ComponentGraphicsAndP5",
+      "path": "/graphics-and-p5",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "id": "SitePage /graphics-and-p5",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2f2fa5638d42c60bf593f7120e774a2b",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "892e961fb071aff5b5fcc1f07758c430",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog-page/": {
+      "layout": "index",
+      "jsonName": "blog-page.json",
+      "internalComponentName": "ComponentBlogPage",
+      "path": "/blog-page/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
+      "componentChunkName": "component---src-pages-blog-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
+      "id": "SitePage /blog-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1a4514a6fafd7bf67739435622606e99",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0f7ef6fd91992283ab7762d8563b7f99",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b3b790d67716f488022721302950e38b",
+        "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b53bc34eb7a6de4d3a9844ecfc387ba6"
+    "PLUGINS_HASH": "f2ebac32f9c118963059d020e1834132"
   },
   "componentDataDependencies": {
     "nodes": {
+      "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark": [
+        "/tensorflow-and-word2vec"
+      ],
       "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": [
         "/graphics-and-p5"
       ],
       "Site": [
         "LAYOUT___index"
-      ],
-      "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark": [
-        "/tensorflow-and-word2vec"
       ]
     },
     "connections": {
-      "MarkdownRemark": [
-        "/blog-page/"
-      ],
       "SitePage": [
         "/dev-404-page/"
+      ],
+      "MarkdownRemark": [
+        "/blog-page/"
       ]
     }
   }
