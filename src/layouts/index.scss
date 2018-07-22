@@ -74,7 +74,7 @@ body {
   height: 400px;
   padding-top: 30px;
   grid-template-columns: 40% 5% 55%;
-  grid-template-rows: 33% 33% 33%;
+  grid-template-rows: auto auto auto;
 }
 
 .image-holder {
@@ -103,20 +103,34 @@ body {
   }
 }
 
+#gistZonepatricoferris\/5b6e45e71fc94d37fe1eec1c90707db5 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  @media (min-width: $min-width) {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+}
+
 iframe {
   border: none;
+  width: 100%;
 }
 
 #home-image {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   transition-duration: 200ms;
   margin: auto;
   background-image: url('https://res.cloudinary.com/patricoferris/image/upload/e_vignette:20/v1532216313/pf2018/IMG_0913.jpg');
   background-size: cover;
   @media (min-width: 64em) {
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
   }
 }
 

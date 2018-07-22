@@ -12,6 +12,7 @@
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
     "node-sass": "^4.9.2",
+    "react-dom-factories": "^1.0.2",
     "react-gist-embed": "0.0.3",
     "react-helmet": "^5.2.0",
     "request": "^2.87.0",

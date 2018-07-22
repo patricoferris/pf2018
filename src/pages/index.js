@@ -12,8 +12,8 @@ const IndexPage = () => (
       <p>My name is Patrick Ferris and I am a nineteen year old programmer, blogger and all-round tech enthusiast. I am currently Editor in Chief of the Hacker's at Cambridge blog.</p>
       <p>In the blog section you can check out all of my recent ideas and interests including the Medium articles I've been reading recently</p>
       <p>My highly-changeable todos:</p>
-      <GistEmbed gistId='patricoferris/5b6e45e71fc94d37fe1eec1c90707db5'/>
     </div>
+    <GistEmbed gistId='patricoferris/5b6e45e71fc94d37fe1eec1c90707db5'/>
   </div>
 )
 

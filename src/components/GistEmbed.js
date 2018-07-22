@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DOM from 'react-dom-factories';
 
 // https://developer.zendesk.com/blog/rendering-to-iframes-in-react
 function adjustHeightWhenComplete(myFrame, myDoc) {
@@ -47,7 +48,7 @@ class GistEmbed extends React.Component{
   }
 
   render() {
-    return React.DOM.div({id: 'gistZone' + this.props.gistId});
+    return <div id={"gistZone" + this.props.gistId}></div>;
   }
 };
 
