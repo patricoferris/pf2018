@@ -15,6 +15,7 @@
     "react-dom-factories": "^1.0.2",
     "react-gist-embed": "0.0.3",
     "react-helmet": "^5.2.0",
+    "react-highlight": "^0.12.0",
     "request": "^2.87.0",
     "request-promise": "^4.2.2"
   },

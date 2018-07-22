@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import GistEmbed from '../components/GistEmbed';
+import Highlight from 'react-highlight';
 
 const IndexPage = () => (
   <div className='main-grid'>
@@ -13,7 +13,36 @@ const IndexPage = () => (
       <p>In the blog section you can check out all of my recent ideas and interests including the Medium articles I've been reading recently</p>
       <p>My highly-changeable todos:</p>
     </div>
-    <GistEmbed gistId='patricoferris/5b6e45e71fc94d37fe1eec1c90707db5'/>
+    <div id='code'>
+      <Highlight className='javascript'>
+        {`let todos = {
+  todoArray: [
+    {
+      todo: 'Learn more ReactJS,
+              GatbsyJS and Meteor',
+      timeFrame: 'As long as is needed',
+      priority: 'HIGH',
+      tag: 'Web Development'
+    },
+    {
+      todo: 'Deep dive into Tensorflow
+              and Machine Learning',
+      timeFrame: 'import timeFrame as tf',
+      priority: 'HIGH',
+      tag: 'Python'
+    },
+    {
+      todo: 'Write articles to
+              help explain the projects
+                I am doing',
+      timeFrame: 'Forever',
+      priority: 'HIGH',
+      tag: 'Sharing Ideas'
+    }
+    ]
+}`}
+      </Highlight>
+    </div>
   </div>
 )
 
