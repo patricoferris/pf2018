@@ -28,8 +28,12 @@ body {
 }
 
 .container{
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 0;
+  padding-right: 0;
+  @media (min-width: $min-width) {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
 
 .title {
