@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Highlight from 'react-highlight';
+import styles from './atom-one-light.css'
 
 const IndexPage = () => (
   <div className='main-grid'>
