@@ -61,6 +61,16 @@ body {
   }
 }
 
+.ttitle {
+  color: black;
+  margin-bottom: 0px;
+}
+
+.ssubtitle {
+  display: inline;
+  color: $orange-color;
+}
+
 .nav{
   transition-duration: 300ms;
   font-size: 0.6em;
@@ -126,16 +136,32 @@ iframe {
 }
 
 #home-image {
-  height: 150px;
-  width: 150px;
-  transition-duration: 200ms;
-  margin: auto;
-  background-image: url('https://res.cloudinary.com/patricoferris/image/upload/e_vignette:20/v1532216313/pf2018/IMG_0913.jpg');
-  background-size: cover;
-  @media (min-width: 64em) {
+  display: none;
+  @media (min-width: $min-width) {
     height: 250px;
     width: 250px;
+    margin: auto;
+    display: block;
+    background-image: url('http://res.cloudinary.com/patricoferris/image/upload/ar_1:1,bo_5px_solid_rgb:ffffff,c_fill,g_auto,r_max/v1532216313/pf2018/IMG_0913.jpg');
+    background-size: cover;
   }
+}
+
+.site-description {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  @media (min-width: $min-width) {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+  }
+}
+
+.logos {
+  height: 64px;
+  width: 64px;
+  margin: 15px;
 }
 
 .blog-block-container {
