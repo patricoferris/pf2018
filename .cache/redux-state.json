@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "23cf3f98f829ad5d98dd193c0d3c8f18",
+        "contentDigest": "7bf38616ce404e8577512e70f42706f7",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -603,11 +603,98 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-favicon": {
+      "resolve": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-plugin-favicon",
+      "id": "Plugin gatsby-plugin-favicon",
+      "name": "gatsby-plugin-favicon",
+      "version": "2.1.1",
+      "pluginOptions": {
+        "plugins": [],
+        "logo": "./src/pf.png",
+        "injectHTML": true,
+        "icons": {
+          "android": true,
+          "appleIcon": true,
+          "appleStartup": true,
+          "coast": false,
+          "favicons": true,
+          "firefox": true,
+          "twitter": false,
+          "yandex": false,
+          "windows": false
+        }
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "2.1.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "favicon"
+        ],
+        "author": {
+          "name": "Julien Blatecky",
+          "email": "julien.blatecky@creatiwity.net"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "0.0.7"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "88e90417978097e684be228d32fe0deb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/patrickferris/Documents/Projects/pf2018",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "3c4025f77521e50c66446cbf1c2b0569",
+      "version": "151591d7b5583c77bd1a0d2dff295077",
       "pluginOptions": {
         "plugins": []
       },
@@ -638,6 +725,10 @@
           {
             "name": "gatsby-link",
             "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^2.1.1"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -697,7 +788,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3c85e5cbbffe9749f8b3ff5c3fe1b45e",
+        "contentDigest": "6180b271ed85cb6f0e97abb530f8f8b9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -793,12 +884,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-23T20:14:35.704Z",
+      "buildTime": "2018-07-23T21:33:02.053Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a1587fb71f512c726f23b2bf8676a4e4",
+        "contentDigest": "3a39ed57997f976b5592f59e8ce85e3e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -808,7 +899,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c79aa93c483f55c3eb23c6b11d4bdd2f",
+        "contentDigest": "1a5f2eaca4a870c137542e12c2ea10af",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -820,7 +911,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-07-21T22:56:00.582Z",
-      "accessTime": "2018-07-23T20:14:41.923Z",
+      "accessTime": "2018-07-23T21:33:06.485Z",
       "changeTime": "2018-07-21T22:56:00.582Z",
       "birthTime": "2018-07-21T15:43:49.673Z",
       "root": "/",
@@ -838,11 +929,11 @@
       "blksize": 4194304,
       "ino": 8617091460,
       "blocks": 0,
-      "atimeMs": 1532376881923.2559,
+      "atimeMs": 1532381586484.54,
       "mtimeMs": 1532213760581.524,
       "ctimeMs": 1532213760581.524,
       "birthtimeMs": 1532187829672.5415,
-      "atime": "2018-07-23T20:14:41.923Z",
+      "atime": "2018-07-23T21:33:06.485Z",
       "mtime": "2018-07-21T22:56:00.582Z",
       "ctime": "2018-07-21T22:56:00.582Z",
       "birthtime": "2018-07-21T15:43:49.673Z"
@@ -852,7 +943,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7c2eec1c513352a8e502f3639f8fa4b5",
+        "contentDigest": "ce100bfaca27bafb2f1d078be7edf337",
         "type": "Directory",
         "description": "Directory \"src/posts/23-07-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -864,7 +955,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T22:56:07.653Z",
-      "accessTime": "2018-07-23T20:14:41.926Z",
+      "accessTime": "2018-07-23T21:33:06.488Z",
       "changeTime": "2018-07-21T22:56:07.653Z",
       "birthTime": "2018-07-21T22:56:00.582Z",
       "root": "/",
@@ -882,11 +973,11 @@
       "blksize": 4194304,
       "ino": 8617115444,
       "blocks": 0,
-      "atimeMs": 1532376881925.5945,
+      "atimeMs": 1532381586487.8416,
       "mtimeMs": 1532213767652.5022,
       "ctimeMs": 1532213767652.5022,
       "birthtimeMs": 1532213760581.5076,
-      "atime": "2018-07-23T20:14:41.926Z",
+      "atime": "2018-07-23T21:33:06.488Z",
       "mtime": "2018-07-21T22:56:07.653Z",
       "ctime": "2018-07-21T22:56:07.653Z",
       "birthtime": "2018-07-21T22:56:00.582Z"
@@ -896,7 +987,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "dcff0c0b3fad5a659504ebeed97b1b19",
+        "contentDigest": "18314c99ae43844c2da62192e59a0e69",
         "type": "Directory",
         "description": "Directory \"src/posts/27-02-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -908,7 +999,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T15:44:52.071Z",
-      "accessTime": "2018-07-23T20:14:41.926Z",
+      "accessTime": "2018-07-23T21:33:06.488Z",
       "changeTime": "2018-07-21T15:44:52.071Z",
       "birthTime": "2018-07-21T15:44:22.915Z",
       "root": "/",
@@ -926,11 +1017,11 @@
       "blksize": 4194304,
       "ino": 8617091493,
       "blocks": 0,
-      "atimeMs": 1532376881925.6584,
+      "atimeMs": 1532381586487.8865,
       "mtimeMs": 1532187892071.2732,
       "ctimeMs": 1532187892071.2732,
       "birthtimeMs": 1532187862914.7139,
-      "atime": "2018-07-23T20:14:41.926Z",
+      "atime": "2018-07-23T21:33:06.488Z",
       "mtime": "2018-07-21T15:44:52.071Z",
       "ctime": "2018-07-21T15:44:52.071Z",
       "birthtime": "2018-07-21T15:44:22.915Z"
@@ -940,7 +1031,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0a5b2311308f1922c8d65af03c4e0e07",
+        "contentDigest": "be2dfcfc7b3e49efd3f9668c28140165",
         "type": "Directory",
         "description": "Directory \"src/posts/claps\"",
         "owner": "gatsby-source-filesystem"
@@ -952,7 +1043,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T17:13:20.949Z",
-      "accessTime": "2018-07-23T20:14:41.926Z",
+      "accessTime": "2018-07-23T21:33:06.488Z",
       "changeTime": "2018-07-21T17:13:20.949Z",
       "birthTime": "2018-07-21T17:13:09.268Z",
       "root": "/",
@@ -970,61 +1061,14 @@
       "blksize": 4194304,
       "ino": 8617100366,
       "blocks": 0,
-      "atimeMs": 1532376881925.666,
+      "atimeMs": 1532381586487.8928,
       "mtimeMs": 1532193200949.1204,
       "ctimeMs": 1532193200949.1204,
       "birthtimeMs": 1532193189267.6887,
-      "atime": "2018-07-23T20:14:41.926Z",
+      "atime": "2018-07-23T21:33:06.488Z",
       "mtime": "2018-07-21T17:13:20.949Z",
       "ctime": "2018-07-21T17:13:20.949Z",
       "birthtime": "2018-07-21T17:13:09.268Z"
-    },
-    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file": {
-      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file",
-      "children": [
-        "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "e22193213a07c73ab6d7099d2e58482b",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/posts/23-07-2018/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md",
-      "relativePath": "23-07-2018/index.md",
-      "extension": "md",
-      "size": 102,
-      "prettySize": "102 B",
-      "modifiedTime": "2018-07-21T22:56:45.709Z",
-      "accessTime": "2018-07-22T19:04:22.117Z",
-      "changeTime": "2018-07-21T22:56:45.709Z",
-      "birthTime": "2018-07-21T22:56:07.652Z",
-      "root": "/",
-      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "23-07-2018",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8617115465,
-      "blocks": 8,
-      "atimeMs": 1532286262117.128,
-      "mtimeMs": 1532213805709.3328,
-      "ctimeMs": 1532213805709.3328,
-      "birthtimeMs": 1532213767652.4912,
-      "atime": "2018-07-22T19:04:22.117Z",
-      "mtime": "2018-07-21T22:56:45.709Z",
-      "ctime": "2018-07-21T22:56:45.709Z",
-      "birthtime": "2018-07-21T22:56:07.652Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js absPath of file": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js absPath of file",
@@ -1044,7 +1088,7 @@
       "size": 715,
       "prettySize": "715 B",
       "modifiedTime": "2018-07-21T18:24:24.768Z",
-      "accessTime": "2018-07-22T19:06:31.044Z",
+      "accessTime": "2018-07-23T21:31:15.473Z",
       "changeTime": "2018-07-21T18:24:24.768Z",
       "birthTime": "2018-07-21T17:13:20.949Z",
       "root": "/",
@@ -1062,11 +1106,11 @@
       "blksize": 4194304,
       "ino": 8617100375,
       "blocks": 8,
-      "atimeMs": 1532286391044.3953,
+      "atimeMs": 1532381475472.5093,
       "mtimeMs": 1532197464767.6497,
       "ctimeMs": 1532197464767.6497,
       "birthtimeMs": 1532193200949.1062,
-      "atime": "2018-07-22T19:06:31.044Z",
+      "atime": "2018-07-23T21:31:15.473Z",
       "mtime": "2018-07-21T18:24:24.768Z",
       "ctime": "2018-07-21T18:24:24.768Z",
       "birthtime": "2018-07-21T17:13:20.949Z"
@@ -1091,7 +1135,7 @@
       "size": 95,
       "prettySize": "95 B",
       "modifiedTime": "2018-07-21T15:46:05.277Z",
-      "accessTime": "2018-07-22T19:04:22.117Z",
+      "accessTime": "2018-07-23T21:31:15.032Z",
       "changeTime": "2018-07-21T15:46:05.277Z",
       "birthTime": "2018-07-21T15:44:52.071Z",
       "root": "/",
@@ -1109,34 +1153,61 @@
       "blksize": 4194304,
       "ino": 8617091516,
       "blocks": 8,
-      "atimeMs": 1532286262117.1401,
+      "atimeMs": 1532381475032.0205,
       "mtimeMs": 1532187965276.6409,
       "ctimeMs": 1532187965276.6409,
       "birthtimeMs": 1532187892071.2644,
-      "atime": "2018-07-22T19:04:22.117Z",
+      "atime": "2018-07-23T21:31:15.032Z",
       "mtime": "2018-07-21T15:46:05.277Z",
       "ctime": "2018-07-21T15:46:05.277Z",
       "birthtime": "2018-07-21T15:44:52.071Z"
     },
-    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file",
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file",
+      "children": [
+        "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "---\npath: '/tensorflow-and-word2vec'\ntitle: 'Tensorflow, Tweets and Word2Vec'\n---\n\n# Machine Learning\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "c9d801232544e0815f36c37512c9c347",
-        "owner": "gatsby-transformer-remark"
+        "contentDigest": "e22193213a07c73ab6d7099d2e58482b",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/23-07-2018/index.md\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "Tensorflow, Tweets and Word2Vec",
-        "path": "/tensorflow-and-word2vec",
-        "_PARENT": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file",
-        "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n# Machine Learning\n",
-      "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md"
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md",
+      "relativePath": "23-07-2018/index.md",
+      "extension": "md",
+      "size": 102,
+      "prettySize": "102 B",
+      "modifiedTime": "2018-07-21T22:56:45.709Z",
+      "accessTime": "2018-07-23T21:31:15.032Z",
+      "changeTime": "2018-07-21T22:56:45.709Z",
+      "birthTime": "2018-07-21T22:56:07.652Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "23-07-2018",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617115465,
+      "blocks": 8,
+      "atimeMs": 1532381475031.9768,
+      "mtimeMs": 1532213805709.3328,
+      "ctimeMs": 1532213805709.3328,
+      "birthtimeMs": 1532213767652.4912,
+      "atime": "2018-07-23T21:31:15.032Z",
+      "mtime": "2018-07-21T22:56:45.709Z",
+      "ctime": "2018-07-21T22:56:45.709Z",
+      "birthtime": "2018-07-21T22:56:07.652Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark",
@@ -1158,26 +1229,25 @@
       "rawMarkdownBody": "\n# Introduction to Graphics\n",
       "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md"
     },
-    "SitePage /tensorflow-and-word2vec": {
-      "layout": "index",
-      "jsonName": "tensorflow-and-word-2-vec.json",
-      "internalComponentName": "ComponentTensorflowAndWord2Vec",
-      "path": "/tensorflow-and-word2vec",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "id": "SitePage /tensorflow-and-word2vec",
-      "parent": "SOURCE",
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark",
       "children": [],
+      "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "42a3bead93998230cbb521a39b5f7ed5",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
+        "content": "---\npath: '/tensorflow-and-word2vec'\ntitle: 'Tensorflow, Tweets and Word2Vec'\n---\n\n# Machine Learning\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "c9d801232544e0815f36c37512c9c347",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Tensorflow, Tweets and Word2Vec",
+        "path": "/tensorflow-and-word2vec",
+        "_PARENT": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file",
+        "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Machine Learning\n",
+      "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md"
     },
     "SitePage /graphics-and-p5": {
       "layout": "index",
@@ -1195,7 +1265,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c68673d974b952e59526d1951919c209",
+        "contentDigest": "2f3d4dda6516de353f4923cd1683f34a",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tensorflow-and-word2vec": {
+      "layout": "index",
+      "jsonName": "tensorflow-and-word-2-vec.json",
+      "internalComponentName": "ComponentTensorflowAndWord2Vec",
+      "path": "/tensorflow-and-word2vec",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "id": "SitePage /tensorflow-and-word2vec",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "437741dee6b40739d73fa4a29e51736e",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1216,7 +1307,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b60f683ba7dea5e173c64f1c5780ec51",
+        "contentDigest": "ced34a3a97b1b454f4e2099f9ed1690a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1237,7 +1328,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d58e046850e7d9ef7c395a1db927f1bb",
+        "contentDigest": "46653bec99f24ad833d5de8b73151987",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1258,7 +1349,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fcb1d3eacbc43ab7dc2332af84778bb8",
+        "contentDigest": "f1b92122d9e43e15b02da05396064dae",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1279,7 +1370,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fa8ecdc0496061e4fa35db49297f41cc",
+        "contentDigest": "8fe41466b7c981e4410fe1f107bc29cd",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -1287,15 +1378,15 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f4b5db050fda78e78c963de3326c7bc2"
+    "PLUGINS_HASH": "22767eb92fc4758b8e77cc2d0f80ba4f"
   },
   "componentDataDependencies": {
     "nodes": {
-      "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": [
-        "/graphics-and-p5"
-      ],
       "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark": [
         "/tensorflow-and-word2vec"
+      ],
+      "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": [
+        "/graphics-and-p5"
       ],
       "Site": [
         "LAYOUT___index"
