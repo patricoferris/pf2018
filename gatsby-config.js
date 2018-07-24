@@ -13,7 +13,13 @@ module.exports = {
         name: 'pages'
       }
     },
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        resolve: "gatsby-remark-component",
+        options: { components: ['Highlight']}
+      }
+    },
     {
       resolve: `gatsby-plugin-favicon`,
       options: {

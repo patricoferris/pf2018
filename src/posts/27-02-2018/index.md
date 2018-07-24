@@ -31,7 +31,14 @@ What follows is a series of steps that will introduce you to p5 concepts. With c
 
 ### Step 1: The Setup
 
-<iframe src="https://medium.com/media/0d2ad588f5aaba8c7915d28ca23114a1" frameborder=0></iframe>
+<high-light className='JavaScript'>
+function setup(){
+  //Initialisation of canvas, objects, variables etc.
+}
+function draw(){
+  //The drawing loop - updates at a constant rate declared in setup
+}
+</high-light>
 
 p5 is really simple to setup once you know what to do. There are two files shown above — an index.html and a template.js. The index.html file gets the libraries for us and the template.js is the barebones structure of a p5 project and at the moment it does nothing! Within this we have two functions:
 
@@ -39,7 +46,8 @@ p5 is really simple to setup once you know what to do. There are two files shown
 
 * draw() — a function which will be called periodically like a loop. This is where will call draw functions and update functions to make graphics and animations.
 
-<iframe src="https://medium.com/media/f47f85fbcd36fcdad17b9d73030c4d53" frameborder=0></iframe>
+<iframe height='265' scrolling='no' title='Simple Triangle Tutorial' src='//codepen.io/patricoferris/embed/dddxjr/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/dddxjr/'>Simple Triangle Tutorial</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 Let’s first look at the setup function. We used the p5 function createCanvas(width, height) which created and initialised a [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) with arguments width and height. Now within our setup() and createCanvas() functions we can reference the variables width and height without ever instantiating them!
 
@@ -51,7 +59,8 @@ We want to create an equilateral triangle with side length s. The triangle itsel
 
 We’ve learnt how to set up our canvas and start drawing. Armed with the p5 [reference page](https://p5js.org/reference/) and our creativity, we can make some truly stunning graphics. How about a bouncing ball animation?
 
-<iframe src="https://medium.com/media/72919f8df32d45fc61ddde478ef8a7ae" frameborder=0></iframe>
+<iframe height='265' scrolling='no' title='Bouncing Balls' src='//codepen.io/patricoferris/embed/PQpOrB/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/PQpOrB/'>Bouncing Balls</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 Let’s look at the interesting p5 aspects that we didn’t know before:
 
@@ -69,17 +78,60 @@ All you need now is to add some physics to these ideas and you have yourself a b
 
 Hopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: *interactivity* and* [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html)*. Keep reading to find out more on these two concepts.
 
-<iframe src="https://medium.com/media/00a787860f35e89e1b61b32a0639b3ea" frameborder=0></iframe>
+<iframe height='265' scrolling='no' title='Pixel Fire' src='//codepen.io/patricoferris/embed/XZMxmV/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/XZMxmV/'>Pixel Fire</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 In this CodePen I have created a relatively simple flame model using squares and Perlin Noise. First of all, how do we get user input? Lucky for us p5 has some functions that can help.
 
-<iframe src="https://medium.com/media/57a3c8a24ca1f733c61480082a6dff41" frameborder=0></iframe>
+<high-light className='JavaScript'>
+var touch = false;
+function setup(){
+  createCanvas(640, 640);
+}
+function draw(){
+  if(touch){
+    fill(255, 0, 0);
+    rect(mouseX, mouseY, 20, 20);
+  }
+}
+function touchStarted(){
+  touch = true;
+}
+function touchEnded(){
+  touch = false;
+}
+</high-light>
 
 At the top of the code we have declared a boolean “flag” as to whether or not our mouse is being pressed — this allows us to do things if the mouse is being held down. The touchStarted() and touchEnded() are p5 functions that are executed whenever the mouse is pressed or released or the screen is touched and released. Lastly, in our rect() function we have the variables mouseX and mouseY which are p5 variables corresponding to the mouse’s current position. Oddly, these also refer to your [“touch” coordinates](https://github.com/processing/p5.js/issues/1705). With all these variables and functions predefined for us we can focus on making visually stunning graphics, whilst not being hampered by having to code extra functions unrelated to the graphic we’re producing.
 
 Now for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of *gradient noise. *The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:
 
-<iframe src="https://medium.com/media/f3c1a9b582097f7b2591d1362c80d2b5" frameborder=0></iframe>
+<high-light className='JavaScript'>
+function Particle(x, y, color){
+  this.pos = createVector(x + random(-10, 10), y + random(-10, 10));
+  this.vel = createVector(floor(random(-1, 1))*noise(this.pos.x), -noise(this.pos.y)*7);
+  this.alpha = 255;
+  this.r = random(170, 255);
+  this.g = random(10, 255);
+  this.b = random(0, 100);
+  this.update = function(){
+    this.pos.add(this.vel);
+    this.alpha -= 5;
+  }
+  this.show = function(){
+    noStroke();
+    fill(this.r, this.g, this.b, this.alpha);
+    rect(this.pos.x, this.pos.y, 5, 5);
+  }
+  this.dead = function(){
+    if(this.alpha < 0){
+      return true;
+    }else{
+      return false;
+    }
+  }
+}
+</high-light>
 
 Some key things to notice:
 

@@ -186,7 +186,8 @@ iframe {
   box-shadow: 0px 0px 170px -39px rgba(0,0,0,0.81);
   &:hover {
     box-shadow: 100px;
-    background-color: lightgrey;
+    background-color: rgba(240, 240, 240, 1);
+    transform: scale(0.98);
   }
 
   h3 {
@@ -205,4 +206,20 @@ iframe {
 
 .blog-title {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.blog-post {
+
+  padding-left: 0px;
+  padding-right: 0px;
+
+  @media (min-width: $min-width) {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 105%;
+    line-height: 160%;
+  }
+  a {
+    color: $orange-color;
+  }
 }

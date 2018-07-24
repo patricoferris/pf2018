@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a699941a438ef57ca9c697429191d660",
+        "contentDigest": "e2c2986a19fc8c0d248f202d57c30c3e",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -471,7 +471,13 @@
       "name": "gatsby-transformer-remark",
       "version": "1.7.44",
       "pluginOptions": {
-        "plugins": []
+        "plugins": [],
+        "resolve": "gatsby-remark-component",
+        "options": {
+          "components": [
+            "Highlight"
+          ]
+        }
       },
       "nodeAPIs": [
         "onCreateNode",
@@ -598,7 +604,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ea5d53efe5b755b0903c5149d59c31da",
+        "contentDigest": "23336b7f10f509b55272e0063803a0d1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -694,7 +700,7 @@
       "resolve": "/Users/patrickferris/Documents/Projects/pf2018",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "151591d7b5583c77bd1a0d2dff295077",
+      "version": "8fd3059351856359eea308865259512a",
       "pluginOptions": {
         "plugins": []
       },
@@ -739,6 +745,10 @@
             "version": "^1.0.26"
           },
           {
+            "name": "gatsby-remark-component",
+            "version": "^1.1.3"
+          },
+          {
             "name": "gatsby-source-filesystem",
             "version": "^1.5.39"
           },
@@ -767,6 +777,10 @@
             "version": "^0.12.0"
           },
           {
+            "name": "rehype-react",
+            "version": "^3.0.3"
+          },
+          {
             "name": "request",
             "version": "^2.87.0"
           },
@@ -788,7 +802,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6180b271ed85cb6f0e97abb530f8f8b9",
+        "contentDigest": "2446be8a708f6307863d659a97c91e95",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -882,14 +896,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2018-07-24T21:16:26.043Z",
+      "buildTime": "2018-07-24T22:12:38.041Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e0322e80c3dd9e0853e4b2b0ec648c3b",
+        "contentDigest": "892ce99131d086b21290a8bdaa65d7cd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -899,7 +911,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ecca871476ba24f250156df5187a8c9b",
+        "contentDigest": "3ec910ca896fe4cdd49310d505aa56a9",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -911,7 +923,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-07-21T22:56:00.582Z",
-      "accessTime": "2018-07-24T21:16:30.949Z",
+      "accessTime": "2018-07-24T22:12:42.386Z",
       "changeTime": "2018-07-21T22:56:00.582Z",
       "birthTime": "2018-07-21T15:43:49.673Z",
       "root": "/",
@@ -929,11 +941,11 @@
       "blksize": 4194304,
       "ino": 8617091460,
       "blocks": 0,
-      "atimeMs": 1532466990948.969,
+      "atimeMs": 1532470362386.306,
       "mtimeMs": 1532213760581.524,
       "ctimeMs": 1532213760581.524,
       "birthtimeMs": 1532187829672.5415,
-      "atime": "2018-07-24T21:16:30.949Z",
+      "atime": "2018-07-24T22:12:42.386Z",
       "mtime": "2018-07-21T22:56:00.582Z",
       "ctime": "2018-07-21T22:56:00.582Z",
       "birthtime": "2018-07-21T15:43:49.673Z"
@@ -943,7 +955,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "53dfeb6dec31efadde04d8512ddaeca9",
+        "contentDigest": "bb9bb521d8332ebbfcc0814db687ae2e",
         "type": "Directory",
         "description": "Directory \"src/posts/23-07-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -955,7 +967,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T22:56:07.653Z",
-      "accessTime": "2018-07-24T21:16:30.951Z",
+      "accessTime": "2018-07-24T22:12:42.388Z",
       "changeTime": "2018-07-21T22:56:07.653Z",
       "birthTime": "2018-07-21T22:56:00.582Z",
       "root": "/",
@@ -973,11 +985,11 @@
       "blksize": 4194304,
       "ino": 8617115444,
       "blocks": 0,
-      "atimeMs": 1532466990951.1633,
+      "atimeMs": 1532470362388.2473,
       "mtimeMs": 1532213767652.5022,
       "ctimeMs": 1532213767652.5022,
       "birthtimeMs": 1532213760581.5076,
-      "atime": "2018-07-24T21:16:30.951Z",
+      "atime": "2018-07-24T22:12:42.388Z",
       "mtime": "2018-07-21T22:56:07.653Z",
       "ctime": "2018-07-21T22:56:07.653Z",
       "birthtime": "2018-07-21T22:56:00.582Z"
@@ -987,7 +999,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e18df2881b7cfe1ccfe579817d8cb7c8",
+        "contentDigest": "c37d902cccec7cafb08f1ea84c84a55b",
         "type": "Directory",
         "description": "Directory \"src/posts/27-02-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -999,7 +1011,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-24T21:15:41.820Z",
-      "accessTime": "2018-07-24T21:16:30.951Z",
+      "accessTime": "2018-07-24T22:12:42.388Z",
       "changeTime": "2018-07-24T21:15:41.820Z",
       "birthTime": "2018-07-21T15:44:22.915Z",
       "root": "/",
@@ -1017,11 +1029,11 @@
       "blksize": 4194304,
       "ino": 8617091493,
       "blocks": 0,
-      "atimeMs": 1532466990951.118,
+      "atimeMs": 1532470362388.2764,
       "mtimeMs": 1532466941820.2698,
       "ctimeMs": 1532466941820.2698,
       "birthtimeMs": 1532187862914.7139,
-      "atime": "2018-07-24T21:16:30.951Z",
+      "atime": "2018-07-24T22:12:42.388Z",
       "mtime": "2018-07-24T21:15:41.820Z",
       "ctime": "2018-07-24T21:15:41.820Z",
       "birthtime": "2018-07-21T15:44:22.915Z"
@@ -1031,7 +1043,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "153230da087434c969ebe8165954e343",
+        "contentDigest": "51e2eb7134e01f30c203fb6ce535e442",
         "type": "Directory",
         "description": "Directory \"src/posts/claps\"",
         "owner": "gatsby-source-filesystem"
@@ -1043,7 +1055,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T17:13:20.949Z",
-      "accessTime": "2018-07-24T21:16:30.951Z",
+      "accessTime": "2018-07-24T22:12:42.388Z",
       "changeTime": "2018-07-21T17:13:20.949Z",
       "birthTime": "2018-07-21T17:13:09.268Z",
       "root": "/",
@@ -1061,11 +1073,11 @@
       "blksize": 4194304,
       "ino": 8617100366,
       "blocks": 0,
-      "atimeMs": 1532466990951.1382,
+      "atimeMs": 1532470362388.2883,
       "mtimeMs": 1532193200949.1204,
       "ctimeMs": 1532193200949.1204,
       "birthtimeMs": 1532193189267.6887,
-      "atime": "2018-07-24T21:16:30.951Z",
+      "atime": "2018-07-24T22:12:42.388Z",
       "mtime": "2018-07-21T17:13:20.949Z",
       "ctime": "2018-07-21T17:13:20.949Z",
       "birthtime": "2018-07-21T17:13:09.268Z"
@@ -1088,7 +1100,7 @@
       "size": 715,
       "prettySize": "715 B",
       "modifiedTime": "2018-07-21T18:24:24.768Z",
-      "accessTime": "2018-07-23T21:31:15.473Z",
+      "accessTime": "2018-07-24T22:06:24.094Z",
       "changeTime": "2018-07-21T18:24:24.768Z",
       "birthTime": "2018-07-21T17:13:20.949Z",
       "root": "/",
@@ -1106,61 +1118,14 @@
       "blksize": 4194304,
       "ino": 8617100375,
       "blocks": 8,
-      "atimeMs": 1532381475472.5093,
+      "atimeMs": 1532469984093.9536,
       "mtimeMs": 1532197464767.6497,
       "ctimeMs": 1532197464767.6497,
       "birthtimeMs": 1532193200949.1062,
-      "atime": "2018-07-23T21:31:15.473Z",
+      "atime": "2018-07-24T22:06:24.094Z",
       "mtime": "2018-07-21T18:24:24.768Z",
       "ctime": "2018-07-21T18:24:24.768Z",
       "birthtime": "2018-07-21T17:13:20.949Z"
-    },
-    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file": {
-      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
-      "children": [
-        "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "21b754b38c8487b1f25f93e4f3da13b9",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/posts/27-02-2018/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md",
-      "relativePath": "27-02-2018/index.md",
-      "extension": "md",
-      "size": 13000,
-      "prettySize": "13 kB",
-      "modifiedTime": "2018-07-24T21:15:33.390Z",
-      "accessTime": "2018-07-24T21:15:35.223Z",
-      "changeTime": "2018-07-24T21:15:33.390Z",
-      "birthTime": "2018-07-21T15:44:52.071Z",
-      "root": "/",
-      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "27-02-2018",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8617091516,
-      "blocks": 32,
-      "atimeMs": 1532466935222.55,
-      "mtimeMs": 1532466933389.9636,
-      "ctimeMs": 1532466933389.9636,
-      "birthtimeMs": 1532187892071.2644,
-      "atime": "2018-07-24T21:15:35.223Z",
-      "mtime": "2018-07-24T21:15:33.390Z",
-      "ctime": "2018-07-24T21:15:33.390Z",
-      "birthtime": "2018-07-21T15:44:52.071Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file",
@@ -1182,7 +1147,7 @@
       "size": 241,
       "prettySize": "241 B",
       "modifiedTime": "2018-07-24T20:52:28.748Z",
-      "accessTime": "2018-07-24T20:52:28.959Z",
+      "accessTime": "2018-07-24T22:06:23.787Z",
       "changeTime": "2018-07-24T20:52:28.748Z",
       "birthTime": "2018-07-21T22:56:07.652Z",
       "root": "/",
@@ -1200,14 +1165,61 @@
       "blksize": 4194304,
       "ino": 8617115465,
       "blocks": 8,
-      "atimeMs": 1532465548959.1194,
+      "atimeMs": 1532469983786.966,
       "mtimeMs": 1532465548747.5842,
       "ctimeMs": 1532465548747.5842,
       "birthtimeMs": 1532213767652.4912,
-      "atime": "2018-07-24T20:52:28.959Z",
+      "atime": "2018-07-24T22:06:23.787Z",
       "mtime": "2018-07-24T20:52:28.748Z",
       "ctime": "2018-07-24T20:52:28.748Z",
       "birthtime": "2018-07-21T22:56:07.652Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+      "children": [
+        "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "828413bc137c46d52fc7889244e1c72e",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/27-02-2018/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md",
+      "relativePath": "27-02-2018/index.md",
+      "extension": "md",
+      "size": 15032,
+      "prettySize": "15 kB",
+      "modifiedTime": "2018-07-24T22:22:30.440Z",
+      "accessTime": "2018-07-24T22:22:30.450Z",
+      "changeTime": "2018-07-24T22:22:30.440Z",
+      "birthTime": "2018-07-21T15:44:52.071Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "27-02-2018",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617091516,
+      "blocks": 32,
+      "atimeMs": 1532470950450.1204,
+      "mtimeMs": 1532470950440.39,
+      "ctimeMs": 1532470950440.39,
+      "birthtimeMs": 1532187892071.2644,
+      "atime": "2018-07-24T22:22:30.450Z",
+      "mtime": "2018-07-24T22:22:30.440Z",
+      "ctime": "2018-07-24T22:22:30.440Z",
+      "birthtime": "2018-07-21T15:44:52.071Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark",
@@ -1231,28 +1243,6 @@
       "rawMarkdownBody": "\n# Machine Learning\n",
       "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md"
     },
-    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
-      "internal": {
-        "content": "---\npath: '/graphics-and-p5'\ntitle: 'Computer Graphics for Everyone'\nsubtitle: 'An Introduction to Computer Graphics using p5.js'\ndate: '2018-02-27'\n---\n\n\nGraphics and computer programming are two dearly intertwined disciplines. The oscilloscope is often recognised as one of the first examples of “computer graphics”, the cathode-ray versions emitting a beam of electrons onto a phosphorescent screen. By using magnetic fields to change the beam’s direction, we can sweep from left to right and move up and down — the basic idea behind most CG! (I highly recommend watching this [video](https://archive.org/details/introductiontothecathoderayoscilloscope) from 1970).\n\nWe’ve come a long way since then — modern day graphics is a complicated science as well as an art, and the barrier to entry is constantly increasing. Graphics programming can be so complex, that a simple program to draw a triangle can be over [1000 lines of code](https://github.com/SaschaWillems/Vulkan/blob/master/examples/triangle/triangle.cpp)! However, this article will introduce you to [p5.js](https://p5js.org/) (also known as p5). A simpler, less complex solution for people who want to start making computer graphics, but don’t want the headache of streams of boiler-plate code.\n\nStraight from the landing page of the p5.js website.\n> # …make coding accessible for artists, designers, educators and beginners…\n\np5.js is the result of hard-work of the [Processing Foundation](https://processingfoundation.org/), a group focused on spreading computer and visual literacy. It distills their [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)) language into a JavaScript library that makes creating graphics easy and accessible whilst providing an ideal platform to springboard people’s careers in computer graphics. It should be mentioned now that a lot of inspiration has been taken from [Daniel Shiffman’s](http://shiffman.net/) p5 projects (from the [classic snake game](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_03_Snake_game_p5.js), to a [double pendulum](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_93_DoublePendulum_p5.js)). I can’t urge you enough to follow these projects to really improve your understanding of coding concepts and the p5 library.\n\n### Some prerequisites:\n\nBefore jumping into the p5 code I first want to make clear that there is assumed knowledge of HTML5 and JavaScript including arrays, functions, variables etc. in the rest of this article. If you have a good grasp of JavaScript then skip to the p5 code below, otherwise here are few resources to get you up to scratch.\n\n* [HaC Intro to Programming](https://www.youtube.com/watch?v=spIVWmv1jnw) — A workshop that is being run by Hackers at Cambridge to help anyone start learning to program (which uses JavaScript).\n\n* [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript) — a great resource for learning how to code with instant feedback in your browser.\n\n* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) — a great resource for learning about all aspects of web development.\n\n* [Codepen](https://codepen.io/) — a brilliant online text-editor for creating cool projects in HTML, CSS and JavaScript. Equally good for getting inspiration from a lot of talented users. Another possible solution would be [JSFiddle](https://jsfiddle.net/).\n\nWhat follows is a series of steps that will introduce you to p5 concepts. With code examples and explanations I hope to give you enough information to understand the ideas, but to fully grasp the concepts you will have to dive into the code, experiment with it, break it and learn from it. So without further ado, let’s get coding.\n\n### Step 1: The Setup\n\n<iframe src=\"https://medium.com/media/0d2ad588f5aaba8c7915d28ca23114a1\" frameborder=0></iframe>\n\np5 is really simple to setup once you know what to do. There are two files shown above — an index.html and a template.js. The index.html file gets the libraries for us and the template.js is the barebones structure of a p5 project and at the moment it does nothing! Within this we have two functions:\n\n* setup() — a function for creating what we will need for our graphic or project. Like creating a canvas, initialising some objects or arrays etc.\n\n* draw() — a function which will be called periodically like a loop. This is where will call draw functions and update functions to make graphics and animations.\n\n<iframe src=\"https://medium.com/media/f47f85fbcd36fcdad17b9d73030c4d53\" frameborder=0></iframe>\n\nLet’s first look at the setup function. We used the p5 function createCanvas(width, height) which created and initialised a [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) with arguments width and height. Now within our setup() and createCanvas() functions we can reference the variables width and height without ever instantiating them!\n\nNext comes the meaty, draw function. I have purposefully put extra code in here so we can learn more about what p5 has to offer. Firstly always remember that draw() is a loop that runs from top to bottom. Initially, we set the background (of our canvas) to white with background(255) which is the same as background(255, 255, 255) (maximising the red, green and blue values to give white). This may seem simple, but implicitly we are also clearing our canvas every loop… in one line of code! This will be useful for animations later as we want to redraw objects in a new location rather than have the [build-up on the same canvas](https://codepen.io/patricoferris/pen/paxZaw) (click to see it go spectacularly wrong). Next is a translate(width/2, height/2) which moves our current drawing location to the centre of our canvas. We then declare the fill colour of our triangle with fill(255, 0, 0)(making it red).\n\nWe want to create an equilateral triangle with side length s. The triangle itself is a function that takes the vertex coordinates as arguments — triangle(x1, y1, x2, y2, x3, y3) and in this example starting from the centre we have one vertex at (-s/2, 0) another at (s/2, 0) giving a bottom length of s . Now comes the trickier part. A very important aspect of most computer graphics is that the coordinate system starts in the top left corner (or wherever your origin is) and x increases left to right, whilst y increases top to bottom. To move of the screen we need a negative y value. Our last coordinate is given as (0, -sin(PI/3)) (if you’re stuck, think about cutting the triangle in two and using trigonometry).\n\n### Step 2: Get Creative\n\nWe’ve learnt how to set up our canvas and start drawing. Armed with the p5 [reference page](https://p5js.org/reference/) and our creativity, we can make some truly stunning graphics. How about a bouncing ball animation?\n\n<iframe src=\"https://medium.com/media/72919f8df32d45fc61ddde478ef8a7ae\" frameborder=0></iframe>\n\nLet’s look at the interesting p5 aspects that we didn’t know before:\n\n* frameRate(20) — This enables us to specify the frame rate of our drawing loop, that is, how many times per second it redraws everything for us.\n\n* gravity = createVector(0, 9) — p5 allows us to [create vector objects](https://p5js.org/reference/#/p5.Vector) with which we can perform vector operations like addition, multiplication, dot-product and cross-product. This is useful when we want to simulate physics like forces.\n\n* floor(random(50)) — Here we’re using p5 math functions. floor() takes a real number and rounds it down to the nearest integer. random(arg) produces a random number as small as 0 or up to 49. In this example, we are giving it to the ellipse(x, y, w)function to create randomly sized balls by setting the width to a random number. If we gave another argument it would set the ellipse’s height, but here it infers that we want a circle.\n\n* stroke(0) — This function sets the colour of our shape’s outline. If you don’t want any border you can add noStroke() .\n\nAll you need now is to add some physics to these ideas and you have yourself a bouncing ball animation.\n\n### Step 3: Experiment with p5\n\nHopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: *interactivity* and* [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html)*. Keep reading to find out more on these two concepts.\n\n<iframe src=\"https://medium.com/media/00a787860f35e89e1b61b32a0639b3ea\" frameborder=0></iframe>\n\nIn this CodePen I have created a relatively simple flame model using squares and Perlin Noise. First of all, how do we get user input? Lucky for us p5 has some functions that can help.\n\n<iframe src=\"https://medium.com/media/57a3c8a24ca1f733c61480082a6dff41\" frameborder=0></iframe>\n\nAt the top of the code we have declared a boolean “flag” as to whether or not our mouse is being pressed — this allows us to do things if the mouse is being held down. The touchStarted() and touchEnded() are p5 functions that are executed whenever the mouse is pressed or released or the screen is touched and released. Lastly, in our rect() function we have the variables mouseX and mouseY which are p5 variables corresponding to the mouse’s current position. Oddly, these also refer to your [“touch” coordinates](https://github.com/processing/p5.js/issues/1705). With all these variables and functions predefined for us we can focus on making visually stunning graphics, whilst not being hampered by having to code extra functions unrelated to the graphic we’re producing.\n\nNow for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of *gradient noise. *The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:\n\n<iframe src=\"https://medium.com/media/f3c1a9b582097f7b2591d1362c80d2b5\" frameborder=0></iframe>\n\nSome key things to notice:\n\n* noise(this.pos.x) — The Perlin Noise [function](https://p5js.org/reference/#/p5/noise) that gets a random number based on the square’s current x position. It returns a value between 0 and 1.\n\n* fill(this.r, this.g, this.b, this.alpha) — Here we have extended fill’s ability by including an alpha value for the objects transparency, by decreasing alpha in the update() function we get a nice fade out like a flame.\n\n* dead() — This function allows us to keep track of which particles have disappeared as their alpha is now less than zero. We can then splice() them out of our array to ensure we’re not drawing an unbounded number of particles over time which would cause performance issues.\n\nAs a challenge, you can also use blendMode() to make it seem even more realistic — check this [alteration](https://codepen.io/anon/pen/YeOaJX) to see it in action.\n\nWith only a few concepts and the p5 library, it is incredibly straightforward to start building anything you want. Be sure to checkout what else is possible with the library. Here are few cool ideas to get you started: [3D graphics](https://p5js.org/examples/3d-geometries.html), [sliders](https://p5js.org/examples/dom-slider.html) and [images](https://p5js.org/examples/image-load-and-display-image.html).\n\n### Conclusion\n\nAs computers and technology become ubiquitous in our daily lives and an increasing number of professions are now relying on computer literacy, p5.js is a beautiful example of how we can ensure as many people as possible have an entry-point to the wonderful world of computer programming. It also acts as a reminder to some more experienced programmers that creativity and imagination are vital in producing meaningful code and ultimately making the tech world a better place.\n\nHopefully this intro to p5 has convinced you of its usefulness and has encouraged you to start taking your first steps into the world of graphics programming. Here are my recommendations for where to go next:\n\n* [The Coding Train](https://www.youtube.com/user/shiffman) — A brilliant YouTube channel by Daniel Shiffman where he teaches JavaScript and p5.js amongst many other incredible things!\n\n* [p5js.org ](https://p5js.org/examples/)— The examples page on this website is full of inspiring projects which you could recreate and extend further.\n\n* [Sratchapixel](https://www.scratchapixel.com/index.php) — If you feel ready to delve into the deeper concepts and implementations of computer graphics then this website is an incredible resource for you to use.\n\nA special thanks to [Tom Read Cutting](undefined) for editing this article and [Christian Silver](undefined) for helping get it off the ground.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "18d06f8f0b1035affb5cddb040a20604",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Computer Graphics for Everyone",
-        "path": "/graphics-and-p5",
-        "subtitle": "An Introduction to Computer Graphics using p5.js",
-        "date": "2018-02-27",
-        "_PARENT": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
-        "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n\nGraphics and computer programming are two dearly intertwined disciplines. The oscilloscope is often recognised as one of the first examples of “computer graphics”, the cathode-ray versions emitting a beam of electrons onto a phosphorescent screen. By using magnetic fields to change the beam’s direction, we can sweep from left to right and move up and down — the basic idea behind most CG! (I highly recommend watching this [video](https://archive.org/details/introductiontothecathoderayoscilloscope) from 1970).\n\nWe’ve come a long way since then — modern day graphics is a complicated science as well as an art, and the barrier to entry is constantly increasing. Graphics programming can be so complex, that a simple program to draw a triangle can be over [1000 lines of code](https://github.com/SaschaWillems/Vulkan/blob/master/examples/triangle/triangle.cpp)! However, this article will introduce you to [p5.js](https://p5js.org/) (also known as p5). A simpler, less complex solution for people who want to start making computer graphics, but don’t want the headache of streams of boiler-plate code.\n\nStraight from the landing page of the p5.js website.\n> # …make coding accessible for artists, designers, educators and beginners…\n\np5.js is the result of hard-work of the [Processing Foundation](https://processingfoundation.org/), a group focused on spreading computer and visual literacy. It distills their [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)) language into a JavaScript library that makes creating graphics easy and accessible whilst providing an ideal platform to springboard people’s careers in computer graphics. It should be mentioned now that a lot of inspiration has been taken from [Daniel Shiffman’s](http://shiffman.net/) p5 projects (from the [classic snake game](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_03_Snake_game_p5.js), to a [double pendulum](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_93_DoublePendulum_p5.js)). I can’t urge you enough to follow these projects to really improve your understanding of coding concepts and the p5 library.\n\n### Some prerequisites:\n\nBefore jumping into the p5 code I first want to make clear that there is assumed knowledge of HTML5 and JavaScript including arrays, functions, variables etc. in the rest of this article. If you have a good grasp of JavaScript then skip to the p5 code below, otherwise here are few resources to get you up to scratch.\n\n* [HaC Intro to Programming](https://www.youtube.com/watch?v=spIVWmv1jnw) — A workshop that is being run by Hackers at Cambridge to help anyone start learning to program (which uses JavaScript).\n\n* [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript) — a great resource for learning how to code with instant feedback in your browser.\n\n* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) — a great resource for learning about all aspects of web development.\n\n* [Codepen](https://codepen.io/) — a brilliant online text-editor for creating cool projects in HTML, CSS and JavaScript. Equally good for getting inspiration from a lot of talented users. Another possible solution would be [JSFiddle](https://jsfiddle.net/).\n\nWhat follows is a series of steps that will introduce you to p5 concepts. With code examples and explanations I hope to give you enough information to understand the ideas, but to fully grasp the concepts you will have to dive into the code, experiment with it, break it and learn from it. So without further ado, let’s get coding.\n\n### Step 1: The Setup\n\n<iframe src=\"https://medium.com/media/0d2ad588f5aaba8c7915d28ca23114a1\" frameborder=0></iframe>\n\np5 is really simple to setup once you know what to do. There are two files shown above — an index.html and a template.js. The index.html file gets the libraries for us and the template.js is the barebones structure of a p5 project and at the moment it does nothing! Within this we have two functions:\n\n* setup() — a function for creating what we will need for our graphic or project. Like creating a canvas, initialising some objects or arrays etc.\n\n* draw() — a function which will be called periodically like a loop. This is where will call draw functions and update functions to make graphics and animations.\n\n<iframe src=\"https://medium.com/media/f47f85fbcd36fcdad17b9d73030c4d53\" frameborder=0></iframe>\n\nLet’s first look at the setup function. We used the p5 function createCanvas(width, height) which created and initialised a [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) with arguments width and height. Now within our setup() and createCanvas() functions we can reference the variables width and height without ever instantiating them!\n\nNext comes the meaty, draw function. I have purposefully put extra code in here so we can learn more about what p5 has to offer. Firstly always remember that draw() is a loop that runs from top to bottom. Initially, we set the background (of our canvas) to white with background(255) which is the same as background(255, 255, 255) (maximising the red, green and blue values to give white). This may seem simple, but implicitly we are also clearing our canvas every loop… in one line of code! This will be useful for animations later as we want to redraw objects in a new location rather than have the [build-up on the same canvas](https://codepen.io/patricoferris/pen/paxZaw) (click to see it go spectacularly wrong). Next is a translate(width/2, height/2) which moves our current drawing location to the centre of our canvas. We then declare the fill colour of our triangle with fill(255, 0, 0)(making it red).\n\nWe want to create an equilateral triangle with side length s. The triangle itself is a function that takes the vertex coordinates as arguments — triangle(x1, y1, x2, y2, x3, y3) and in this example starting from the centre we have one vertex at (-s/2, 0) another at (s/2, 0) giving a bottom length of s . Now comes the trickier part. A very important aspect of most computer graphics is that the coordinate system starts in the top left corner (or wherever your origin is) and x increases left to right, whilst y increases top to bottom. To move of the screen we need a negative y value. Our last coordinate is given as (0, -sin(PI/3)) (if you’re stuck, think about cutting the triangle in two and using trigonometry).\n\n### Step 2: Get Creative\n\nWe’ve learnt how to set up our canvas and start drawing. Armed with the p5 [reference page](https://p5js.org/reference/) and our creativity, we can make some truly stunning graphics. How about a bouncing ball animation?\n\n<iframe src=\"https://medium.com/media/72919f8df32d45fc61ddde478ef8a7ae\" frameborder=0></iframe>\n\nLet’s look at the interesting p5 aspects that we didn’t know before:\n\n* frameRate(20) — This enables us to specify the frame rate of our drawing loop, that is, how many times per second it redraws everything for us.\n\n* gravity = createVector(0, 9) — p5 allows us to [create vector objects](https://p5js.org/reference/#/p5.Vector) with which we can perform vector operations like addition, multiplication, dot-product and cross-product. This is useful when we want to simulate physics like forces.\n\n* floor(random(50)) — Here we’re using p5 math functions. floor() takes a real number and rounds it down to the nearest integer. random(arg) produces a random number as small as 0 or up to 49. In this example, we are giving it to the ellipse(x, y, w)function to create randomly sized balls by setting the width to a random number. If we gave another argument it would set the ellipse’s height, but here it infers that we want a circle.\n\n* stroke(0) — This function sets the colour of our shape’s outline. If you don’t want any border you can add noStroke() .\n\nAll you need now is to add some physics to these ideas and you have yourself a bouncing ball animation.\n\n### Step 3: Experiment with p5\n\nHopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: *interactivity* and* [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html)*. Keep reading to find out more on these two concepts.\n\n<iframe src=\"https://medium.com/media/00a787860f35e89e1b61b32a0639b3ea\" frameborder=0></iframe>\n\nIn this CodePen I have created a relatively simple flame model using squares and Perlin Noise. First of all, how do we get user input? Lucky for us p5 has some functions that can help.\n\n<iframe src=\"https://medium.com/media/57a3c8a24ca1f733c61480082a6dff41\" frameborder=0></iframe>\n\nAt the top of the code we have declared a boolean “flag” as to whether or not our mouse is being pressed — this allows us to do things if the mouse is being held down. The touchStarted() and touchEnded() are p5 functions that are executed whenever the mouse is pressed or released or the screen is touched and released. Lastly, in our rect() function we have the variables mouseX and mouseY which are p5 variables corresponding to the mouse’s current position. Oddly, these also refer to your [“touch” coordinates](https://github.com/processing/p5.js/issues/1705). With all these variables and functions predefined for us we can focus on making visually stunning graphics, whilst not being hampered by having to code extra functions unrelated to the graphic we’re producing.\n\nNow for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of *gradient noise. *The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:\n\n<iframe src=\"https://medium.com/media/f3c1a9b582097f7b2591d1362c80d2b5\" frameborder=0></iframe>\n\nSome key things to notice:\n\n* noise(this.pos.x) — The Perlin Noise [function](https://p5js.org/reference/#/p5/noise) that gets a random number based on the square’s current x position. It returns a value between 0 and 1.\n\n* fill(this.r, this.g, this.b, this.alpha) — Here we have extended fill’s ability by including an alpha value for the objects transparency, by decreasing alpha in the update() function we get a nice fade out like a flame.\n\n* dead() — This function allows us to keep track of which particles have disappeared as their alpha is now less than zero. We can then splice() them out of our array to ensure we’re not drawing an unbounded number of particles over time which would cause performance issues.\n\nAs a challenge, you can also use blendMode() to make it seem even more realistic — check this [alteration](https://codepen.io/anon/pen/YeOaJX) to see it in action.\n\nWith only a few concepts and the p5 library, it is incredibly straightforward to start building anything you want. Be sure to checkout what else is possible with the library. Here are few cool ideas to get you started: [3D graphics](https://p5js.org/examples/3d-geometries.html), [sliders](https://p5js.org/examples/dom-slider.html) and [images](https://p5js.org/examples/image-load-and-display-image.html).\n\n### Conclusion\n\nAs computers and technology become ubiquitous in our daily lives and an increasing number of professions are now relying on computer literacy, p5.js is a beautiful example of how we can ensure as many people as possible have an entry-point to the wonderful world of computer programming. It also acts as a reminder to some more experienced programmers that creativity and imagination are vital in producing meaningful code and ultimately making the tech world a better place.\n\nHopefully this intro to p5 has convinced you of its usefulness and has encouraged you to start taking your first steps into the world of graphics programming. Here are my recommendations for where to go next:\n\n* [The Coding Train](https://www.youtube.com/user/shiffman) — A brilliant YouTube channel by Daniel Shiffman where he teaches JavaScript and p5.js amongst many other incredible things!\n\n* [p5js.org ](https://p5js.org/examples/)— The examples page on this website is full of inspiring projects which you could recreate and extend further.\n\n* [Sratchapixel](https://www.scratchapixel.com/index.php) — If you feel ready to delve into the deeper concepts and implementations of computer graphics then this website is an incredible resource for you to use.\n\nA special thanks to [Tom Read Cutting](undefined) for editing this article and [Christian Silver](undefined) for helping get it off the ground.\n",
-      "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md"
-    },
     "SitePage /tensorflow-and-word2vec": {
       "layout": "index",
       "jsonName": "tensorflow-and-word-2-vec.json",
@@ -1269,7 +1259,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6f56b09d2cff4aed9321db0de42b12b6",
+        "contentDigest": "893d8765b2fd40bef0d322946a4ac8b4",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1290,7 +1280,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c220f046e86bd2117fec0c4e4ca2a177",
+        "contentDigest": "19290342d861d731ee882367bb832a33",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1311,7 +1301,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "451580ed2492fdb06f184b66f3bb8bb7",
+        "contentDigest": "50a70361f6c04cc36d6f164acca15daa",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1332,7 +1322,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8d7f4edcf1d24d98b992b462fe894e41",
+        "contentDigest": "283d7a50b61455867e4df9e26e8a13b3",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1353,7 +1343,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ec9f8cc3028e6f8f11bde972eccfbf44",
+        "contentDigest": "0296cda614ca75d7099d212f1cfe79c2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1374,15 +1364,37 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a19a43a774ca7a2b1a4e216aab547f82",
+        "contentDigest": "8cc6d6ae5d1096026122e1baae4057d4",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: '/graphics-and-p5'\ntitle: 'Computer Graphics for Everyone'\nsubtitle: 'An Introduction to Computer Graphics using p5.js'\ndate: '2018-02-27'\n---\n\n\nGraphics and computer programming are two dearly intertwined disciplines. The oscilloscope is often recognised as one of the first examples of “computer graphics”, the cathode-ray versions emitting a beam of electrons onto a phosphorescent screen. By using magnetic fields to change the beam’s direction, we can sweep from left to right and move up and down — the basic idea behind most CG! (I highly recommend watching this [video](https://archive.org/details/introductiontothecathoderayoscilloscope) from 1970).\n\nWe’ve come a long way since then — modern day graphics is a complicated science as well as an art, and the barrier to entry is constantly increasing. Graphics programming can be so complex, that a simple program to draw a triangle can be over [1000 lines of code](https://github.com/SaschaWillems/Vulkan/blob/master/examples/triangle/triangle.cpp)! However, this article will introduce you to [p5.js](https://p5js.org/) (also known as p5). A simpler, less complex solution for people who want to start making computer graphics, but don’t want the headache of streams of boiler-plate code.\n\nStraight from the landing page of the p5.js website.\n> # …make coding accessible for artists, designers, educators and beginners…\n\np5.js is the result of hard-work of the [Processing Foundation](https://processingfoundation.org/), a group focused on spreading computer and visual literacy. It distills their [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)) language into a JavaScript library that makes creating graphics easy and accessible whilst providing an ideal platform to springboard people’s careers in computer graphics. It should be mentioned now that a lot of inspiration has been taken from [Daniel Shiffman’s](http://shiffman.net/) p5 projects (from the [classic snake game](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_03_Snake_game_p5.js), to a [double pendulum](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_93_DoublePendulum_p5.js)). I can’t urge you enough to follow these projects to really improve your understanding of coding concepts and the p5 library.\n\n### Some prerequisites:\n\nBefore jumping into the p5 code I first want to make clear that there is assumed knowledge of HTML5 and JavaScript including arrays, functions, variables etc. in the rest of this article. If you have a good grasp of JavaScript then skip to the p5 code below, otherwise here are few resources to get you up to scratch.\n\n* [HaC Intro to Programming](https://www.youtube.com/watch?v=spIVWmv1jnw) — A workshop that is being run by Hackers at Cambridge to help anyone start learning to program (which uses JavaScript).\n\n* [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript) — a great resource for learning how to code with instant feedback in your browser.\n\n* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) — a great resource for learning about all aspects of web development.\n\n* [Codepen](https://codepen.io/) — a brilliant online text-editor for creating cool projects in HTML, CSS and JavaScript. Equally good for getting inspiration from a lot of talented users. Another possible solution would be [JSFiddle](https://jsfiddle.net/).\n\nWhat follows is a series of steps that will introduce you to p5 concepts. With code examples and explanations I hope to give you enough information to understand the ideas, but to fully grasp the concepts you will have to dive into the code, experiment with it, break it and learn from it. So without further ado, let’s get coding.\n\n### Step 1: The Setup\n\n<high-light className='JavaScript'>\nfunction setup(){\n  //Initialisation of canvas, objects, variables etc.\n}\nfunction draw(){\n  //The drawing loop - updates at a constant rate declared in setup\n}\n</high-light>\n\np5 is really simple to setup once you know what to do. There are two files shown above — an index.html and a template.js. The index.html file gets the libraries for us and the template.js is the barebones structure of a p5 project and at the moment it does nothing! Within this we have two functions:\n\n* setup() — a function for creating what we will need for our graphic or project. Like creating a canvas, initialising some objects or arrays etc.\n\n* draw() — a function which will be called periodically like a loop. This is where will call draw functions and update functions to make graphics and animations.\n\n<iframe height='265' scrolling='no' title='Simple Triangle Tutorial' src='//codepen.io/patricoferris/embed/dddxjr/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/dddxjr/'>Simple Triangle Tutorial</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s first look at the setup function. We used the p5 function createCanvas(width, height) which created and initialised a [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) with arguments width and height. Now within our setup() and createCanvas() functions we can reference the variables width and height without ever instantiating them!\n\nNext comes the meaty, draw function. I have purposefully put extra code in here so we can learn more about what p5 has to offer. Firstly always remember that draw() is a loop that runs from top to bottom. Initially, we set the background (of our canvas) to white with background(255) which is the same as background(255, 255, 255) (maximising the red, green and blue values to give white). This may seem simple, but implicitly we are also clearing our canvas every loop… in one line of code! This will be useful for animations later as we want to redraw objects in a new location rather than have the [build-up on the same canvas](https://codepen.io/patricoferris/pen/paxZaw) (click to see it go spectacularly wrong). Next is a translate(width/2, height/2) which moves our current drawing location to the centre of our canvas. We then declare the fill colour of our triangle with fill(255, 0, 0)(making it red).\n\nWe want to create an equilateral triangle with side length s. The triangle itself is a function that takes the vertex coordinates as arguments — triangle(x1, y1, x2, y2, x3, y3) and in this example starting from the centre we have one vertex at (-s/2, 0) another at (s/2, 0) giving a bottom length of s . Now comes the trickier part. A very important aspect of most computer graphics is that the coordinate system starts in the top left corner (or wherever your origin is) and x increases left to right, whilst y increases top to bottom. To move of the screen we need a negative y value. Our last coordinate is given as (0, -sin(PI/3)) (if you’re stuck, think about cutting the triangle in two and using trigonometry).\n\n### Step 2: Get Creative\n\nWe’ve learnt how to set up our canvas and start drawing. Armed with the p5 [reference page](https://p5js.org/reference/) and our creativity, we can make some truly stunning graphics. How about a bouncing ball animation?\n\n<iframe height='265' scrolling='no' title='Bouncing Balls' src='//codepen.io/patricoferris/embed/PQpOrB/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/PQpOrB/'>Bouncing Balls</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s look at the interesting p5 aspects that we didn’t know before:\n\n* frameRate(20) — This enables us to specify the frame rate of our drawing loop, that is, how many times per second it redraws everything for us.\n\n* gravity = createVector(0, 9) — p5 allows us to [create vector objects](https://p5js.org/reference/#/p5.Vector) with which we can perform vector operations like addition, multiplication, dot-product and cross-product. This is useful when we want to simulate physics like forces.\n\n* floor(random(50)) — Here we’re using p5 math functions. floor() takes a real number and rounds it down to the nearest integer. random(arg) produces a random number as small as 0 or up to 49. In this example, we are giving it to the ellipse(x, y, w)function to create randomly sized balls by setting the width to a random number. If we gave another argument it would set the ellipse’s height, but here it infers that we want a circle.\n\n* stroke(0) — This function sets the colour of our shape’s outline. If you don’t want any border you can add noStroke() .\n\nAll you need now is to add some physics to these ideas and you have yourself a bouncing ball animation.\n\n### Step 3: Experiment with p5\n\nHopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: *interactivity* and* [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html)*. Keep reading to find out more on these two concepts.\n\n<iframe height='265' scrolling='no' title='Pixel Fire' src='//codepen.io/patricoferris/embed/XZMxmV/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/XZMxmV/'>Pixel Fire</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nIn this CodePen I have created a relatively simple flame model using squares and Perlin Noise. First of all, how do we get user input? Lucky for us p5 has some functions that can help.\n\n<high-light className='JavaScript'>\nvar touch = false;\nfunction setup(){\n  createCanvas(640, 640);\n}\nfunction draw(){\n  if(touch){\n    fill(255, 0, 0);\n    rect(mouseX, mouseY, 20, 20);\n  }\n}\nfunction touchStarted(){\n  touch = true;\n}\nfunction touchEnded(){\n  touch = false;\n}\n</high-light>\n\nAt the top of the code we have declared a boolean “flag” as to whether or not our mouse is being pressed — this allows us to do things if the mouse is being held down. The touchStarted() and touchEnded() are p5 functions that are executed whenever the mouse is pressed or released or the screen is touched and released. Lastly, in our rect() function we have the variables mouseX and mouseY which are p5 variables corresponding to the mouse’s current position. Oddly, these also refer to your [“touch” coordinates](https://github.com/processing/p5.js/issues/1705). With all these variables and functions predefined for us we can focus on making visually stunning graphics, whilst not being hampered by having to code extra functions unrelated to the graphic we’re producing.\n\nNow for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of *gradient noise. *The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:\n\n<high-light className='JavaScript'>\nfunction Particle(x, y, color){\n  this.pos = createVector(x + random(-10, 10), y + random(-10, 10));\n  this.vel = createVector(floor(random(-1, 1))*noise(this.pos.x), -noise(this.pos.y)*7);\n  this.alpha = 255;\n  this.r = random(170, 255);\n  this.g = random(10, 255);\n  this.b = random(0, 100);\n  this.update = function(){\n    this.pos.add(this.vel);\n    this.alpha -= 5;\n  }\n  this.show = function(){\n    noStroke();\n    fill(this.r, this.g, this.b, this.alpha);\n    rect(this.pos.x, this.pos.y, 5, 5);\n  }\n  this.dead = function(){\n    if(this.alpha < 0){\n      return true;\n    }else{\n      return false;\n    }\n  }\n}\n</high-light>\n\nSome key things to notice:\n\n* noise(this.pos.x) — The Perlin Noise [function](https://p5js.org/reference/#/p5/noise) that gets a random number based on the square’s current x position. It returns a value between 0 and 1.\n\n* fill(this.r, this.g, this.b, this.alpha) — Here we have extended fill’s ability by including an alpha value for the objects transparency, by decreasing alpha in the update() function we get a nice fade out like a flame.\n\n* dead() — This function allows us to keep track of which particles have disappeared as their alpha is now less than zero. We can then splice() them out of our array to ensure we’re not drawing an unbounded number of particles over time which would cause performance issues.\n\nAs a challenge, you can also use blendMode() to make it seem even more realistic — check this [alteration](https://codepen.io/anon/pen/YeOaJX) to see it in action.\n\nWith only a few concepts and the p5 library, it is incredibly straightforward to start building anything you want. Be sure to checkout what else is possible with the library. Here are few cool ideas to get you started: [3D graphics](https://p5js.org/examples/3d-geometries.html), [sliders](https://p5js.org/examples/dom-slider.html) and [images](https://p5js.org/examples/image-load-and-display-image.html).\n\n### Conclusion\n\nAs computers and technology become ubiquitous in our daily lives and an increasing number of professions are now relying on computer literacy, p5.js is a beautiful example of how we can ensure as many people as possible have an entry-point to the wonderful world of computer programming. It also acts as a reminder to some more experienced programmers that creativity and imagination are vital in producing meaningful code and ultimately making the tech world a better place.\n\nHopefully this intro to p5 has convinced you of its usefulness and has encouraged you to start taking your first steps into the world of graphics programming. Here are my recommendations for where to go next:\n\n* [The Coding Train](https://www.youtube.com/user/shiffman) — A brilliant YouTube channel by Daniel Shiffman where he teaches JavaScript and p5.js amongst many other incredible things!\n\n* [p5js.org ](https://p5js.org/examples/)— The examples page on this website is full of inspiring projects which you could recreate and extend further.\n\n* [Sratchapixel](https://www.scratchapixel.com/index.php) — If you feel ready to delve into the deeper concepts and implementations of computer graphics then this website is an incredible resource for you to use.\n\nA special thanks to [Tom Read Cutting](undefined) for editing this article and [Christian Silver](undefined) for helping get it off the ground.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "3ca7512f7bd33302c4ca05b6b9bd3fcb",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Computer Graphics for Everyone",
+        "path": "/graphics-and-p5",
+        "subtitle": "An Introduction to Computer Graphics using p5.js",
+        "date": "2018-02-27",
+        "_PARENT": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+        "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n\nGraphics and computer programming are two dearly intertwined disciplines. The oscilloscope is often recognised as one of the first examples of “computer graphics”, the cathode-ray versions emitting a beam of electrons onto a phosphorescent screen. By using magnetic fields to change the beam’s direction, we can sweep from left to right and move up and down — the basic idea behind most CG! (I highly recommend watching this [video](https://archive.org/details/introductiontothecathoderayoscilloscope) from 1970).\n\nWe’ve come a long way since then — modern day graphics is a complicated science as well as an art, and the barrier to entry is constantly increasing. Graphics programming can be so complex, that a simple program to draw a triangle can be over [1000 lines of code](https://github.com/SaschaWillems/Vulkan/blob/master/examples/triangle/triangle.cpp)! However, this article will introduce you to [p5.js](https://p5js.org/) (also known as p5). A simpler, less complex solution for people who want to start making computer graphics, but don’t want the headache of streams of boiler-plate code.\n\nStraight from the landing page of the p5.js website.\n> # …make coding accessible for artists, designers, educators and beginners…\n\np5.js is the result of hard-work of the [Processing Foundation](https://processingfoundation.org/), a group focused on spreading computer and visual literacy. It distills their [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)) language into a JavaScript library that makes creating graphics easy and accessible whilst providing an ideal platform to springboard people’s careers in computer graphics. It should be mentioned now that a lot of inspiration has been taken from [Daniel Shiffman’s](http://shiffman.net/) p5 projects (from the [classic snake game](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_03_Snake_game_p5.js), to a [double pendulum](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_93_DoublePendulum_p5.js)). I can’t urge you enough to follow these projects to really improve your understanding of coding concepts and the p5 library.\n\n### Some prerequisites:\n\nBefore jumping into the p5 code I first want to make clear that there is assumed knowledge of HTML5 and JavaScript including arrays, functions, variables etc. in the rest of this article. If you have a good grasp of JavaScript then skip to the p5 code below, otherwise here are few resources to get you up to scratch.\n\n* [HaC Intro to Programming](https://www.youtube.com/watch?v=spIVWmv1jnw) — A workshop that is being run by Hackers at Cambridge to help anyone start learning to program (which uses JavaScript).\n\n* [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript) — a great resource for learning how to code with instant feedback in your browser.\n\n* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) — a great resource for learning about all aspects of web development.\n\n* [Codepen](https://codepen.io/) — a brilliant online text-editor for creating cool projects in HTML, CSS and JavaScript. Equally good for getting inspiration from a lot of talented users. Another possible solution would be [JSFiddle](https://jsfiddle.net/).\n\nWhat follows is a series of steps that will introduce you to p5 concepts. With code examples and explanations I hope to give you enough information to understand the ideas, but to fully grasp the concepts you will have to dive into the code, experiment with it, break it and learn from it. So without further ado, let’s get coding.\n\n### Step 1: The Setup\n\n<high-light className='JavaScript'>\nfunction setup(){\n  //Initialisation of canvas, objects, variables etc.\n}\nfunction draw(){\n  //The drawing loop - updates at a constant rate declared in setup\n}\n</high-light>\n\np5 is really simple to setup once you know what to do. There are two files shown above — an index.html and a template.js. The index.html file gets the libraries for us and the template.js is the barebones structure of a p5 project and at the moment it does nothing! Within this we have two functions:\n\n* setup() — a function for creating what we will need for our graphic or project. Like creating a canvas, initialising some objects or arrays etc.\n\n* draw() — a function which will be called periodically like a loop. This is where will call draw functions and update functions to make graphics and animations.\n\n<iframe height='265' scrolling='no' title='Simple Triangle Tutorial' src='//codepen.io/patricoferris/embed/dddxjr/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/dddxjr/'>Simple Triangle Tutorial</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s first look at the setup function. We used the p5 function createCanvas(width, height) which created and initialised a [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) with arguments width and height. Now within our setup() and createCanvas() functions we can reference the variables width and height without ever instantiating them!\n\nNext comes the meaty, draw function. I have purposefully put extra code in here so we can learn more about what p5 has to offer. Firstly always remember that draw() is a loop that runs from top to bottom. Initially, we set the background (of our canvas) to white with background(255) which is the same as background(255, 255, 255) (maximising the red, green and blue values to give white). This may seem simple, but implicitly we are also clearing our canvas every loop… in one line of code! This will be useful for animations later as we want to redraw objects in a new location rather than have the [build-up on the same canvas](https://codepen.io/patricoferris/pen/paxZaw) (click to see it go spectacularly wrong). Next is a translate(width/2, height/2) which moves our current drawing location to the centre of our canvas. We then declare the fill colour of our triangle with fill(255, 0, 0)(making it red).\n\nWe want to create an equilateral triangle with side length s. The triangle itself is a function that takes the vertex coordinates as arguments — triangle(x1, y1, x2, y2, x3, y3) and in this example starting from the centre we have one vertex at (-s/2, 0) another at (s/2, 0) giving a bottom length of s . Now comes the trickier part. A very important aspect of most computer graphics is that the coordinate system starts in the top left corner (or wherever your origin is) and x increases left to right, whilst y increases top to bottom. To move of the screen we need a negative y value. Our last coordinate is given as (0, -sin(PI/3)) (if you’re stuck, think about cutting the triangle in two and using trigonometry).\n\n### Step 2: Get Creative\n\nWe’ve learnt how to set up our canvas and start drawing. Armed with the p5 [reference page](https://p5js.org/reference/) and our creativity, we can make some truly stunning graphics. How about a bouncing ball animation?\n\n<iframe height='265' scrolling='no' title='Bouncing Balls' src='//codepen.io/patricoferris/embed/PQpOrB/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/PQpOrB/'>Bouncing Balls</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s look at the interesting p5 aspects that we didn’t know before:\n\n* frameRate(20) — This enables us to specify the frame rate of our drawing loop, that is, how many times per second it redraws everything for us.\n\n* gravity = createVector(0, 9) — p5 allows us to [create vector objects](https://p5js.org/reference/#/p5.Vector) with which we can perform vector operations like addition, multiplication, dot-product and cross-product. This is useful when we want to simulate physics like forces.\n\n* floor(random(50)) — Here we’re using p5 math functions. floor() takes a real number and rounds it down to the nearest integer. random(arg) produces a random number as small as 0 or up to 49. In this example, we are giving it to the ellipse(x, y, w)function to create randomly sized balls by setting the width to a random number. If we gave another argument it would set the ellipse’s height, but here it infers that we want a circle.\n\n* stroke(0) — This function sets the colour of our shape’s outline. If you don’t want any border you can add noStroke() .\n\nAll you need now is to add some physics to these ideas and you have yourself a bouncing ball animation.\n\n### Step 3: Experiment with p5\n\nHopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: *interactivity* and* [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html)*. Keep reading to find out more on these two concepts.\n\n<iframe height='265' scrolling='no' title='Pixel Fire' src='//codepen.io/patricoferris/embed/XZMxmV/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/XZMxmV/'>Pixel Fire</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nIn this CodePen I have created a relatively simple flame model using squares and Perlin Noise. First of all, how do we get user input? Lucky for us p5 has some functions that can help.\n\n<high-light className='JavaScript'>\nvar touch = false;\nfunction setup(){\n  createCanvas(640, 640);\n}\nfunction draw(){\n  if(touch){\n    fill(255, 0, 0);\n    rect(mouseX, mouseY, 20, 20);\n  }\n}\nfunction touchStarted(){\n  touch = true;\n}\nfunction touchEnded(){\n  touch = false;\n}\n</high-light>\n\nAt the top of the code we have declared a boolean “flag” as to whether or not our mouse is being pressed — this allows us to do things if the mouse is being held down. The touchStarted() and touchEnded() are p5 functions that are executed whenever the mouse is pressed or released or the screen is touched and released. Lastly, in our rect() function we have the variables mouseX and mouseY which are p5 variables corresponding to the mouse’s current position. Oddly, these also refer to your [“touch” coordinates](https://github.com/processing/p5.js/issues/1705). With all these variables and functions predefined for us we can focus on making visually stunning graphics, whilst not being hampered by having to code extra functions unrelated to the graphic we’re producing.\n\nNow for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of *gradient noise. *The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:\n\n<high-light className='JavaScript'>\nfunction Particle(x, y, color){\n  this.pos = createVector(x + random(-10, 10), y + random(-10, 10));\n  this.vel = createVector(floor(random(-1, 1))*noise(this.pos.x), -noise(this.pos.y)*7);\n  this.alpha = 255;\n  this.r = random(170, 255);\n  this.g = random(10, 255);\n  this.b = random(0, 100);\n  this.update = function(){\n    this.pos.add(this.vel);\n    this.alpha -= 5;\n  }\n  this.show = function(){\n    noStroke();\n    fill(this.r, this.g, this.b, this.alpha);\n    rect(this.pos.x, this.pos.y, 5, 5);\n  }\n  this.dead = function(){\n    if(this.alpha < 0){\n      return true;\n    }else{\n      return false;\n    }\n  }\n}\n</high-light>\n\nSome key things to notice:\n\n* noise(this.pos.x) — The Perlin Noise [function](https://p5js.org/reference/#/p5/noise) that gets a random number based on the square’s current x position. It returns a value between 0 and 1.\n\n* fill(this.r, this.g, this.b, this.alpha) — Here we have extended fill’s ability by including an alpha value for the objects transparency, by decreasing alpha in the update() function we get a nice fade out like a flame.\n\n* dead() — This function allows us to keep track of which particles have disappeared as their alpha is now less than zero. We can then splice() them out of our array to ensure we’re not drawing an unbounded number of particles over time which would cause performance issues.\n\nAs a challenge, you can also use blendMode() to make it seem even more realistic — check this [alteration](https://codepen.io/anon/pen/YeOaJX) to see it in action.\n\nWith only a few concepts and the p5 library, it is incredibly straightforward to start building anything you want. Be sure to checkout what else is possible with the library. Here are few cool ideas to get you started: [3D graphics](https://p5js.org/examples/3d-geometries.html), [sliders](https://p5js.org/examples/dom-slider.html) and [images](https://p5js.org/examples/image-load-and-display-image.html).\n\n### Conclusion\n\nAs computers and technology become ubiquitous in our daily lives and an increasing number of professions are now relying on computer literacy, p5.js is a beautiful example of how we can ensure as many people as possible have an entry-point to the wonderful world of computer programming. It also acts as a reminder to some more experienced programmers that creativity and imagination are vital in producing meaningful code and ultimately making the tech world a better place.\n\nHopefully this intro to p5 has convinced you of its usefulness and has encouraged you to start taking your first steps into the world of graphics programming. Here are my recommendations for where to go next:\n\n* [The Coding Train](https://www.youtube.com/user/shiffman) — A brilliant YouTube channel by Daniel Shiffman where he teaches JavaScript and p5.js amongst many other incredible things!\n\n* [p5js.org ](https://p5js.org/examples/)— The examples page on this website is full of inspiring projects which you could recreate and extend further.\n\n* [Sratchapixel](https://www.scratchapixel.com/index.php) — If you feel ready to delve into the deeper concepts and implementations of computer graphics then this website is an incredible resource for you to use.\n\nA special thanks to [Tom Read Cutting](undefined) for editing this article and [Christian Silver](undefined) for helping get it off the ground.\n",
+      "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "22767eb92fc4758b8e77cc2d0f80ba4f"
+    "PLUGINS_HASH": "086f73b488ea7300fe7aae4185daf52e"
   },
   "componentDataDependencies": {
     "nodes": {
