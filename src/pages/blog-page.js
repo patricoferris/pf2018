@@ -5,7 +5,9 @@ import Blogpost from '../components/Blogpost';
 const BlogPage = ({ data }) => (
   <div className='blog-block-container'>
     {data.allMarkdownRemark.edges.map(post =>
-      <Blogpost data={post.node.frontmatter}></Blogpost>
+      <a href={post.node.frontmatter.path}>
+        <Blogpost data={post.node.frontmatter}></Blogpost>
+      </a>
     )}
   </div>
 );
@@ -18,6 +20,8 @@ export const pageQuery = graphql`
           frontmatter {
             path
             title
+            subtitle
+            date
           }
         }
       }
