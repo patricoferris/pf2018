@@ -5,6 +5,7 @@ subtitle: 'An Introduction to Computer Graphics using p5.js'
 date: '2018-02-27'
 ---
 
+![Recursive Tree](graphics-and-p5/tree.png)
 
 Graphics and computer programming are two dearly intertwined disciplines. The oscilloscope is often recognised as one of the first examples of “computer graphics”, the cathode-ray versions emitting a beam of electrons onto a phosphorescent screen. By using magnetic fields to change the beam’s direction, we can sweep from left to right and move up and down — the basic idea behind most CG! (I highly recommend watching this [video](https://archive.org/details/introductiontothecathoderayoscilloscope) from 1970).
 
@@ -46,7 +47,7 @@ p5 is really simple to setup once you know what to do. There are two files shown
 
 * draw() — a function which will be called periodically like a loop. This is where will call draw functions and update functions to make graphics and animations.
 
-<iframe height='265' scrolling='no' title='Simple Triangle Tutorial' src='//codepen.io/patricoferris/embed/dddxjr/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/dddxjr/'>Simple Triangle Tutorial</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='400' scrolling='no' title='Simple Triangle Tutorial' src='//codepen.io/patricoferris/embed/dddxjr/?height=400&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/dddxjr/'>Simple Triangle Tutorial</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 Let’s first look at the setup function. We used the p5 function createCanvas(width, height) which created and initialised a [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) with arguments width and height. Now within our setup() and createCanvas() functions we can reference the variables width and height without ever instantiating them!
@@ -59,7 +60,7 @@ We want to create an equilateral triangle with side length s. The triangle itsel
 
 We’ve learnt how to set up our canvas and start drawing. Armed with the p5 [reference page](https://p5js.org/reference/) and our creativity, we can make some truly stunning graphics. How about a bouncing ball animation?
 
-<iframe height='265' scrolling='no' title='Bouncing Balls' src='//codepen.io/patricoferris/embed/PQpOrB/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/PQpOrB/'>Bouncing Balls</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='400' scrolling='no' title='Bouncing Balls' src='//codepen.io/patricoferris/embed/PQpOrB/?height=400&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/PQpOrB/'>Bouncing Balls</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 Let’s look at the interesting p5 aspects that we didn’t know before:
@@ -78,7 +79,7 @@ All you need now is to add some physics to these ideas and you have yourself a b
 
 Hopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: *interactivity* and* [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html)*. Keep reading to find out more on these two concepts.
 
-<iframe height='265' scrolling='no' title='Pixel Fire' src='//codepen.io/patricoferris/embed/XZMxmV/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/XZMxmV/'>Pixel Fire</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.
+<iframe height='400' scrolling='no' title='Pixel Fire' src='//codepen.io/patricoferris/embed/XZMxmV/?height=400&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/XZMxmV/'>Pixel Fire</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
 In this CodePen I have created a relatively simple flame model using squares and Perlin Noise. First of all, how do we get user input? Lucky for us p5 has some functions that can help.

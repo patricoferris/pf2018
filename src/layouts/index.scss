@@ -205,21 +205,38 @@ iframe {
 }
 
 .blog-title {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+
+}
+
+.blog-subtitle {
+  color: $orange-color;
+  font-size: 1.3em;
+  margin-top: -10px;
 }
 
 .blog-post {
-
+  margin-top: 40px;
   padding-left: 0px;
   padding-right: 0px;
 
   @media (min-width: $min-width) {
     padding-left: 15%;
     padding-right: 15%;
-    font-size: 105%;
-    line-height: 160%;
+    font-size: 110%;
+    line-height: 170%;
   }
+
   a {
     color: $orange-color;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  em {
+    text-align: center;
+    color: grey;
+    font-size: 0.7em;
   }
 }

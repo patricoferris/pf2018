@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 
 import Header from '../components/header';
 import './index.scss';
+import 'prismjs/themes/prism.css';
 
 const Layout = ({ children, data }) => (
   <div className='container'>

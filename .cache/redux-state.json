@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e2c2986a19fc8c0d248f202d57c30c3e",
+        "contentDigest": "e8107a67ac821a9cec3f26900fb6b919",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -362,6 +362,115 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "06b993d9aa91bd58ddb2601b5f50462f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-source-filesystem": {
       "resolve": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
@@ -471,13 +580,40 @@
       "name": "gatsby-transformer-remark",
       "version": "1.7.44",
       "pluginOptions": {
-        "plugins": [],
-        "resolve": "gatsby-remark-component",
-        "options": {
-          "components": [
-            "Highlight"
-          ]
-        }
+        "plugins": [
+          {
+            "resolve": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.67",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 100,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "2.0.5",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-remark-prismjs"
+          }
+        ]
       },
       "nodeAPIs": [
         "onCreateNode",
@@ -604,7 +740,172 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "23336b7f10f509b55272e0063803a0d1",
+        "contentDigest": "e3969dfc324083b9637bea5ffd096013",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.67",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 100,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.67",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bc6d6571d42117c2045dd35eee575494",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/patrickferris/Documents/Projects/pf2018/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.3"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.13.0"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "prismjs",
+            "version": "^1.13.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "35572b82c6427abe249e80f3a2931382",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -700,7 +1001,7 @@
       "resolve": "/Users/patrickferris/Documents/Projects/pf2018",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "8fd3059351856359eea308865259512a",
+      "version": "616df72e03fc1a1502470d5d6e8f6c54",
       "pluginOptions": {
         "plugins": []
       },
@@ -745,8 +1046,20 @@
             "version": "^1.0.26"
           },
           {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
             "name": "gatsby-remark-component",
             "version": "^1.1.3"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.67"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^2.0.5"
           },
           {
             "name": "gatsby-source-filesystem",
@@ -759,6 +1072,10 @@
           {
             "name": "node-sass",
             "version": "^4.9.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
           },
           {
             "name": "react-dom-factories",
@@ -802,7 +1119,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2446be8a708f6307863d659a97c91e95",
+        "contentDigest": "4fde4bd7a0bee9e30fb59df10f6fea6a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -896,12 +1213,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2018-07-24T22:12:38.041Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-07-28T13:19:19.376Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "892ce99131d086b21290a8bdaa65d7cd",
+        "contentDigest": "369a0e3fb27d82e42c630a6b2c742f4c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -911,7 +1230,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3ec910ca896fe4cdd49310d505aa56a9",
+        "contentDigest": "b7869fa03513cae41cb82eb168fa988b",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -920,11 +1239,11 @@
       "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts",
       "relativePath": "",
       "extension": "",
-      "size": 160,
-      "prettySize": "160 B",
-      "modifiedTime": "2018-07-21T22:56:00.582Z",
-      "accessTime": "2018-07-24T22:12:42.386Z",
-      "changeTime": "2018-07-21T22:56:00.582Z",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-07-28T11:20:57.778Z",
+      "accessTime": "2018-07-28T13:19:24.038Z",
+      "changeTime": "2018-07-28T11:20:57.778Z",
       "birthTime": "2018-07-21T15:43:49.673Z",
       "root": "/",
       "dir": "/Users/patrickferris/Documents/Projects/pf2018/src",
@@ -934,20 +1253,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 5,
+      "nlink": 6,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8617091460,
       "blocks": 0,
-      "atimeMs": 1532470362386.306,
-      "mtimeMs": 1532213760581.524,
-      "ctimeMs": 1532213760581.524,
+      "atimeMs": 1532783964037.8645,
+      "mtimeMs": 1532776857777.7952,
+      "ctimeMs": 1532776857777.7952,
       "birthtimeMs": 1532187829672.5415,
-      "atime": "2018-07-24T22:12:42.386Z",
-      "mtime": "2018-07-21T22:56:00.582Z",
-      "ctime": "2018-07-21T22:56:00.582Z",
+      "atime": "2018-07-28T13:19:24.038Z",
+      "mtime": "2018-07-28T11:20:57.778Z",
+      "ctime": "2018-07-28T11:20:57.778Z",
       "birthtime": "2018-07-21T15:43:49.673Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018 absPath of file": {
@@ -955,7 +1274,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bb9bb521d8332ebbfcc0814db687ae2e",
+        "contentDigest": "71e2d1db5adb9530452bb70fe49262e8",
         "type": "Directory",
         "description": "Directory \"src/posts/23-07-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -967,7 +1286,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T22:56:07.653Z",
-      "accessTime": "2018-07-24T22:12:42.388Z",
+      "accessTime": "2018-07-28T13:19:24.041Z",
       "changeTime": "2018-07-21T22:56:07.653Z",
       "birthTime": "2018-07-21T22:56:00.582Z",
       "root": "/",
@@ -985,11 +1304,11 @@
       "blksize": 4194304,
       "ino": 8617115444,
       "blocks": 0,
-      "atimeMs": 1532470362388.2473,
+      "atimeMs": 1532783964040.6565,
       "mtimeMs": 1532213767652.5022,
       "ctimeMs": 1532213767652.5022,
       "birthtimeMs": 1532213760581.5076,
-      "atime": "2018-07-24T22:12:42.388Z",
+      "atime": "2018-07-28T13:19:24.041Z",
       "mtime": "2018-07-21T22:56:07.653Z",
       "ctime": "2018-07-21T22:56:07.653Z",
       "birthtime": "2018-07-21T22:56:00.582Z"
@@ -999,7 +1318,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c37d902cccec7cafb08f1ea84c84a55b",
+        "contentDigest": "40a9b50b95ee89f9fc0e100efa7a6d80",
         "type": "Directory",
         "description": "Directory \"src/posts/27-02-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -1008,11 +1327,11 @@
       "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018",
       "relativePath": "27-02-2018",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2018-07-24T21:15:41.820Z",
-      "accessTime": "2018-07-24T22:12:42.388Z",
-      "changeTime": "2018-07-24T21:15:41.820Z",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-07-28T09:30:40.810Z",
+      "accessTime": "2018-07-28T13:19:24.041Z",
+      "changeTime": "2018-07-28T09:30:40.810Z",
       "birthTime": "2018-07-21T15:44:22.915Z",
       "root": "/",
       "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts",
@@ -1022,28 +1341,72 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8617091493,
       "blocks": 0,
-      "atimeMs": 1532470362388.2764,
-      "mtimeMs": 1532466941820.2698,
-      "ctimeMs": 1532466941820.2698,
+      "atimeMs": 1532783964040.617,
+      "mtimeMs": 1532770240809.5576,
+      "ctimeMs": 1532770240809.5576,
       "birthtimeMs": 1532187862914.7139,
-      "atime": "2018-07-24T22:12:42.388Z",
-      "mtime": "2018-07-24T21:15:41.820Z",
-      "ctime": "2018-07-24T21:15:41.820Z",
+      "atime": "2018-07-28T13:19:24.041Z",
+      "mtime": "2018-07-28T09:30:40.810Z",
+      "ctime": "2018-07-28T09:30:40.810Z",
       "birthtime": "2018-07-21T15:44:22.915Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018 absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "896de0d9c80e29d4b4b6299c90cac416",
+        "type": "Directory",
+        "description": "Directory \"src/posts/28-07-2018\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018",
+      "relativePath": "28-07-2018",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-07-28T12:08:05.522Z",
+      "accessTime": "2018-07-28T13:19:24.041Z",
+      "changeTime": "2018-07-28T12:08:05.522Z",
+      "birthTime": "2018-07-28T11:20:57.778Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts",
+      "base": "28-07-2018",
+      "ext": "",
+      "name": "28-07-2018",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617440847,
+      "blocks": 0,
+      "atimeMs": 1532783964040.6914,
+      "mtimeMs": 1532779685521.9407,
+      "ctimeMs": 1532779685521.9407,
+      "birthtimeMs": 1532776857777.7642,
+      "atime": "2018-07-28T13:19:24.041Z",
+      "mtime": "2018-07-28T12:08:05.522Z",
+      "ctime": "2018-07-28T12:08:05.522Z",
+      "birthtime": "2018-07-28T11:20:57.778Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps absPath of file": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "51e2eb7134e01f30c203fb6ce535e442",
+        "contentDigest": "7fde419c26910ec3b01a1e4369054f70",
         "type": "Directory",
         "description": "Directory \"src/posts/claps\"",
         "owner": "gatsby-source-filesystem"
@@ -1055,7 +1418,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T17:13:20.949Z",
-      "accessTime": "2018-07-24T22:12:42.388Z",
+      "accessTime": "2018-07-28T13:19:24.041Z",
       "changeTime": "2018-07-21T17:13:20.949Z",
       "birthTime": "2018-07-21T17:13:09.268Z",
       "root": "/",
@@ -1073,42 +1436,44 @@
       "blksize": 4194304,
       "ino": 8617100366,
       "blocks": 0,
-      "atimeMs": 1532470362388.2883,
+      "atimeMs": 1532783964040.7253,
       "mtimeMs": 1532193200949.1204,
       "ctimeMs": 1532193200949.1204,
       "birthtimeMs": 1532193189267.6887,
-      "atime": "2018-07-24T22:12:42.388Z",
+      "atime": "2018-07-28T13:19:24.041Z",
       "mtime": "2018-07-21T17:13:20.949Z",
       "ctime": "2018-07-21T17:13:20.949Z",
       "birthtime": "2018-07-21T17:13:09.268Z"
     },
-    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js absPath of file": {
-      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js absPath of file",
-      "children": [],
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+      "children": [
+        "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark"
+      ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e4bfdcb3eaa1e90b9ac9e1d350f2ee47",
-        "mediaType": "application/javascript",
+        "contentDigest": "5912863b6f1fe5fe9b6028724215d279",
+        "mediaType": "text/markdown",
         "type": "File",
-        "description": "File \"src/posts/claps/scraper.js\"",
+        "description": "File \"src/posts/27-02-2018/index.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js",
-      "relativePath": "claps/scraper.js",
-      "extension": "js",
-      "size": 715,
-      "prettySize": "715 B",
-      "modifiedTime": "2018-07-21T18:24:24.768Z",
-      "accessTime": "2018-07-24T22:06:24.094Z",
-      "changeTime": "2018-07-21T18:24:24.768Z",
-      "birthTime": "2018-07-21T17:13:20.949Z",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md",
+      "relativePath": "27-02-2018/index.md",
+      "extension": "md",
+      "size": 15076,
+      "prettySize": "15.1 kB",
+      "modifiedTime": "2018-07-28T09:41:46.325Z",
+      "accessTime": "2018-07-28T13:00:39.395Z",
+      "changeTime": "2018-07-28T09:41:46.325Z",
+      "birthTime": "2018-07-21T15:44:52.071Z",
       "root": "/",
-      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps",
-      "base": "scraper.js",
-      "ext": ".js",
-      "name": "scraper",
-      "relativeDirectory": "claps",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "27-02-2018",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1116,16 +1481,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8617100375,
-      "blocks": 8,
-      "atimeMs": 1532469984093.9536,
-      "mtimeMs": 1532197464767.6497,
-      "ctimeMs": 1532197464767.6497,
-      "birthtimeMs": 1532193200949.1062,
-      "atime": "2018-07-24T22:06:24.094Z",
-      "mtime": "2018-07-21T18:24:24.768Z",
-      "ctime": "2018-07-21T18:24:24.768Z",
-      "birthtime": "2018-07-21T17:13:20.949Z"
+      "ino": 8617091516,
+      "blocks": 32,
+      "atimeMs": 1532782839394.627,
+      "mtimeMs": 1532770906325.4307,
+      "ctimeMs": 1532770906325.4307,
+      "birthtimeMs": 1532187892071.2644,
+      "atime": "2018-07-28T13:00:39.395Z",
+      "mtime": "2018-07-28T09:41:46.325Z",
+      "ctime": "2018-07-28T09:41:46.325Z",
+      "birthtime": "2018-07-21T15:44:52.071Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file",
@@ -1147,7 +1512,7 @@
       "size": 241,
       "prettySize": "241 B",
       "modifiedTime": "2018-07-24T20:52:28.748Z",
-      "accessTime": "2018-07-24T22:06:23.787Z",
+      "accessTime": "2018-07-28T13:00:39.395Z",
       "changeTime": "2018-07-24T20:52:28.748Z",
       "birthTime": "2018-07-21T22:56:07.652Z",
       "root": "/",
@@ -1165,43 +1530,133 @@
       "blksize": 4194304,
       "ino": 8617115465,
       "blocks": 8,
-      "atimeMs": 1532469983786.966,
+      "atimeMs": 1532782839394.569,
       "mtimeMs": 1532465548747.5842,
       "ctimeMs": 1532465548747.5842,
       "birthtimeMs": 1532213767652.4912,
-      "atime": "2018-07-24T22:06:23.787Z",
+      "atime": "2018-07-28T13:00:39.395Z",
       "mtime": "2018-07-24T20:52:28.748Z",
       "ctime": "2018-07-24T20:52:28.748Z",
       "birthtime": "2018-07-21T22:56:07.652Z"
     },
-    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file": {
-      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/index.md absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/index.md absPath of file",
       "children": [
-        "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark"
+        "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/index.md absPath of file >>> MarkdownRemark"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "828413bc137c46d52fc7889244e1c72e",
+        "contentDigest": "9099404de4f291ec94ae9998dac9ea50",
         "mediaType": "text/markdown",
         "type": "File",
-        "description": "File \"src/posts/27-02-2018/index.md\"",
+        "description": "File \"src/posts/28-07-2018/index.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md",
-      "relativePath": "27-02-2018/index.md",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/index.md",
+      "relativePath": "28-07-2018/index.md",
       "extension": "md",
-      "size": 15032,
-      "prettySize": "15 kB",
-      "modifiedTime": "2018-07-24T22:22:30.440Z",
-      "accessTime": "2018-07-24T22:22:30.450Z",
-      "changeTime": "2018-07-24T22:22:30.440Z",
-      "birthTime": "2018-07-21T15:44:52.071Z",
+      "size": 14819,
+      "prettySize": "14.8 kB",
+      "modifiedTime": "2018-07-28T13:26:37.248Z",
+      "accessTime": "2018-07-28T13:26:37.248Z",
+      "changeTime": "2018-07-28T13:26:37.248Z",
+      "birthTime": "2018-07-28T11:21:07.459Z",
       "root": "/",
-      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
+      "relativeDirectory": "28-07-2018",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617440853,
+      "blocks": 32,
+      "atimeMs": 1532784397248.1206,
+      "mtimeMs": 1532784397248.2896,
+      "ctimeMs": 1532784397248.2896,
+      "birthtimeMs": 1532776867458.7788,
+      "atime": "2018-07-28T13:26:37.248Z",
+      "mtime": "2018-07-28T13:26:37.248Z",
+      "ctime": "2018-07-28T13:26:37.248Z",
+      "birthtime": "2018-07-28T11:21:07.459Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e4bfdcb3eaa1e90b9ac9e1d350f2ee47",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/posts/claps/scraper.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps/scraper.js",
+      "relativePath": "claps/scraper.js",
+      "extension": "js",
+      "size": 715,
+      "prettySize": "715 B",
+      "modifiedTime": "2018-07-21T18:24:24.768Z",
+      "accessTime": "2018-07-28T13:16:29.262Z",
+      "changeTime": "2018-07-21T18:24:24.768Z",
+      "birthTime": "2018-07-21T17:13:20.949Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/claps",
+      "base": "scraper.js",
+      "ext": ".js",
+      "name": "scraper",
+      "relativeDirectory": "claps",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617100375,
+      "blocks": 8,
+      "atimeMs": 1532783789261.949,
+      "mtimeMs": 1532197464767.6497,
+      "ctimeMs": 1532197464767.6497,
+      "birthtimeMs": 1532193200949.1062,
+      "atime": "2018-07-28T13:16:29.262Z",
+      "mtime": "2018-07-21T18:24:24.768Z",
+      "ctime": "2018-07-21T18:24:24.768Z",
+      "birthtime": "2018-07-21T17:13:20.949Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/tree.png absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/tree.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "80e1184a5ad51f4895a32b1ecaadeed3",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/posts/27-02-2018/tree.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/tree.png",
+      "relativePath": "27-02-2018/tree.png",
+      "extension": "png",
+      "size": 269253,
+      "prettySize": "269 kB",
+      "modifiedTime": "2018-07-28T09:29:58.025Z",
+      "accessTime": "2018-07-28T13:00:39.395Z",
+      "changeTime": "2018-07-28T09:30:40.813Z",
+      "birthTime": "2018-07-28T09:29:57.953Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018",
+      "base": "tree.png",
+      "ext": ".png",
+      "name": "tree",
       "relativeDirectory": "27-02-2018",
       "dev": 16777220,
       "mode": 33188,
@@ -1210,16 +1665,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8617091516,
-      "blocks": 32,
-      "atimeMs": 1532470950450.1204,
-      "mtimeMs": 1532470950440.39,
-      "ctimeMs": 1532470950440.39,
-      "birthtimeMs": 1532187892071.2644,
-      "atime": "2018-07-24T22:22:30.450Z",
-      "mtime": "2018-07-24T22:22:30.440Z",
-      "ctime": "2018-07-24T22:22:30.440Z",
-      "birthtime": "2018-07-21T15:44:52.071Z"
+      "ino": 8617430103,
+      "blocks": 528,
+      "atimeMs": 1532782839395.4792,
+      "mtimeMs": 1532770198025.3523,
+      "ctimeMs": 1532770240812.6943,
+      "birthtimeMs": 1532770197952.7825,
+      "atime": "2018-07-28T13:00:39.395Z",
+      "mtime": "2018-07-28T09:29:58.025Z",
+      "ctime": "2018-07-28T09:30:40.813Z",
+      "birthtime": "2018-07-28T09:29:57.953Z"
     },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark",
@@ -1243,6 +1698,208 @@
       "rawMarkdownBody": "\n# Machine Learning\n",
       "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md"
     },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: '/graphics-and-p5'\ntitle: 'Computer Graphics for Everyone'\nsubtitle: 'An Introduction to Computer Graphics using p5.js'\ndate: '2018-02-27'\n---\n\n![Recursive Tree](graphics-and-p5/tree.png)\n\nGraphics and computer programming are two dearly intertwined disciplines. The oscilloscope is often recognised as one of the first examples of “computer graphics”, the cathode-ray versions emitting a beam of electrons onto a phosphorescent screen. By using magnetic fields to change the beam’s direction, we can sweep from left to right and move up and down — the basic idea behind most CG! (I highly recommend watching this [video](https://archive.org/details/introductiontothecathoderayoscilloscope) from 1970).\n\nWe’ve come a long way since then — modern day graphics is a complicated science as well as an art, and the barrier to entry is constantly increasing. Graphics programming can be so complex, that a simple program to draw a triangle can be over [1000 lines of code](https://github.com/SaschaWillems/Vulkan/blob/master/examples/triangle/triangle.cpp)! However, this article will introduce you to [p5.js](https://p5js.org/) (also known as p5). A simpler, less complex solution for people who want to start making computer graphics, but don’t want the headache of streams of boiler-plate code.\n\nStraight from the landing page of the p5.js website.\n> # …make coding accessible for artists, designers, educators and beginners…\n\np5.js is the result of hard-work of the [Processing Foundation](https://processingfoundation.org/), a group focused on spreading computer and visual literacy. It distills their [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)) language into a JavaScript library that makes creating graphics easy and accessible whilst providing an ideal platform to springboard people’s careers in computer graphics. It should be mentioned now that a lot of inspiration has been taken from [Daniel Shiffman’s](http://shiffman.net/) p5 projects (from the [classic snake game](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_03_Snake_game_p5.js), to a [double pendulum](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_93_DoublePendulum_p5.js)). I can’t urge you enough to follow these projects to really improve your understanding of coding concepts and the p5 library.\n\n### Some prerequisites:\n\nBefore jumping into the p5 code I first want to make clear that there is assumed knowledge of HTML5 and JavaScript including arrays, functions, variables etc. in the rest of this article. If you have a good grasp of JavaScript then skip to the p5 code below, otherwise here are few resources to get you up to scratch.\n\n* [HaC Intro to Programming](https://www.youtube.com/watch?v=spIVWmv1jnw) — A workshop that is being run by Hackers at Cambridge to help anyone start learning to program (which uses JavaScript).\n\n* [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript) — a great resource for learning how to code with instant feedback in your browser.\n\n* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) — a great resource for learning about all aspects of web development.\n\n* [Codepen](https://codepen.io/) — a brilliant online text-editor for creating cool projects in HTML, CSS and JavaScript. Equally good for getting inspiration from a lot of talented users. Another possible solution would be [JSFiddle](https://jsfiddle.net/).\n\nWhat follows is a series of steps that will introduce you to p5 concepts. With code examples and explanations I hope to give you enough information to understand the ideas, but to fully grasp the concepts you will have to dive into the code, experiment with it, break it and learn from it. So without further ado, let’s get coding.\n\n### Step 1: The Setup\n\n<high-light className='JavaScript'>\nfunction setup(){\n  //Initialisation of canvas, objects, variables etc.\n}\nfunction draw(){\n  //The drawing loop - updates at a constant rate declared in setup\n}\n</high-light>\n\np5 is really simple to setup once you know what to do. There are two files shown above — an index.html and a template.js. The index.html file gets the libraries for us and the template.js is the barebones structure of a p5 project and at the moment it does nothing! Within this we have two functions:\n\n* setup() — a function for creating what we will need for our graphic or project. Like creating a canvas, initialising some objects or arrays etc.\n\n* draw() — a function which will be called periodically like a loop. This is where will call draw functions and update functions to make graphics and animations.\n\n<iframe height='400' scrolling='no' title='Simple Triangle Tutorial' src='//codepen.io/patricoferris/embed/dddxjr/?height=400&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/dddxjr/'>Simple Triangle Tutorial</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s first look at the setup function. We used the p5 function createCanvas(width, height) which created and initialised a [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) with arguments width and height. Now within our setup() and createCanvas() functions we can reference the variables width and height without ever instantiating them!\n\nNext comes the meaty, draw function. I have purposefully put extra code in here so we can learn more about what p5 has to offer. Firstly always remember that draw() is a loop that runs from top to bottom. Initially, we set the background (of our canvas) to white with background(255) which is the same as background(255, 255, 255) (maximising the red, green and blue values to give white). This may seem simple, but implicitly we are also clearing our canvas every loop… in one line of code! This will be useful for animations later as we want to redraw objects in a new location rather than have the [build-up on the same canvas](https://codepen.io/patricoferris/pen/paxZaw) (click to see it go spectacularly wrong). Next is a translate(width/2, height/2) which moves our current drawing location to the centre of our canvas. We then declare the fill colour of our triangle with fill(255, 0, 0)(making it red).\n\nWe want to create an equilateral triangle with side length s. The triangle itself is a function that takes the vertex coordinates as arguments — triangle(x1, y1, x2, y2, x3, y3) and in this example starting from the centre we have one vertex at (-s/2, 0) another at (s/2, 0) giving a bottom length of s . Now comes the trickier part. A very important aspect of most computer graphics is that the coordinate system starts in the top left corner (or wherever your origin is) and x increases left to right, whilst y increases top to bottom. To move of the screen we need a negative y value. Our last coordinate is given as (0, -sin(PI/3)) (if you’re stuck, think about cutting the triangle in two and using trigonometry).\n\n### Step 2: Get Creative\n\nWe’ve learnt how to set up our canvas and start drawing. Armed with the p5 [reference page](https://p5js.org/reference/) and our creativity, we can make some truly stunning graphics. How about a bouncing ball animation?\n\n<iframe height='400' scrolling='no' title='Bouncing Balls' src='//codepen.io/patricoferris/embed/PQpOrB/?height=400&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/PQpOrB/'>Bouncing Balls</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s look at the interesting p5 aspects that we didn’t know before:\n\n* frameRate(20) — This enables us to specify the frame rate of our drawing loop, that is, how many times per second it redraws everything for us.\n\n* gravity = createVector(0, 9) — p5 allows us to [create vector objects](https://p5js.org/reference/#/p5.Vector) with which we can perform vector operations like addition, multiplication, dot-product and cross-product. This is useful when we want to simulate physics like forces.\n\n* floor(random(50)) — Here we’re using p5 math functions. floor() takes a real number and rounds it down to the nearest integer. random(arg) produces a random number as small as 0 or up to 49. In this example, we are giving it to the ellipse(x, y, w)function to create randomly sized balls by setting the width to a random number. If we gave another argument it would set the ellipse’s height, but here it infers that we want a circle.\n\n* stroke(0) — This function sets the colour of our shape’s outline. If you don’t want any border you can add noStroke() .\n\nAll you need now is to add some physics to these ideas and you have yourself a bouncing ball animation.\n\n### Step 3: Experiment with p5\n\nHopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: *interactivity* and* [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html)*. Keep reading to find out more on these two concepts.\n\n<iframe height='400' scrolling='no' title='Pixel Fire' src='//codepen.io/patricoferris/embed/XZMxmV/?height=400&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/XZMxmV/'>Pixel Fire</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nIn this CodePen I have created a relatively simple flame model using squares and Perlin Noise. First of all, how do we get user input? Lucky for us p5 has some functions that can help.\n\n<high-light className='JavaScript'>\nvar touch = false;\nfunction setup(){\n  createCanvas(640, 640);\n}\nfunction draw(){\n  if(touch){\n    fill(255, 0, 0);\n    rect(mouseX, mouseY, 20, 20);\n  }\n}\nfunction touchStarted(){\n  touch = true;\n}\nfunction touchEnded(){\n  touch = false;\n}\n</high-light>\n\nAt the top of the code we have declared a boolean “flag” as to whether or not our mouse is being pressed — this allows us to do things if the mouse is being held down. The touchStarted() and touchEnded() are p5 functions that are executed whenever the mouse is pressed or released or the screen is touched and released. Lastly, in our rect() function we have the variables mouseX and mouseY which are p5 variables corresponding to the mouse’s current position. Oddly, these also refer to your [“touch” coordinates](https://github.com/processing/p5.js/issues/1705). With all these variables and functions predefined for us we can focus on making visually stunning graphics, whilst not being hampered by having to code extra functions unrelated to the graphic we’re producing.\n\nNow for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of *gradient noise. *The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:\n\n<high-light className='JavaScript'>\nfunction Particle(x, y, color){\n  this.pos = createVector(x + random(-10, 10), y + random(-10, 10));\n  this.vel = createVector(floor(random(-1, 1))*noise(this.pos.x), -noise(this.pos.y)*7);\n  this.alpha = 255;\n  this.r = random(170, 255);\n  this.g = random(10, 255);\n  this.b = random(0, 100);\n  this.update = function(){\n    this.pos.add(this.vel);\n    this.alpha -= 5;\n  }\n  this.show = function(){\n    noStroke();\n    fill(this.r, this.g, this.b, this.alpha);\n    rect(this.pos.x, this.pos.y, 5, 5);\n  }\n  this.dead = function(){\n    if(this.alpha < 0){\n      return true;\n    }else{\n      return false;\n    }\n  }\n}\n</high-light>\n\nSome key things to notice:\n\n* noise(this.pos.x) — The Perlin Noise [function](https://p5js.org/reference/#/p5/noise) that gets a random number based on the square’s current x position. It returns a value between 0 and 1.\n\n* fill(this.r, this.g, this.b, this.alpha) — Here we have extended fill’s ability by including an alpha value for the objects transparency, by decreasing alpha in the update() function we get a nice fade out like a flame.\n\n* dead() — This function allows us to keep track of which particles have disappeared as their alpha is now less than zero. We can then splice() them out of our array to ensure we’re not drawing an unbounded number of particles over time which would cause performance issues.\n\nAs a challenge, you can also use blendMode() to make it seem even more realistic — check this [alteration](https://codepen.io/anon/pen/YeOaJX) to see it in action.\n\nWith only a few concepts and the p5 library, it is incredibly straightforward to start building anything you want. Be sure to checkout what else is possible with the library. Here are few cool ideas to get you started: [3D graphics](https://p5js.org/examples/3d-geometries.html), [sliders](https://p5js.org/examples/dom-slider.html) and [images](https://p5js.org/examples/image-load-and-display-image.html).\n\n### Conclusion\n\nAs computers and technology become ubiquitous in our daily lives and an increasing number of professions are now relying on computer literacy, p5.js is a beautiful example of how we can ensure as many people as possible have an entry-point to the wonderful world of computer programming. It also acts as a reminder to some more experienced programmers that creativity and imagination are vital in producing meaningful code and ultimately making the tech world a better place.\n\nHopefully this intro to p5 has convinced you of its usefulness and has encouraged you to start taking your first steps into the world of graphics programming. Here are my recommendations for where to go next:\n\n* [The Coding Train](https://www.youtube.com/user/shiffman) — A brilliant YouTube channel by Daniel Shiffman where he teaches JavaScript and p5.js amongst many other incredible things!\n\n* [p5js.org ](https://p5js.org/examples/)— The examples page on this website is full of inspiring projects which you could recreate and extend further.\n\n* [Sratchapixel](https://www.scratchapixel.com/index.php) — If you feel ready to delve into the deeper concepts and implementations of computer graphics then this website is an incredible resource for you to use.\n\nA special thanks to [Tom Read Cutting](undefined) for editing this article and [Christian Silver](undefined) for helping get it off the ground.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a6a996565eb9c1aa6349639fdf8b077a",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Computer Graphics for Everyone",
+        "path": "/graphics-and-p5",
+        "subtitle": "An Introduction to Computer Graphics using p5.js",
+        "date": "2018-02-27",
+        "_PARENT": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+        "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![Recursive Tree](graphics-and-p5/tree.png)\n\nGraphics and computer programming are two dearly intertwined disciplines. The oscilloscope is often recognised as one of the first examples of “computer graphics”, the cathode-ray versions emitting a beam of electrons onto a phosphorescent screen. By using magnetic fields to change the beam’s direction, we can sweep from left to right and move up and down — the basic idea behind most CG! (I highly recommend watching this [video](https://archive.org/details/introductiontothecathoderayoscilloscope) from 1970).\n\nWe’ve come a long way since then — modern day graphics is a complicated science as well as an art, and the barrier to entry is constantly increasing. Graphics programming can be so complex, that a simple program to draw a triangle can be over [1000 lines of code](https://github.com/SaschaWillems/Vulkan/blob/master/examples/triangle/triangle.cpp)! However, this article will introduce you to [p5.js](https://p5js.org/) (also known as p5). A simpler, less complex solution for people who want to start making computer graphics, but don’t want the headache of streams of boiler-plate code.\n\nStraight from the landing page of the p5.js website.\n> # …make coding accessible for artists, designers, educators and beginners…\n\np5.js is the result of hard-work of the [Processing Foundation](https://processingfoundation.org/), a group focused on spreading computer and visual literacy. It distills their [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)) language into a JavaScript library that makes creating graphics easy and accessible whilst providing an ideal platform to springboard people’s careers in computer graphics. It should be mentioned now that a lot of inspiration has been taken from [Daniel Shiffman’s](http://shiffman.net/) p5 projects (from the [classic snake game](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_03_Snake_game_p5.js), to a [double pendulum](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_93_DoublePendulum_p5.js)). I can’t urge you enough to follow these projects to really improve your understanding of coding concepts and the p5 library.\n\n### Some prerequisites:\n\nBefore jumping into the p5 code I first want to make clear that there is assumed knowledge of HTML5 and JavaScript including arrays, functions, variables etc. in the rest of this article. If you have a good grasp of JavaScript then skip to the p5 code below, otherwise here are few resources to get you up to scratch.\n\n* [HaC Intro to Programming](https://www.youtube.com/watch?v=spIVWmv1jnw) — A workshop that is being run by Hackers at Cambridge to help anyone start learning to program (which uses JavaScript).\n\n* [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript) — a great resource for learning how to code with instant feedback in your browser.\n\n* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) — a great resource for learning about all aspects of web development.\n\n* [Codepen](https://codepen.io/) — a brilliant online text-editor for creating cool projects in HTML, CSS and JavaScript. Equally good for getting inspiration from a lot of talented users. Another possible solution would be [JSFiddle](https://jsfiddle.net/).\n\nWhat follows is a series of steps that will introduce you to p5 concepts. With code examples and explanations I hope to give you enough information to understand the ideas, but to fully grasp the concepts you will have to dive into the code, experiment with it, break it and learn from it. So without further ado, let’s get coding.\n\n### Step 1: The Setup\n\n<high-light className='JavaScript'>\nfunction setup(){\n  //Initialisation of canvas, objects, variables etc.\n}\nfunction draw(){\n  //The drawing loop - updates at a constant rate declared in setup\n}\n</high-light>\n\np5 is really simple to setup once you know what to do. There are two files shown above — an index.html and a template.js. The index.html file gets the libraries for us and the template.js is the barebones structure of a p5 project and at the moment it does nothing! Within this we have two functions:\n\n* setup() — a function for creating what we will need for our graphic or project. Like creating a canvas, initialising some objects or arrays etc.\n\n* draw() — a function which will be called periodically like a loop. This is where will call draw functions and update functions to make graphics and animations.\n\n<iframe height='400' scrolling='no' title='Simple Triangle Tutorial' src='//codepen.io/patricoferris/embed/dddxjr/?height=400&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/dddxjr/'>Simple Triangle Tutorial</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s first look at the setup function. We used the p5 function createCanvas(width, height) which created and initialised a [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) with arguments width and height. Now within our setup() and createCanvas() functions we can reference the variables width and height without ever instantiating them!\n\nNext comes the meaty, draw function. I have purposefully put extra code in here so we can learn more about what p5 has to offer. Firstly always remember that draw() is a loop that runs from top to bottom. Initially, we set the background (of our canvas) to white with background(255) which is the same as background(255, 255, 255) (maximising the red, green and blue values to give white). This may seem simple, but implicitly we are also clearing our canvas every loop… in one line of code! This will be useful for animations later as we want to redraw objects in a new location rather than have the [build-up on the same canvas](https://codepen.io/patricoferris/pen/paxZaw) (click to see it go spectacularly wrong). Next is a translate(width/2, height/2) which moves our current drawing location to the centre of our canvas. We then declare the fill colour of our triangle with fill(255, 0, 0)(making it red).\n\nWe want to create an equilateral triangle with side length s. The triangle itself is a function that takes the vertex coordinates as arguments — triangle(x1, y1, x2, y2, x3, y3) and in this example starting from the centre we have one vertex at (-s/2, 0) another at (s/2, 0) giving a bottom length of s . Now comes the trickier part. A very important aspect of most computer graphics is that the coordinate system starts in the top left corner (or wherever your origin is) and x increases left to right, whilst y increases top to bottom. To move of the screen we need a negative y value. Our last coordinate is given as (0, -sin(PI/3)) (if you’re stuck, think about cutting the triangle in two and using trigonometry).\n\n### Step 2: Get Creative\n\nWe’ve learnt how to set up our canvas and start drawing. Armed with the p5 [reference page](https://p5js.org/reference/) and our creativity, we can make some truly stunning graphics. How about a bouncing ball animation?\n\n<iframe height='400' scrolling='no' title='Bouncing Balls' src='//codepen.io/patricoferris/embed/PQpOrB/?height=400&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/PQpOrB/'>Bouncing Balls</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s look at the interesting p5 aspects that we didn’t know before:\n\n* frameRate(20) — This enables us to specify the frame rate of our drawing loop, that is, how many times per second it redraws everything for us.\n\n* gravity = createVector(0, 9) — p5 allows us to [create vector objects](https://p5js.org/reference/#/p5.Vector) with which we can perform vector operations like addition, multiplication, dot-product and cross-product. This is useful when we want to simulate physics like forces.\n\n* floor(random(50)) — Here we’re using p5 math functions. floor() takes a real number and rounds it down to the nearest integer. random(arg) produces a random number as small as 0 or up to 49. In this example, we are giving it to the ellipse(x, y, w)function to create randomly sized balls by setting the width to a random number. If we gave another argument it would set the ellipse’s height, but here it infers that we want a circle.\n\n* stroke(0) — This function sets the colour of our shape’s outline. If you don’t want any border you can add noStroke() .\n\nAll you need now is to add some physics to these ideas and you have yourself a bouncing ball animation.\n\n### Step 3: Experiment with p5\n\nHopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: *interactivity* and* [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html)*. Keep reading to find out more on these two concepts.\n\n<iframe height='400' scrolling='no' title='Pixel Fire' src='//codepen.io/patricoferris/embed/XZMxmV/?height=400&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/XZMxmV/'>Pixel Fire</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nIn this CodePen I have created a relatively simple flame model using squares and Perlin Noise. First of all, how do we get user input? Lucky for us p5 has some functions that can help.\n\n<high-light className='JavaScript'>\nvar touch = false;\nfunction setup(){\n  createCanvas(640, 640);\n}\nfunction draw(){\n  if(touch){\n    fill(255, 0, 0);\n    rect(mouseX, mouseY, 20, 20);\n  }\n}\nfunction touchStarted(){\n  touch = true;\n}\nfunction touchEnded(){\n  touch = false;\n}\n</high-light>\n\nAt the top of the code we have declared a boolean “flag” as to whether or not our mouse is being pressed — this allows us to do things if the mouse is being held down. The touchStarted() and touchEnded() are p5 functions that are executed whenever the mouse is pressed or released or the screen is touched and released. Lastly, in our rect() function we have the variables mouseX and mouseY which are p5 variables corresponding to the mouse’s current position. Oddly, these also refer to your [“touch” coordinates](https://github.com/processing/p5.js/issues/1705). With all these variables and functions predefined for us we can focus on making visually stunning graphics, whilst not being hampered by having to code extra functions unrelated to the graphic we’re producing.\n\nNow for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of *gradient noise. *The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:\n\n<high-light className='JavaScript'>\nfunction Particle(x, y, color){\n  this.pos = createVector(x + random(-10, 10), y + random(-10, 10));\n  this.vel = createVector(floor(random(-1, 1))*noise(this.pos.x), -noise(this.pos.y)*7);\n  this.alpha = 255;\n  this.r = random(170, 255);\n  this.g = random(10, 255);\n  this.b = random(0, 100);\n  this.update = function(){\n    this.pos.add(this.vel);\n    this.alpha -= 5;\n  }\n  this.show = function(){\n    noStroke();\n    fill(this.r, this.g, this.b, this.alpha);\n    rect(this.pos.x, this.pos.y, 5, 5);\n  }\n  this.dead = function(){\n    if(this.alpha < 0){\n      return true;\n    }else{\n      return false;\n    }\n  }\n}\n</high-light>\n\nSome key things to notice:\n\n* noise(this.pos.x) — The Perlin Noise [function](https://p5js.org/reference/#/p5/noise) that gets a random number based on the square’s current x position. It returns a value between 0 and 1.\n\n* fill(this.r, this.g, this.b, this.alpha) — Here we have extended fill’s ability by including an alpha value for the objects transparency, by decreasing alpha in the update() function we get a nice fade out like a flame.\n\n* dead() — This function allows us to keep track of which particles have disappeared as their alpha is now less than zero. We can then splice() them out of our array to ensure we’re not drawing an unbounded number of particles over time which would cause performance issues.\n\nAs a challenge, you can also use blendMode() to make it seem even more realistic — check this [alteration](https://codepen.io/anon/pen/YeOaJX) to see it in action.\n\nWith only a few concepts and the p5 library, it is incredibly straightforward to start building anything you want. Be sure to checkout what else is possible with the library. Here are few cool ideas to get you started: [3D graphics](https://p5js.org/examples/3d-geometries.html), [sliders](https://p5js.org/examples/dom-slider.html) and [images](https://p5js.org/examples/image-load-and-display-image.html).\n\n### Conclusion\n\nAs computers and technology become ubiquitous in our daily lives and an increasing number of professions are now relying on computer literacy, p5.js is a beautiful example of how we can ensure as many people as possible have an entry-point to the wonderful world of computer programming. It also acts as a reminder to some more experienced programmers that creativity and imagination are vital in producing meaningful code and ultimately making the tech world a better place.\n\nHopefully this intro to p5 has convinced you of its usefulness and has encouraged you to start taking your first steps into the world of graphics programming. Here are my recommendations for where to go next:\n\n* [The Coding Train](https://www.youtube.com/user/shiffman) — A brilliant YouTube channel by Daniel Shiffman where he teaches JavaScript and p5.js amongst many other incredible things!\n\n* [p5js.org ](https://p5js.org/examples/)— The examples page on this website is full of inspiring projects which you could recreate and extend further.\n\n* [Sratchapixel](https://www.scratchapixel.com/index.php) — If you feel ready to delve into the deeper concepts and implementations of computer graphics then this website is an incredible resource for you to use.\n\nA special thanks to [Tom Read Cutting](undefined) for editing this article and [Christian Silver](undefined) for helping get it off the ground.\n",
+      "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/Helvetica.png absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/Helvetica.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ca41f45cdf6ac5e3cde31f077754b556",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/posts/28-07-2018/Helvetica.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/Helvetica.png",
+      "relativePath": "28-07-2018/Helvetica.png",
+      "extension": "png",
+      "size": 574775,
+      "prettySize": "575 kB",
+      "modifiedTime": "2018-04-23T11:29:08.000Z",
+      "accessTime": "2018-07-28T13:00:39.396Z",
+      "changeTime": "2018-07-28T12:08:05.206Z",
+      "birthTime": "2018-04-23T11:29:08.000Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018",
+      "base": "Helvetica.png",
+      "ext": ".png",
+      "name": "Helvetica",
+      "relativeDirectory": "28-07-2018",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617444822,
+      "blocks": 1128,
+      "atimeMs": 1532782839395.6125,
+      "mtimeMs": 1524482948000,
+      "ctimeMs": 1532779685205.9194,
+      "birthtimeMs": 1524482948000,
+      "atime": "2018-07-28T13:00:39.396Z",
+      "mtime": "2018-04-23T11:29:08.000Z",
+      "ctime": "2018-07-28T12:08:05.206Z",
+      "birthtime": "2018-04-23T11:29:08.000Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/Roboto.png absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/Roboto.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f1c8ae24d05da8c8652d268ea4d517a3",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/posts/28-07-2018/Roboto.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/Roboto.png",
+      "relativePath": "28-07-2018/Roboto.png",
+      "extension": "png",
+      "size": 541143,
+      "prettySize": "541 kB",
+      "modifiedTime": "2018-04-23T11:28:33.000Z",
+      "accessTime": "2018-07-28T13:00:39.396Z",
+      "changeTime": "2018-07-28T12:08:05.212Z",
+      "birthTime": "2018-04-23T11:28:33.000Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018",
+      "base": "Roboto.png",
+      "ext": ".png",
+      "name": "Roboto",
+      "relativeDirectory": "28-07-2018",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617444823,
+      "blocks": 1064,
+      "atimeMs": 1532782839395.594,
+      "mtimeMs": 1524482913000,
+      "ctimeMs": 1532779685212.238,
+      "birthtimeMs": 1524482913000,
+      "atime": "2018-07-28T13:00:39.396Z",
+      "mtime": "2018-04-23T11:28:33.000Z",
+      "ctime": "2018-07-28T12:08:05.212Z",
+      "birthtime": "2018-04-23T11:28:33.000Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/script_at_bottom.gif absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/script_at_bottom.gif absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "87fdc6a207e469a85c5c23bd6b8dc23c",
+        "mediaType": "image/gif",
+        "type": "File",
+        "description": "File \"src/posts/28-07-2018/script_at_bottom.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/script_at_bottom.gif",
+      "relativePath": "28-07-2018/script_at_bottom.gif",
+      "extension": "gif",
+      "size": 3915920,
+      "prettySize": "3.92 MB",
+      "modifiedTime": "2018-04-26T13:02:30.000Z",
+      "accessTime": "2018-07-28T13:00:39.396Z",
+      "changeTime": "2018-07-28T12:08:05.518Z",
+      "birthTime": "2018-04-26T13:02:29.000Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018",
+      "base": "script_at_bottom.gif",
+      "ext": ".gif",
+      "name": "script_at_bottom",
+      "relativeDirectory": "28-07-2018",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617444826,
+      "blocks": 7656,
+      "atimeMs": 1532782839395.586,
+      "mtimeMs": 1524747750000,
+      "ctimeMs": 1532779685517.9097,
+      "birthtimeMs": 1524747749000,
+      "atime": "2018-07-28T13:00:39.396Z",
+      "mtime": "2018-04-26T13:02:30.000Z",
+      "ctime": "2018-07-28T12:08:05.518Z",
+      "birthtime": "2018-04-26T13:02:29.000Z"
+    },
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/script_at_top.gif absPath of file": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/script_at_top.gif absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c4b3aae6be1ead00306f802efe107e5b",
+        "mediaType": "image/gif",
+        "type": "File",
+        "description": "File \"src/posts/28-07-2018/script_at_top.gif\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/script_at_top.gif",
+      "relativePath": "28-07-2018/script_at_top.gif",
+      "extension": "gif",
+      "size": 4538601,
+      "prettySize": "4.54 MB",
+      "modifiedTime": "2018-04-26T13:02:09.000Z",
+      "accessTime": "2018-07-28T13:00:39.396Z",
+      "changeTime": "2018-07-28T12:08:05.523Z",
+      "birthTime": "2018-04-26T13:02:08.000Z",
+      "root": "/",
+      "dir": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018",
+      "base": "script_at_top.gif",
+      "ext": ".gif",
+      "name": "script_at_top",
+      "relativeDirectory": "28-07-2018",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8617444828,
+      "blocks": 8872,
+      "atimeMs": 1532782839395.6003,
+      "mtimeMs": 1524747729000,
+      "ctimeMs": 1532779685523.276,
+      "birthtimeMs": 1524747728000,
+      "atime": "2018-07-28T13:00:39.396Z",
+      "mtime": "2018-04-26T13:02:09.000Z",
+      "ctime": "2018-07-28T12:08:05.523Z",
+      "birthtime": "2018-04-26T13:02:08.000Z"
+    },
     "SitePage /tensorflow-and-word2vec": {
       "layout": "index",
       "jsonName": "tensorflow-and-word-2-vec.json",
@@ -1259,7 +1916,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "893d8765b2fd40bef0d322946a4ac8b4",
+        "contentDigest": "784694150223f9cbf0908045891c7e59",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1280,7 +1937,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "19290342d861d731ee882367bb832a33",
+        "contentDigest": "d1829a9081951838f719d53c6ab3ab82",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /optimise-your-website": {
+      "layout": "index",
+      "jsonName": "optimise-your-website.json",
+      "internalComponentName": "ComponentOptimiseYourWebsite",
+      "path": "/optimise-your-website",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "id": "SitePage /optimise-your-website",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "44673a8d222cb476c37c0af634a58aee",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1301,7 +1979,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "50a70361f6c04cc36d6f164acca15daa",
+        "contentDigest": "b11fdc29fb5b24ccc5c13e4ba2bc10e1",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1322,7 +2000,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "283d7a50b61455867e4df9e26e8a13b3",
+        "contentDigest": "71b1241c88fb34833142256ac048cf63",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1343,7 +2021,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0296cda614ca75d7099d212f1cfe79c2",
+        "contentDigest": "c7055f87b48fd61f2bcb48a2dfa3c6b6",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1364,45 +2042,48 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8cc6d6ae5d1096026122e1baae4057d4",
+        "contentDigest": "e35154420d4126f094d25a9bf15b83a9",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     },
-    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark",
+    "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/index.md absPath of file >>> MarkdownRemark",
       "children": [],
-      "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
+      "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/index.md absPath of file",
       "internal": {
-        "content": "---\npath: '/graphics-and-p5'\ntitle: 'Computer Graphics for Everyone'\nsubtitle: 'An Introduction to Computer Graphics using p5.js'\ndate: '2018-02-27'\n---\n\n\nGraphics and computer programming are two dearly intertwined disciplines. The oscilloscope is often recognised as one of the first examples of “computer graphics”, the cathode-ray versions emitting a beam of electrons onto a phosphorescent screen. By using magnetic fields to change the beam’s direction, we can sweep from left to right and move up and down — the basic idea behind most CG! (I highly recommend watching this [video](https://archive.org/details/introductiontothecathoderayoscilloscope) from 1970).\n\nWe’ve come a long way since then — modern day graphics is a complicated science as well as an art, and the barrier to entry is constantly increasing. Graphics programming can be so complex, that a simple program to draw a triangle can be over [1000 lines of code](https://github.com/SaschaWillems/Vulkan/blob/master/examples/triangle/triangle.cpp)! However, this article will introduce you to [p5.js](https://p5js.org/) (also known as p5). A simpler, less complex solution for people who want to start making computer graphics, but don’t want the headache of streams of boiler-plate code.\n\nStraight from the landing page of the p5.js website.\n> # …make coding accessible for artists, designers, educators and beginners…\n\np5.js is the result of hard-work of the [Processing Foundation](https://processingfoundation.org/), a group focused on spreading computer and visual literacy. It distills their [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)) language into a JavaScript library that makes creating graphics easy and accessible whilst providing an ideal platform to springboard people’s careers in computer graphics. It should be mentioned now that a lot of inspiration has been taken from [Daniel Shiffman’s](http://shiffman.net/) p5 projects (from the [classic snake game](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_03_Snake_game_p5.js), to a [double pendulum](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_93_DoublePendulum_p5.js)). I can’t urge you enough to follow these projects to really improve your understanding of coding concepts and the p5 library.\n\n### Some prerequisites:\n\nBefore jumping into the p5 code I first want to make clear that there is assumed knowledge of HTML5 and JavaScript including arrays, functions, variables etc. in the rest of this article. If you have a good grasp of JavaScript then skip to the p5 code below, otherwise here are few resources to get you up to scratch.\n\n* [HaC Intro to Programming](https://www.youtube.com/watch?v=spIVWmv1jnw) — A workshop that is being run by Hackers at Cambridge to help anyone start learning to program (which uses JavaScript).\n\n* [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript) — a great resource for learning how to code with instant feedback in your browser.\n\n* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) — a great resource for learning about all aspects of web development.\n\n* [Codepen](https://codepen.io/) — a brilliant online text-editor for creating cool projects in HTML, CSS and JavaScript. Equally good for getting inspiration from a lot of talented users. Another possible solution would be [JSFiddle](https://jsfiddle.net/).\n\nWhat follows is a series of steps that will introduce you to p5 concepts. With code examples and explanations I hope to give you enough information to understand the ideas, but to fully grasp the concepts you will have to dive into the code, experiment with it, break it and learn from it. So without further ado, let’s get coding.\n\n### Step 1: The Setup\n\n<high-light className='JavaScript'>\nfunction setup(){\n  //Initialisation of canvas, objects, variables etc.\n}\nfunction draw(){\n  //The drawing loop - updates at a constant rate declared in setup\n}\n</high-light>\n\np5 is really simple to setup once you know what to do. There are two files shown above — an index.html and a template.js. The index.html file gets the libraries for us and the template.js is the barebones structure of a p5 project and at the moment it does nothing! Within this we have two functions:\n\n* setup() — a function for creating what we will need for our graphic or project. Like creating a canvas, initialising some objects or arrays etc.\n\n* draw() — a function which will be called periodically like a loop. This is where will call draw functions and update functions to make graphics and animations.\n\n<iframe height='265' scrolling='no' title='Simple Triangle Tutorial' src='//codepen.io/patricoferris/embed/dddxjr/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/dddxjr/'>Simple Triangle Tutorial</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s first look at the setup function. We used the p5 function createCanvas(width, height) which created and initialised a [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) with arguments width and height. Now within our setup() and createCanvas() functions we can reference the variables width and height without ever instantiating them!\n\nNext comes the meaty, draw function. I have purposefully put extra code in here so we can learn more about what p5 has to offer. Firstly always remember that draw() is a loop that runs from top to bottom. Initially, we set the background (of our canvas) to white with background(255) which is the same as background(255, 255, 255) (maximising the red, green and blue values to give white). This may seem simple, but implicitly we are also clearing our canvas every loop… in one line of code! This will be useful for animations later as we want to redraw objects in a new location rather than have the [build-up on the same canvas](https://codepen.io/patricoferris/pen/paxZaw) (click to see it go spectacularly wrong). Next is a translate(width/2, height/2) which moves our current drawing location to the centre of our canvas. We then declare the fill colour of our triangle with fill(255, 0, 0)(making it red).\n\nWe want to create an equilateral triangle with side length s. The triangle itself is a function that takes the vertex coordinates as arguments — triangle(x1, y1, x2, y2, x3, y3) and in this example starting from the centre we have one vertex at (-s/2, 0) another at (s/2, 0) giving a bottom length of s . Now comes the trickier part. A very important aspect of most computer graphics is that the coordinate system starts in the top left corner (or wherever your origin is) and x increases left to right, whilst y increases top to bottom. To move of the screen we need a negative y value. Our last coordinate is given as (0, -sin(PI/3)) (if you’re stuck, think about cutting the triangle in two and using trigonometry).\n\n### Step 2: Get Creative\n\nWe’ve learnt how to set up our canvas and start drawing. Armed with the p5 [reference page](https://p5js.org/reference/) and our creativity, we can make some truly stunning graphics. How about a bouncing ball animation?\n\n<iframe height='265' scrolling='no' title='Bouncing Balls' src='//codepen.io/patricoferris/embed/PQpOrB/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/PQpOrB/'>Bouncing Balls</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s look at the interesting p5 aspects that we didn’t know before:\n\n* frameRate(20) — This enables us to specify the frame rate of our drawing loop, that is, how many times per second it redraws everything for us.\n\n* gravity = createVector(0, 9) — p5 allows us to [create vector objects](https://p5js.org/reference/#/p5.Vector) with which we can perform vector operations like addition, multiplication, dot-product and cross-product. This is useful when we want to simulate physics like forces.\n\n* floor(random(50)) — Here we’re using p5 math functions. floor() takes a real number and rounds it down to the nearest integer. random(arg) produces a random number as small as 0 or up to 49. In this example, we are giving it to the ellipse(x, y, w)function to create randomly sized balls by setting the width to a random number. If we gave another argument it would set the ellipse’s height, but here it infers that we want a circle.\n\n* stroke(0) — This function sets the colour of our shape’s outline. If you don’t want any border you can add noStroke() .\n\nAll you need now is to add some physics to these ideas and you have yourself a bouncing ball animation.\n\n### Step 3: Experiment with p5\n\nHopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: *interactivity* and* [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html)*. Keep reading to find out more on these two concepts.\n\n<iframe height='265' scrolling='no' title='Pixel Fire' src='//codepen.io/patricoferris/embed/XZMxmV/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/XZMxmV/'>Pixel Fire</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nIn this CodePen I have created a relatively simple flame model using squares and Perlin Noise. First of all, how do we get user input? Lucky for us p5 has some functions that can help.\n\n<high-light className='JavaScript'>\nvar touch = false;\nfunction setup(){\n  createCanvas(640, 640);\n}\nfunction draw(){\n  if(touch){\n    fill(255, 0, 0);\n    rect(mouseX, mouseY, 20, 20);\n  }\n}\nfunction touchStarted(){\n  touch = true;\n}\nfunction touchEnded(){\n  touch = false;\n}\n</high-light>\n\nAt the top of the code we have declared a boolean “flag” as to whether or not our mouse is being pressed — this allows us to do things if the mouse is being held down. The touchStarted() and touchEnded() are p5 functions that are executed whenever the mouse is pressed or released or the screen is touched and released. Lastly, in our rect() function we have the variables mouseX and mouseY which are p5 variables corresponding to the mouse’s current position. Oddly, these also refer to your [“touch” coordinates](https://github.com/processing/p5.js/issues/1705). With all these variables and functions predefined for us we can focus on making visually stunning graphics, whilst not being hampered by having to code extra functions unrelated to the graphic we’re producing.\n\nNow for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of *gradient noise. *The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:\n\n<high-light className='JavaScript'>\nfunction Particle(x, y, color){\n  this.pos = createVector(x + random(-10, 10), y + random(-10, 10));\n  this.vel = createVector(floor(random(-1, 1))*noise(this.pos.x), -noise(this.pos.y)*7);\n  this.alpha = 255;\n  this.r = random(170, 255);\n  this.g = random(10, 255);\n  this.b = random(0, 100);\n  this.update = function(){\n    this.pos.add(this.vel);\n    this.alpha -= 5;\n  }\n  this.show = function(){\n    noStroke();\n    fill(this.r, this.g, this.b, this.alpha);\n    rect(this.pos.x, this.pos.y, 5, 5);\n  }\n  this.dead = function(){\n    if(this.alpha < 0){\n      return true;\n    }else{\n      return false;\n    }\n  }\n}\n</high-light>\n\nSome key things to notice:\n\n* noise(this.pos.x) — The Perlin Noise [function](https://p5js.org/reference/#/p5/noise) that gets a random number based on the square’s current x position. It returns a value between 0 and 1.\n\n* fill(this.r, this.g, this.b, this.alpha) — Here we have extended fill’s ability by including an alpha value for the objects transparency, by decreasing alpha in the update() function we get a nice fade out like a flame.\n\n* dead() — This function allows us to keep track of which particles have disappeared as their alpha is now less than zero. We can then splice() them out of our array to ensure we’re not drawing an unbounded number of particles over time which would cause performance issues.\n\nAs a challenge, you can also use blendMode() to make it seem even more realistic — check this [alteration](https://codepen.io/anon/pen/YeOaJX) to see it in action.\n\nWith only a few concepts and the p5 library, it is incredibly straightforward to start building anything you want. Be sure to checkout what else is possible with the library. Here are few cool ideas to get you started: [3D graphics](https://p5js.org/examples/3d-geometries.html), [sliders](https://p5js.org/examples/dom-slider.html) and [images](https://p5js.org/examples/image-load-and-display-image.html).\n\n### Conclusion\n\nAs computers and technology become ubiquitous in our daily lives and an increasing number of professions are now relying on computer literacy, p5.js is a beautiful example of how we can ensure as many people as possible have an entry-point to the wonderful world of computer programming. It also acts as a reminder to some more experienced programmers that creativity and imagination are vital in producing meaningful code and ultimately making the tech world a better place.\n\nHopefully this intro to p5 has convinced you of its usefulness and has encouraged you to start taking your first steps into the world of graphics programming. Here are my recommendations for where to go next:\n\n* [The Coding Train](https://www.youtube.com/user/shiffman) — A brilliant YouTube channel by Daniel Shiffman where he teaches JavaScript and p5.js amongst many other incredible things!\n\n* [p5js.org ](https://p5js.org/examples/)— The examples page on this website is full of inspiring projects which you could recreate and extend further.\n\n* [Sratchapixel](https://www.scratchapixel.com/index.php) — If you feel ready to delve into the deeper concepts and implementations of computer graphics then this website is an incredible resource for you to use.\n\nA special thanks to [Tom Read Cutting](undefined) for editing this article and [Christian Silver](undefined) for helping get it off the ground.\n",
+        "content": "---\npath: '/optimise-your-website'\ntitle: 'Optimising your Website'\nsubtitle: 'Tips and tricks to keep your website lean and fast'\ndate: '2018-07-28'\n---\n![Optimising your Website](https://res.cloudinary.com/patricoferris/image/upload/v1532781201/pf2018/blogposts/28-07-2018/website_optimisation_2.png)\nInspired by a [Syntax](https://syntax.fm/) podcast, I got really interested in website optimisation. It can often be an overlooked aspect in web development with more focus on design and functionality, I realised my number one priority whenever I visited a website is load speed. My attention is a website’s number one goal, lose it and they lose all potential ad revenue or possibility to give me whatever information I was looking for. [Many seem to agree. 53% of users abandon websites that take more than 3 seconds to load](https://developers.google.com/web/fundamentals/performance/get-started/). No amount of fancy graphics or parallax scrolling that appears five seconds after someone’s clicked will hide the slow loading times.\n\nThe aim of this article is to give a broad overview of the concepts and ideas behind optimising your website, experienced developers are likely already using things like Webpack (a module bundler) among other tools to speed-up their sites.\n\nFor testing load-times I will be using the [Page Load Time ](https://chrome.google.com/webstore/detail/page-load-time/fploionmjgeclbkemipmkogoaohcdbig?hl=en)Chrome extension. There are a few ways to measure website loading time including: [first paint, first meaning paint, DOMContentLoaded](https://developers.google.com/web/tools/chrome-user-experience-report/) etc. For a more detailed look into what this timer measures, check out the Github repository below.\n[**alex-vv/chrome-load-timer**\n*chrome-load-timer - Google Chrome extension to measure page load time and display it in the toolbar*github.com](https://github.com/alex-vv/chrome-load-timer)\n\n### **Use Minified Stylesheets and Scripts**\n\nYou would be amazed at how much performance can be gained by this simple trick. What is a minified document? When we write code it is never our job to make it optimised for the computer, instead our golden rule is to make it readable to humans. This improves readability, cuts down on debug time and makes it easier to maintain. However, to achieve this we often add extra spacing which costs us precious space. Minifying the code is trimming all this fat from what we’ve written to have code that produces the same result but is far more difficult to read and maintain. This is okay though, because a computer has no problem deciphering it. Take the following code for example.\n\n```javascript\n//Normal JavaScript Code\nconst arr = [1, 2, 3, 4, 5];\nfor(let i = 0; i < arr.length; i++){\n  console.log(arr[i]);\n}\n\n//Minified Code - A 22.83% Compression saving 0.02kB\nconst arr=[1,2,3,4,5];for(let a=0;a<arr.length;a++)console.log(arr[a]);\n```\n\nNotice how, wherever possible, our line-breaks and spaces are gone. On top of that, the code in the for-loop is only one line so there’s no need for the curly braces which extends our code over three lines when it can be done in one. Does this make a difference?\n\nI tried it out on simple website that just had one script tag being loaded in for the graphics library [p5.js](https://p5js.org/). Using the non-minified CDN link I got a load time of 0.25 seconds. Using the minified version I got a markedly improved load time of 0.08 seconds. Depending on what your website project is, there are a few ways to automatically minify code. If it is a [Meteor app](https://guide.meteor.com/build-tool.html) it will be done automatically, using [Webpack ](https://webpack.js.org/guides/production/)will also allow you to do this. Otherwise there are some online tools like [JSCompress ](https://jscompress.com/)or [CSSMinifier ](https://cssminifier.com/)that you can upload your code to.\n\n### Design Versus Performance\n\nWhilst design is undoubtedly a major aspect to a website’s overall success, both developers and designers must work together to compromise and make a mutually beneficial trade-off between design and performance. The classic example is fonts. Take the two screenshots of a simple website below.\n\n![The example website using Helvetica Font (commonly found on many computers) — check [this](https://css-tricks.com/snippets/css/system-font-stack/) link for common system fonts](https://res.cloudinary.com/patricoferris/image/upload/v1532780050/pf2018/blogposts/28-07-2018/Helvetica.png)\n*The example website using Helvetica Font (commonly found on many computers) — check [this](https://css-tricks.com/snippets/css/system-font-stack/) link for common system fonts*\n\n![The example website using Roboto Font (designed by Google and linked from [Google Fonts](https://fonts.google.com/?selection.family=Roboto))](https://cdn-images-1.medium.com/max/5760/1*8ciuJNBdqMhlLSaOpNUXow.png)*The example website using Roboto Font (designed by Google and linked from [Google Fonts](https://fonts.google.com/?selection.family=Roboto))*\n\nBefore critiquing my questionable design skills take a moment to appreciate that these two fonts are very similar — yet the loading time for a website for the Roboto font was 0.22 seconds as compared with 0.17 for Helvetica. Whilst not that significant, using lots of custom fonts will slow down your website, although using Google Fonts’ API will help keep your website optimised. As an over-the-top example, linking 20 different fonts from the Google API increased the load time to 0.87 seconds.\n\n### Inlining your JavaScript and CSS\n\nFor each individual document or component of your website, when the parser reaches the script tag or link tag it sends and HTTP request for that document and if not stated differently, these will be blocking actions. What this means is your machine is parsing the HTML document getting the words to display in your browser but if it hits the script tag with the attribute src='js/main.js' for example, it will block the parsing and load in that file. This is where as a developer you need to be clever about where in the document you place things.\n\nWhilst it may not ultimately affect the loading time of your website, it can affect the order in which things are loaded. Again we’ll be using the un-minified p5.js library to simulate a large JavaScript file and load it in different places to see how it affects our user experience.\n\n![Refreshing website with the script tag inserted at the bottom of the body tag](https://cdn-images-1.medium.com/max/2780/1*h_3GogfkaahcXCO9a43CPA.gif)*Refreshing website with the script tag inserted at the bottom of the body tag*\n\n![Refreshing website with the script tag inserted at the top of the body tag](https://cdn-images-1.medium.com/max/2780/1*xLOq5r4erQAwb4Au_hB-Ww.gif)*Refreshing website with the script tag inserted at the top of the body tag*\n\nWhilst the load times were similar for both cases — the user experience is far better by placing the script at the body tag allowing the HTML to be parsed before the JavaScript giving the user the website content immediately!\n\nIn the same vein CSS can also be render-blocking especially because more often than not it is linked in the head tag of your HTML document before the body. But if we want our user to see the content in the quickest time we don’t want to be loading CSS for the footer of our document which the user won’t see until they’ve scrolled to the bottom. In fact, we don’t want to load any CSS in that the user can’t immediately see when the page first loads on their device.\n\nThe CSS that you need is often called the *Critical CSS*. Finding it for yourself would be a headache. It will be different for different devices, meaning you would have to check manually for all possible devices. Lucky for us we have (if you’re using [Node.js](https://nodejs.org/en/)) [Critical](https://github.com/addyosmani/critical). This helpful package does the CSS inlining for us and all we do is add some code to a Javascript file. Here’s a code snippet from the Github page.\n\n```javascript\nlet critical = require('critical');\n\ncritical.generate({\n    base: 'test/',\n    src: 'index.html',\n    dest: 'styles/main.css',\n    dimensions: [{\n        height: 200,\n        width: 500\n    }, {\n        height: 900,\n        width: 1200\n    }]\n});\n```\n\nUsing the generate function, we supply it with a JavaScript object with some values defined. base is where we’re going to save our src and dest (our project folder usually). What’s great is now we just supply an array of dimensions and the code will compute the critical CSS for each and inline that code into our head tag.\n\n### Async and Defer\n\nAgain, we come back to this idea of render-blocking and how best we should implement this for our website. When you have a plain script tag in your HTML it blocks the HTML from loading whilst the JavaScript loads **and** runs. Async and defer are simple attributes that you can add to your script tags that change the way your JavaScript will be loaded.\n\nDefer essentially “defers” execution of the script until after the HTML has been parsed. A major advantage of this is that you no longer need some $(document).ready() jQuery-style function to make sure the body was loaded before you could manipulate it, which could cut out some of the dependencies on libraries like jQuery which helps reduce load-time.\n\nAsync is, unsurprisingly, the asynchronous loading of JavaScript files. What does this mean? Your HTML will continue to be parsed whilst the file is loaded and then whenever its ready the file will be executed. This helps improving user experience whilst viewing your website. Imagine for example you had a JavaScript file for doing some cool graphics. You want the words around this graphic to be parsed until your graphic is ready to be executed. As soon as it is ready, it is executed and we get a more seamless loading of our webpage without missing pieces.\n\nCheck this [website](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html) for a really intuitive, graphical representation of this.\n\n### Image Optimisation and Media Queries\n\nThe cornerstone of all website performance optimisation is the simple rule that, the less data you send to the client, the quicker and better your website will perform. With the plethora of devices on the market capable of viewing websites, there is a growing trend to optimise your website based on the device it is being viewed on.\n\nMedia queries are a fairly new tool added to CSS3. With more and more content being consumed using mobile-devices there has been a shift in design thinking towards mobile first. Using media queries you can then add stylings for larger screen sizes.\n\n```css\n@media only screen and (min-width: 600px) {\n /* Some CSS for screen sizes bigger than 600px but smaller than 992px */\n}\n\n@media only screen and (min-width: 992px) {\n /*  Some CSS for screen sizes bigger than 992px */\n}\n\n@media only screen and (orientation: landscape) {\n  /* Some CSS for landscape-oriented devices */\n}\n```\n\nThe @media tag starts a new CSS rule, whilst the only keyword stops older browsers that don’t support media queries from using it. The screen keyword applies the rules to screens rather than prints. After that you add the media-feature which supports the and , or and not keywords so you can get as specific as you want. When you’re loading your image you can write code like:\n\n```css\n@media only screen and (min-width: 600px) {\n   background-image: url('supercoolimages/dog-small.png');\n}\n\n@media only screen and (min-width: 992px) {\n   background-image: url('supercoolimages/dog-big.png');\n}\n```\n\nThis isn’t necessarily the best or optimal approach for image optimisation. Luckily we have other options. [Imgix](https://www.imgix.com/) and [Cloudinary](https://cloudinary.com/) are two ways you can help optimise your site for the right device. Imgix is a Content Delivery Network (CDN) for images with a lot of cool features. A CDN simply takes your files and spreads them across the globe so that someone in a different country doesn’t have to wait for your files on your server to make it all the way to them. This [tutorial](https://docs.imgix.com/tutorials/responsive-images-srcset-imgix) goes through how to use Imgix for different device pixel ratios. Cloudinary is a similar service, and their [tutorial ](https://cloudinary.com/documentation/image_optimization)will take you through the importance of optimisation and how to achieve it will their incredible services. Below is a small example showing how easy it is to use Cloudinary straight in the HTML markup.\n\n<iframe height='400' scrolling='no' title='Cloudinary Example' src='//codepen.io/patricoferris/embed/ejgVJN/?height=400&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/ejgVJN/'>Cloudinary Example</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nAs a last point on image optimisation, the format you use can have a large impact on file size. Some files contain lots of metadata which you don’t want to be serving to your client — [ExifTool](https://www.sno.phy.queensu.ca/~phil/exiftool/) is a commonly used command-line application that can help you trim down those files sizes. On top of this, Scalable Vector Graphics (SVG) are a web-standard developed by W3C that offers XML-based vector graphics. This means they have infinite resolution unlike PNG or JPG files. It also makes them highly versatile, easily editable and can even be animated. At the end of the day SVGs are just code and so the file sizes tend to be small. For more reasons to use them, check out this [article](https://watb.co.uk/5-reasons-you-should-be-using-svgs-over-pngs/).\n\n### Conclusion\n\nWe’ve only scratched the surface of what’s possible for website optimisation. There are many tools you can use to help you stream-line this process like [Webpack](https://webpack.js.org/) for bundling or static-site generators like [Gatsby](https://www.gatsbyjs.org/). [Tree shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking) is another commonly used technique to remove excess, unused modules lying around your website.\n\nHopefully this article has touched on some useful techniques you can use on your next site to help improve its performance. Happy coding!\n\nA big thank you to [Christian Silver](https://medium.com/@pinpickle) and [Charlie Crisp](https://medium.com/@charliecrisp249) for editing this post and providing extremely useful advice and extra content to make it even better.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "3ca7512f7bd33302c4ca05b6b9bd3fcb",
+        "contentDigest": "492ceae38cde832ebeed7c875ee46e42",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
-        "title": "Computer Graphics for Everyone",
-        "path": "/graphics-and-p5",
-        "subtitle": "An Introduction to Computer Graphics using p5.js",
-        "date": "2018-02-27",
-        "_PARENT": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file",
-        "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file"
+        "title": "Optimising your Website",
+        "path": "/optimise-your-website",
+        "subtitle": "Tips and tricks to keep your website lean and fast",
+        "date": "2018-07-28",
+        "_PARENT": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/index.md absPath of file",
+        "parent": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/index.md absPath of file"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n\nGraphics and computer programming are two dearly intertwined disciplines. The oscilloscope is often recognised as one of the first examples of “computer graphics”, the cathode-ray versions emitting a beam of electrons onto a phosphorescent screen. By using magnetic fields to change the beam’s direction, we can sweep from left to right and move up and down — the basic idea behind most CG! (I highly recommend watching this [video](https://archive.org/details/introductiontothecathoderayoscilloscope) from 1970).\n\nWe’ve come a long way since then — modern day graphics is a complicated science as well as an art, and the barrier to entry is constantly increasing. Graphics programming can be so complex, that a simple program to draw a triangle can be over [1000 lines of code](https://github.com/SaschaWillems/Vulkan/blob/master/examples/triangle/triangle.cpp)! However, this article will introduce you to [p5.js](https://p5js.org/) (also known as p5). A simpler, less complex solution for people who want to start making computer graphics, but don’t want the headache of streams of boiler-plate code.\n\nStraight from the landing page of the p5.js website.\n> # …make coding accessible for artists, designers, educators and beginners…\n\np5.js is the result of hard-work of the [Processing Foundation](https://processingfoundation.org/), a group focused on spreading computer and visual literacy. It distills their [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)) language into a JavaScript library that makes creating graphics easy and accessible whilst providing an ideal platform to springboard people’s careers in computer graphics. It should be mentioned now that a lot of inspiration has been taken from [Daniel Shiffman’s](http://shiffman.net/) p5 projects (from the [classic snake game](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_03_Snake_game_p5.js), to a [double pendulum](https://github.com/CodingTrain/website/tree/master/CodingChallenges/CC_93_DoublePendulum_p5.js)). I can’t urge you enough to follow these projects to really improve your understanding of coding concepts and the p5 library.\n\n### Some prerequisites:\n\nBefore jumping into the p5 code I first want to make clear that there is assumed knowledge of HTML5 and JavaScript including arrays, functions, variables etc. in the rest of this article. If you have a good grasp of JavaScript then skip to the p5 code below, otherwise here are few resources to get you up to scratch.\n\n* [HaC Intro to Programming](https://www.youtube.com/watch?v=spIVWmv1jnw) — A workshop that is being run by Hackers at Cambridge to help anyone start learning to program (which uses JavaScript).\n\n* [Codecademy](https://www.codecademy.com/learn/introduction-to-javascript) — a great resource for learning how to code with instant feedback in your browser.\n\n* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript) — a great resource for learning about all aspects of web development.\n\n* [Codepen](https://codepen.io/) — a brilliant online text-editor for creating cool projects in HTML, CSS and JavaScript. Equally good for getting inspiration from a lot of talented users. Another possible solution would be [JSFiddle](https://jsfiddle.net/).\n\nWhat follows is a series of steps that will introduce you to p5 concepts. With code examples and explanations I hope to give you enough information to understand the ideas, but to fully grasp the concepts you will have to dive into the code, experiment with it, break it and learn from it. So without further ado, let’s get coding.\n\n### Step 1: The Setup\n\n<high-light className='JavaScript'>\nfunction setup(){\n  //Initialisation of canvas, objects, variables etc.\n}\nfunction draw(){\n  //The drawing loop - updates at a constant rate declared in setup\n}\n</high-light>\n\np5 is really simple to setup once you know what to do. There are two files shown above — an index.html and a template.js. The index.html file gets the libraries for us and the template.js is the barebones structure of a p5 project and at the moment it does nothing! Within this we have two functions:\n\n* setup() — a function for creating what we will need for our graphic or project. Like creating a canvas, initialising some objects or arrays etc.\n\n* draw() — a function which will be called periodically like a loop. This is where will call draw functions and update functions to make graphics and animations.\n\n<iframe height='265' scrolling='no' title='Simple Triangle Tutorial' src='//codepen.io/patricoferris/embed/dddxjr/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/dddxjr/'>Simple Triangle Tutorial</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s first look at the setup function. We used the p5 function createCanvas(width, height) which created and initialised a [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) with arguments width and height. Now within our setup() and createCanvas() functions we can reference the variables width and height without ever instantiating them!\n\nNext comes the meaty, draw function. I have purposefully put extra code in here so we can learn more about what p5 has to offer. Firstly always remember that draw() is a loop that runs from top to bottom. Initially, we set the background (of our canvas) to white with background(255) which is the same as background(255, 255, 255) (maximising the red, green and blue values to give white). This may seem simple, but implicitly we are also clearing our canvas every loop… in one line of code! This will be useful for animations later as we want to redraw objects in a new location rather than have the [build-up on the same canvas](https://codepen.io/patricoferris/pen/paxZaw) (click to see it go spectacularly wrong). Next is a translate(width/2, height/2) which moves our current drawing location to the centre of our canvas. We then declare the fill colour of our triangle with fill(255, 0, 0)(making it red).\n\nWe want to create an equilateral triangle with side length s. The triangle itself is a function that takes the vertex coordinates as arguments — triangle(x1, y1, x2, y2, x3, y3) and in this example starting from the centre we have one vertex at (-s/2, 0) another at (s/2, 0) giving a bottom length of s . Now comes the trickier part. A very important aspect of most computer graphics is that the coordinate system starts in the top left corner (or wherever your origin is) and x increases left to right, whilst y increases top to bottom. To move of the screen we need a negative y value. Our last coordinate is given as (0, -sin(PI/3)) (if you’re stuck, think about cutting the triangle in two and using trigonometry).\n\n### Step 2: Get Creative\n\nWe’ve learnt how to set up our canvas and start drawing. Armed with the p5 [reference page](https://p5js.org/reference/) and our creativity, we can make some truly stunning graphics. How about a bouncing ball animation?\n\n<iframe height='265' scrolling='no' title='Bouncing Balls' src='//codepen.io/patricoferris/embed/PQpOrB/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/PQpOrB/'>Bouncing Balls</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nLet’s look at the interesting p5 aspects that we didn’t know before:\n\n* frameRate(20) — This enables us to specify the frame rate of our drawing loop, that is, how many times per second it redraws everything for us.\n\n* gravity = createVector(0, 9) — p5 allows us to [create vector objects](https://p5js.org/reference/#/p5.Vector) with which we can perform vector operations like addition, multiplication, dot-product and cross-product. This is useful when we want to simulate physics like forces.\n\n* floor(random(50)) — Here we’re using p5 math functions. floor() takes a real number and rounds it down to the nearest integer. random(arg) produces a random number as small as 0 or up to 49. In this example, we are giving it to the ellipse(x, y, w)function to create randomly sized balls by setting the width to a random number. If we gave another argument it would set the ellipse’s height, but here it infers that we want a circle.\n\n* stroke(0) — This function sets the colour of our shape’s outline. If you don’t want any border you can add noStroke() .\n\nAll you need now is to add some physics to these ideas and you have yourself a bouncing ball animation.\n\n### Step 3: Experiment with p5\n\nHopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: *interactivity* and* [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html)*. Keep reading to find out more on these two concepts.\n\n<iframe height='265' scrolling='no' title='Pixel Fire' src='//codepen.io/patricoferris/embed/XZMxmV/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/XZMxmV/'>Pixel Fire</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nIn this CodePen I have created a relatively simple flame model using squares and Perlin Noise. First of all, how do we get user input? Lucky for us p5 has some functions that can help.\n\n<high-light className='JavaScript'>\nvar touch = false;\nfunction setup(){\n  createCanvas(640, 640);\n}\nfunction draw(){\n  if(touch){\n    fill(255, 0, 0);\n    rect(mouseX, mouseY, 20, 20);\n  }\n}\nfunction touchStarted(){\n  touch = true;\n}\nfunction touchEnded(){\n  touch = false;\n}\n</high-light>\n\nAt the top of the code we have declared a boolean “flag” as to whether or not our mouse is being pressed — this allows us to do things if the mouse is being held down. The touchStarted() and touchEnded() are p5 functions that are executed whenever the mouse is pressed or released or the screen is touched and released. Lastly, in our rect() function we have the variables mouseX and mouseY which are p5 variables corresponding to the mouse’s current position. Oddly, these also refer to your [“touch” coordinates](https://github.com/processing/p5.js/issues/1705). With all these variables and functions predefined for us we can focus on making visually stunning graphics, whilst not being hampered by having to code extra functions unrelated to the graphic we’re producing.\n\nNow for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of *gradient noise. *The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:\n\n<high-light className='JavaScript'>\nfunction Particle(x, y, color){\n  this.pos = createVector(x + random(-10, 10), y + random(-10, 10));\n  this.vel = createVector(floor(random(-1, 1))*noise(this.pos.x), -noise(this.pos.y)*7);\n  this.alpha = 255;\n  this.r = random(170, 255);\n  this.g = random(10, 255);\n  this.b = random(0, 100);\n  this.update = function(){\n    this.pos.add(this.vel);\n    this.alpha -= 5;\n  }\n  this.show = function(){\n    noStroke();\n    fill(this.r, this.g, this.b, this.alpha);\n    rect(this.pos.x, this.pos.y, 5, 5);\n  }\n  this.dead = function(){\n    if(this.alpha < 0){\n      return true;\n    }else{\n      return false;\n    }\n  }\n}\n</high-light>\n\nSome key things to notice:\n\n* noise(this.pos.x) — The Perlin Noise [function](https://p5js.org/reference/#/p5/noise) that gets a random number based on the square’s current x position. It returns a value between 0 and 1.\n\n* fill(this.r, this.g, this.b, this.alpha) — Here we have extended fill’s ability by including an alpha value for the objects transparency, by decreasing alpha in the update() function we get a nice fade out like a flame.\n\n* dead() — This function allows us to keep track of which particles have disappeared as their alpha is now less than zero. We can then splice() them out of our array to ensure we’re not drawing an unbounded number of particles over time which would cause performance issues.\n\nAs a challenge, you can also use blendMode() to make it seem even more realistic — check this [alteration](https://codepen.io/anon/pen/YeOaJX) to see it in action.\n\nWith only a few concepts and the p5 library, it is incredibly straightforward to start building anything you want. Be sure to checkout what else is possible with the library. Here are few cool ideas to get you started: [3D graphics](https://p5js.org/examples/3d-geometries.html), [sliders](https://p5js.org/examples/dom-slider.html) and [images](https://p5js.org/examples/image-load-and-display-image.html).\n\n### Conclusion\n\nAs computers and technology become ubiquitous in our daily lives and an increasing number of professions are now relying on computer literacy, p5.js is a beautiful example of how we can ensure as many people as possible have an entry-point to the wonderful world of computer programming. It also acts as a reminder to some more experienced programmers that creativity and imagination are vital in producing meaningful code and ultimately making the tech world a better place.\n\nHopefully this intro to p5 has convinced you of its usefulness and has encouraged you to start taking your first steps into the world of graphics programming. Here are my recommendations for where to go next:\n\n* [The Coding Train](https://www.youtube.com/user/shiffman) — A brilliant YouTube channel by Daniel Shiffman where he teaches JavaScript and p5.js amongst many other incredible things!\n\n* [p5js.org ](https://p5js.org/examples/)— The examples page on this website is full of inspiring projects which you could recreate and extend further.\n\n* [Sratchapixel](https://www.scratchapixel.com/index.php) — If you feel ready to delve into the deeper concepts and implementations of computer graphics then this website is an incredible resource for you to use.\n\nA special thanks to [Tom Read Cutting](undefined) for editing this article and [Christian Silver](undefined) for helping get it off the ground.\n",
-      "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md"
+      "rawMarkdownBody": "![Optimising your Website](https://res.cloudinary.com/patricoferris/image/upload/v1532781201/pf2018/blogposts/28-07-2018/website_optimisation_2.png)\nInspired by a [Syntax](https://syntax.fm/) podcast, I got really interested in website optimisation. It can often be an overlooked aspect in web development with more focus on design and functionality, I realised my number one priority whenever I visited a website is load speed. My attention is a website’s number one goal, lose it and they lose all potential ad revenue or possibility to give me whatever information I was looking for. [Many seem to agree. 53% of users abandon websites that take more than 3 seconds to load](https://developers.google.com/web/fundamentals/performance/get-started/). No amount of fancy graphics or parallax scrolling that appears five seconds after someone’s clicked will hide the slow loading times.\n\nThe aim of this article is to give a broad overview of the concepts and ideas behind optimising your website, experienced developers are likely already using things like Webpack (a module bundler) among other tools to speed-up their sites.\n\nFor testing load-times I will be using the [Page Load Time ](https://chrome.google.com/webstore/detail/page-load-time/fploionmjgeclbkemipmkogoaohcdbig?hl=en)Chrome extension. There are a few ways to measure website loading time including: [first paint, first meaning paint, DOMContentLoaded](https://developers.google.com/web/tools/chrome-user-experience-report/) etc. For a more detailed look into what this timer measures, check out the Github repository below.\n[**alex-vv/chrome-load-timer**\n*chrome-load-timer - Google Chrome extension to measure page load time and display it in the toolbar*github.com](https://github.com/alex-vv/chrome-load-timer)\n\n### **Use Minified Stylesheets and Scripts**\n\nYou would be amazed at how much performance can be gained by this simple trick. What is a minified document? When we write code it is never our job to make it optimised for the computer, instead our golden rule is to make it readable to humans. This improves readability, cuts down on debug time and makes it easier to maintain. However, to achieve this we often add extra spacing which costs us precious space. Minifying the code is trimming all this fat from what we’ve written to have code that produces the same result but is far more difficult to read and maintain. This is okay though, because a computer has no problem deciphering it. Take the following code for example.\n\n```javascript\n//Normal JavaScript Code\nconst arr = [1, 2, 3, 4, 5];\nfor(let i = 0; i < arr.length; i++){\n  console.log(arr[i]);\n}\n\n//Minified Code - A 22.83% Compression saving 0.02kB\nconst arr=[1,2,3,4,5];for(let a=0;a<arr.length;a++)console.log(arr[a]);\n```\n\nNotice how, wherever possible, our line-breaks and spaces are gone. On top of that, the code in the for-loop is only one line so there’s no need for the curly braces which extends our code over three lines when it can be done in one. Does this make a difference?\n\nI tried it out on simple website that just had one script tag being loaded in for the graphics library [p5.js](https://p5js.org/). Using the non-minified CDN link I got a load time of 0.25 seconds. Using the minified version I got a markedly improved load time of 0.08 seconds. Depending on what your website project is, there are a few ways to automatically minify code. If it is a [Meteor app](https://guide.meteor.com/build-tool.html) it will be done automatically, using [Webpack ](https://webpack.js.org/guides/production/)will also allow you to do this. Otherwise there are some online tools like [JSCompress ](https://jscompress.com/)or [CSSMinifier ](https://cssminifier.com/)that you can upload your code to.\n\n### Design Versus Performance\n\nWhilst design is undoubtedly a major aspect to a website’s overall success, both developers and designers must work together to compromise and make a mutually beneficial trade-off between design and performance. The classic example is fonts. Take the two screenshots of a simple website below.\n\n![The example website using Helvetica Font (commonly found on many computers) — check [this](https://css-tricks.com/snippets/css/system-font-stack/) link for common system fonts](https://res.cloudinary.com/patricoferris/image/upload/v1532780050/pf2018/blogposts/28-07-2018/Helvetica.png)\n*The example website using Helvetica Font (commonly found on many computers) — check [this](https://css-tricks.com/snippets/css/system-font-stack/) link for common system fonts*\n\n![The example website using Roboto Font (designed by Google and linked from [Google Fonts](https://fonts.google.com/?selection.family=Roboto))](https://cdn-images-1.medium.com/max/5760/1*8ciuJNBdqMhlLSaOpNUXow.png)*The example website using Roboto Font (designed by Google and linked from [Google Fonts](https://fonts.google.com/?selection.family=Roboto))*\n\nBefore critiquing my questionable design skills take a moment to appreciate that these two fonts are very similar — yet the loading time for a website for the Roboto font was 0.22 seconds as compared with 0.17 for Helvetica. Whilst not that significant, using lots of custom fonts will slow down your website, although using Google Fonts’ API will help keep your website optimised. As an over-the-top example, linking 20 different fonts from the Google API increased the load time to 0.87 seconds.\n\n### Inlining your JavaScript and CSS\n\nFor each individual document or component of your website, when the parser reaches the script tag or link tag it sends and HTTP request for that document and if not stated differently, these will be blocking actions. What this means is your machine is parsing the HTML document getting the words to display in your browser but if it hits the script tag with the attribute src='js/main.js' for example, it will block the parsing and load in that file. This is where as a developer you need to be clever about where in the document you place things.\n\nWhilst it may not ultimately affect the loading time of your website, it can affect the order in which things are loaded. Again we’ll be using the un-minified p5.js library to simulate a large JavaScript file and load it in different places to see how it affects our user experience.\n\n![Refreshing website with the script tag inserted at the bottom of the body tag](https://cdn-images-1.medium.com/max/2780/1*h_3GogfkaahcXCO9a43CPA.gif)*Refreshing website with the script tag inserted at the bottom of the body tag*\n\n![Refreshing website with the script tag inserted at the top of the body tag](https://cdn-images-1.medium.com/max/2780/1*xLOq5r4erQAwb4Au_hB-Ww.gif)*Refreshing website with the script tag inserted at the top of the body tag*\n\nWhilst the load times were similar for both cases — the user experience is far better by placing the script at the body tag allowing the HTML to be parsed before the JavaScript giving the user the website content immediately!\n\nIn the same vein CSS can also be render-blocking especially because more often than not it is linked in the head tag of your HTML document before the body. But if we want our user to see the content in the quickest time we don’t want to be loading CSS for the footer of our document which the user won’t see until they’ve scrolled to the bottom. In fact, we don’t want to load any CSS in that the user can’t immediately see when the page first loads on their device.\n\nThe CSS that you need is often called the *Critical CSS*. Finding it for yourself would be a headache. It will be different for different devices, meaning you would have to check manually for all possible devices. Lucky for us we have (if you’re using [Node.js](https://nodejs.org/en/)) [Critical](https://github.com/addyosmani/critical). This helpful package does the CSS inlining for us and all we do is add some code to a Javascript file. Here’s a code snippet from the Github page.\n\n```javascript\nlet critical = require('critical');\n\ncritical.generate({\n    base: 'test/',\n    src: 'index.html',\n    dest: 'styles/main.css',\n    dimensions: [{\n        height: 200,\n        width: 500\n    }, {\n        height: 900,\n        width: 1200\n    }]\n});\n```\n\nUsing the generate function, we supply it with a JavaScript object with some values defined. base is where we’re going to save our src and dest (our project folder usually). What’s great is now we just supply an array of dimensions and the code will compute the critical CSS for each and inline that code into our head tag.\n\n### Async and Defer\n\nAgain, we come back to this idea of render-blocking and how best we should implement this for our website. When you have a plain script tag in your HTML it blocks the HTML from loading whilst the JavaScript loads **and** runs. Async and defer are simple attributes that you can add to your script tags that change the way your JavaScript will be loaded.\n\nDefer essentially “defers” execution of the script until after the HTML has been parsed. A major advantage of this is that you no longer need some $(document).ready() jQuery-style function to make sure the body was loaded before you could manipulate it, which could cut out some of the dependencies on libraries like jQuery which helps reduce load-time.\n\nAsync is, unsurprisingly, the asynchronous loading of JavaScript files. What does this mean? Your HTML will continue to be parsed whilst the file is loaded and then whenever its ready the file will be executed. This helps improving user experience whilst viewing your website. Imagine for example you had a JavaScript file for doing some cool graphics. You want the words around this graphic to be parsed until your graphic is ready to be executed. As soon as it is ready, it is executed and we get a more seamless loading of our webpage without missing pieces.\n\nCheck this [website](http://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html) for a really intuitive, graphical representation of this.\n\n### Image Optimisation and Media Queries\n\nThe cornerstone of all website performance optimisation is the simple rule that, the less data you send to the client, the quicker and better your website will perform. With the plethora of devices on the market capable of viewing websites, there is a growing trend to optimise your website based on the device it is being viewed on.\n\nMedia queries are a fairly new tool added to CSS3. With more and more content being consumed using mobile-devices there has been a shift in design thinking towards mobile first. Using media queries you can then add stylings for larger screen sizes.\n\n```css\n@media only screen and (min-width: 600px) {\n /* Some CSS for screen sizes bigger than 600px but smaller than 992px */\n}\n\n@media only screen and (min-width: 992px) {\n /*  Some CSS for screen sizes bigger than 992px */\n}\n\n@media only screen and (orientation: landscape) {\n  /* Some CSS for landscape-oriented devices */\n}\n```\n\nThe @media tag starts a new CSS rule, whilst the only keyword stops older browsers that don’t support media queries from using it. The screen keyword applies the rules to screens rather than prints. After that you add the media-feature which supports the and , or and not keywords so you can get as specific as you want. When you’re loading your image you can write code like:\n\n```css\n@media only screen and (min-width: 600px) {\n   background-image: url('supercoolimages/dog-small.png');\n}\n\n@media only screen and (min-width: 992px) {\n   background-image: url('supercoolimages/dog-big.png');\n}\n```\n\nThis isn’t necessarily the best or optimal approach for image optimisation. Luckily we have other options. [Imgix](https://www.imgix.com/) and [Cloudinary](https://cloudinary.com/) are two ways you can help optimise your site for the right device. Imgix is a Content Delivery Network (CDN) for images with a lot of cool features. A CDN simply takes your files and spreads them across the globe so that someone in a different country doesn’t have to wait for your files on your server to make it all the way to them. This [tutorial](https://docs.imgix.com/tutorials/responsive-images-srcset-imgix) goes through how to use Imgix for different device pixel ratios. Cloudinary is a similar service, and their [tutorial ](https://cloudinary.com/documentation/image_optimization)will take you through the importance of optimisation and how to achieve it will their incredible services. Below is a small example showing how easy it is to use Cloudinary straight in the HTML markup.\n\n<iframe height='400' scrolling='no' title='Cloudinary Example' src='//codepen.io/patricoferris/embed/ejgVJN/?height=400&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/ejgVJN/'>Cloudinary Example</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nAs a last point on image optimisation, the format you use can have a large impact on file size. Some files contain lots of metadata which you don’t want to be serving to your client — [ExifTool](https://www.sno.phy.queensu.ca/~phil/exiftool/) is a commonly used command-line application that can help you trim down those files sizes. On top of this, Scalable Vector Graphics (SVG) are a web-standard developed by W3C that offers XML-based vector graphics. This means they have infinite resolution unlike PNG or JPG files. It also makes them highly versatile, easily editable and can even be animated. At the end of the day SVGs are just code and so the file sizes tend to be small. For more reasons to use them, check out this [article](https://watb.co.uk/5-reasons-you-should-be-using-svgs-over-pngs/).\n\n### Conclusion\n\nWe’ve only scratched the surface of what’s possible for website optimisation. There are many tools you can use to help you stream-line this process like [Webpack](https://webpack.js.org/) for bundling or static-site generators like [Gatsby](https://www.gatsbyjs.org/). [Tree shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking) is another commonly used technique to remove excess, unused modules lying around your website.\n\nHopefully this article has touched on some useful techniques you can use on your next site to help improve its performance. Happy coding!\n\nA big thank you to [Christian Silver](https://medium.com/@pinpickle) and [Charlie Crisp](https://medium.com/@charliecrisp249) for editing this post and providing extremely useful advice and extra content to make it even better.\n",
+      "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/index.md"
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "086f73b488ea7300fe7aae4185daf52e"
+    "PLUGINS_HASH": "0d55d78e1db3c1b18d31033771d834b1"
   },
   "componentDataDependencies": {
     "nodes": {
-      "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark": [
-        "/tensorflow-and-word2vec"
+      "/Users/patrickferris/Documents/Projects/pf2018/src/posts/28-07-2018/index.md absPath of file >>> MarkdownRemark": [
+        "/optimise-your-website"
       ],
       "/Users/patrickferris/Documents/Projects/pf2018/src/posts/27-02-2018/index.md absPath of file >>> MarkdownRemark": [
         "/graphics-and-p5"
+      ],
+      "/Users/patrickferris/Documents/Projects/pf2018/src/posts/23-07-2018/index.md absPath of file >>> MarkdownRemark": [
+        "/tensorflow-and-word2vec"
       ],
       "Site": [
         "LAYOUT___index"

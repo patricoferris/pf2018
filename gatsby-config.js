@@ -6,6 +6,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -16,8 +17,15 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        resolve: "gatsby-remark-component",
-        options: { components: ['Highlight']}
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 100,
+            },
+          },
+          `gatsby-remark-prismjs`,
+        ]
       }
     },
     {

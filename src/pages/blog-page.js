@@ -5,7 +5,7 @@ import Blogpost from '../components/Blogpost';
 const BlogPage = ({ data }) => (
   <div className='blog-block-container'>
     {data.allMarkdownRemark.edges.map(post =>
-      <a href={post.node.frontmatter.path}>
+      <a  key={post.node.frontmatter.date} href={post.node.frontmatter.path}>
         <Blogpost data={post.node.frontmatter}></Blogpost>
       </a>
     )}
