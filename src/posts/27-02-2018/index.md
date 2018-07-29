@@ -5,7 +5,7 @@ subtitle: 'An Introduction to Computer Graphics using p5.js'
 date: '2018-02-27'
 ---
 
-![Recursive Tree](graphics-and-p5/tree.png)
+![Recursive Tree](https://res.cloudinary.com/patricoferris/image/upload/v1532857964/pf2018/blogposts/27-02-2018/tree.png)
 
 Graphics and computer programming are two dearly intertwined disciplines. The oscilloscope is often recognised as one of the first examples of “computer graphics”, the cathode-ray versions emitting a beam of electrons onto a phosphorescent screen. By using magnetic fields to change the beam’s direction, we can sweep from left to right and move up and down — the basic idea behind most CG! (I highly recommend watching this [video](https://archive.org/details/introductiontothecathoderayoscilloscope) from 1970).
 

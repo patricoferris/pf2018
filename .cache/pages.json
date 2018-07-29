@@ -3,15 +3,15 @@
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "graphics-and-p-5.json",
-        "path": "/graphics-and-p5"
+        "jsonName": "optimise-your-website.json",
+        "path": "/optimise-your-website"
     },
     {
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "optimise-your-website.json",
-        "path": "/optimise-your-website"
+        "jsonName": "graphics-and-p-5.json",
+        "path": "/graphics-and-p5"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
