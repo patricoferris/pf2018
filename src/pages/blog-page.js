@@ -14,19 +14,20 @@ const BlogPage = ({ data }) => (
 
 export const pageQuery = graphql`
   query PostsQuery {
-    allMarkdownRemark {
-      edges {
-        node {
-          frontmatter {
-            path
-            title
-            subtitle
-            date
-          }
+  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+    totalCount
+    edges {
+      node {
+        frontmatter {
+          title
+          path
+          subtitle
+          date
         }
       }
     }
   }
+}
 `;
 
 export default BlogPage;

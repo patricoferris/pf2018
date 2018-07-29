@@ -3,13 +3,6 @@
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "tensorflow-and-word-2-vec.json",
-        "path": "/tensorflow-and-word2vec"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "graphics-and-p-5.json",
         "path": "/graphics-and-p5"
     },
