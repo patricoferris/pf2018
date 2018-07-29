@@ -201,7 +201,7 @@ iframe {
     }
 
   }
-  
+
   h3 {
     color: black;
   }
@@ -230,12 +230,13 @@ iframe {
   margin-top: 40px;
   padding-left: 0px;
   padding-right: 0px;
+  font-size: 105%;
+  line-height: 170%;
 
   @media (min-width: $min-width) {
     padding-left: 15%;
     padding-right: 15%;
     font-size: 110%;
-    line-height: 170%;
   }
 
   a {

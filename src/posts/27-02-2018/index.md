@@ -77,7 +77,7 @@ All you need now is to add some physics to these ideas and you have yourself a b
 
 ### Step 3: Experiment with p5
 
-Hopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: *interactivity* and* [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html)*. Keep reading to find out more on these two concepts.
+Hopefully now you have a good understanding of the p5 fundamentals, but we’ve barely scratched the surface. This last example will use two extra features of p5: interactivity and [Perlin Noise](http://flafla2.github.io/2014/08/09/perlinnoise.html). Keep reading to find out more on these two concepts.
 
 <iframe height='400' scrolling='no' title='Pixel Fire' src='//codepen.io/patricoferris/embed/XZMxmV/?height=400&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/XZMxmV/'>Pixel Fire</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
@@ -105,7 +105,7 @@ function touchEnded(){
 
 At the top of the code we have declared a boolean “flag” as to whether or not our mouse is being pressed — this allows us to do things if the mouse is being held down. The touchStarted() and touchEnded() are p5 functions that are executed whenever the mouse is pressed or released or the screen is touched and released. Lastly, in our rect() function we have the variables mouseX and mouseY which are p5 variables corresponding to the mouse’s current position. Oddly, these also refer to your [“touch” coordinates](https://github.com/processing/p5.js/issues/1705). With all these variables and functions predefined for us we can focus on making visually stunning graphics, whilst not being hampered by having to code extra functions unrelated to the graphic we’re producing.
 
-Now for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of *gradient noise. *The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:
+Now for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of gradient noise. The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:
 
 <high-light className='JavaScript'>
 function Particle(x, y, color){
