@@ -32,14 +32,14 @@ What follows is a series of steps that will introduce you to p5 concepts. With c
 
 ### Step 1: The Setup
 
-<high-light className='JavaScript'>
+```javascript
 function setup(){
   //Initialisation of canvas, objects, variables etc.
 }
 function draw(){
   //The drawing loop - updates at a constant rate declared in setup
 }
-</high-light>
+```
 
 p5 is really simple to setup once you know what to do. There are two files shown above — an index.html and a template.js. The index.html file gets the libraries for us and the template.js is the barebones structure of a p5 project and at the moment it does nothing! Within this we have two functions:
 
