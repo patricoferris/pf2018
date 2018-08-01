@@ -9,6 +9,15 @@ html {
 
 body {
   margin: 0px;
+
+  a {
+    color: grey;
+  }
+
+  h2 {
+    color: $orange-color;
+  }
+
 }
 
 .header-container {
@@ -144,6 +153,19 @@ iframe {
     display: block;
     background-image: url('http://res.cloudinary.com/patricoferris/image/upload/ar_1:1,bo_5px_solid_rgb:ffffff,c_fill,g_auto,r_max/v1532216313/pf2018/IMG_0913.jpg');
     background-size: cover;
+  }
+}
+
+#circle-image {
+  display: none;
+  @media (min-width: $min-width) {
+    height: 95%;
+    width: 90%;
+    margin: auto;
+    display: block;
+    background-image: url('https://res.cloudinary.com/patricoferris/image/upload/v1533155377/fib_circles.png');
+    background-size: cover;
+    background-position: center;
   }
 }
 

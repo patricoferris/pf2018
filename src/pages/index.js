@@ -6,7 +6,7 @@ import styles from './atom-one-light.css';
 const IndexPage = () => (
   <div className='main-grid'>
     <div className='image-holder'>
-      <div id='home-image'></div>
+      <div id='circle-image'></div>
     </div>
     <div className='text-holder'>
       <h2 className='ttitle'>Greetings</h2>
