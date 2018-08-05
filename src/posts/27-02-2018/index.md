@@ -84,7 +84,7 @@ Hopefully now you have a good understanding of the p5 fundamentals, but we’ve 
 
 In this CodePen I have created a relatively simple flame model using squares and Perlin Noise. First of all, how do we get user input? Lucky for us p5 has some functions that can help.
 
-<high-light className='JavaScript'>
+```javascript
 var touch = false;
 function setup(){
   createCanvas(640, 640);
@@ -101,13 +101,13 @@ function touchStarted(){
 function touchEnded(){
   touch = false;
 }
-</high-light>
+```
 
 At the top of the code we have declared a boolean “flag” as to whether or not our mouse is being pressed — this allows us to do things if the mouse is being held down. The touchStarted() and touchEnded() are p5 functions that are executed whenever the mouse is pressed or released or the screen is touched and released. Lastly, in our rect() function we have the variables mouseX and mouseY which are p5 variables corresponding to the mouse’s current position. Oddly, these also refer to your [“touch” coordinates](https://github.com/processing/p5.js/issues/1705). With all these variables and functions predefined for us we can focus on making visually stunning graphics, whilst not being hampered by having to code extra functions unrelated to the graphic we’re producing.
 
 Now for the Perlin Noise. In 1983, tired with the artificial look of computer graphics, Ken Perlin developed a type of gradient noise. The basic idea being you create a big grid of gradients randomly and then use the dot product to interpolate between them. In short, we get random values based on the coordinate system we’re drawing on. Great! For each of our squares we can start them at a random position near our mouse, and generate a random upward vector using their position and Perlin Noise. Let’s look at the code:
 
-<high-light className='JavaScript'>
+```javascript
 function Particle(x, y, color){
   this.pos = createVector(x + random(-10, 10), y + random(-10, 10));
   this.vel = createVector(floor(random(-1, 1))*noise(this.pos.x), -noise(this.pos.y)*7);
@@ -132,7 +132,7 @@ function Particle(x, y, color){
     }
   }
 }
-</high-light>
+```
 
 Some key things to notice:
 
