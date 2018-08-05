@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-404-js": preferDefault(require("/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js")),
   "component---src-pages-about-js": preferDefault(require("/Users/patrickferris/Documents/Projects/pf2018/src/pages/about.js")),
   "component---src-pages-blog-page-js": preferDefault(require("/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js")),
+  "component---src-pages-contact-js": preferDefault(require("/Users/patrickferris/Documents/Projects/pf2018/src/pages/contact.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js"))
 }
 
@@ -23,6 +24,7 @@ exports.json = {
   "404.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404.json"),
   "about.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/about.json"),
   "blog-page.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/blog-page.json"),
+  "contact.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/contact.json"),
   "index.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/index.json"),
   "404-html.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404-html.json")
 }

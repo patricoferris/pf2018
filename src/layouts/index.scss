@@ -1,5 +1,9 @@
 $orange-color: rgb(238, 144, 53);
+$dark-grey: rgb(11, 11, 11);
+$light_grey: rgb(100, 100, 100);
 $min-width: 44em;
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 html {
   font-family: 'Roboto', Helvetica, Arial, Verdana;
@@ -9,7 +13,7 @@ html {
 
 body {
   margin: 0px;
-
+  color: $dark-grey;
   a {
     color: grey;
   }
@@ -47,7 +51,7 @@ body {
 
 .title {
   transition-duration: 300ms;
-  font-size: 1.2em;
+  font-size: 1.4em;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -252,17 +256,27 @@ iframe {
   margin-top: 40px;
   padding-left: 0px;
   padding-right: 0px;
-  font-size: 105%;
-  line-height: 170%;
-
+  font-size: 98%;
+  line-height: 190%;
+  font-family: 'Merriweather', serif;
   @media (min-width: $min-width) {
-    padding-left: 15%;
-    padding-right: 15%;
-    font-size: 110%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  h3 {
+    font-weight: 900;
+    text-decoration: underline;
   }
 
   a {
-    color: $orange-color;
+    color: $light-grey;
+    text-decoration: underline $light-grey;
+    transition: all ease-in-out 200ms;
+    &:hover{
+      color: $orange-color;
+      text-decoration: underline $orange-color;
+    }
   }
 
   img {
@@ -274,4 +288,15 @@ iframe {
     color: grey;
     font-size: 0.7em;
   }
+}
+
+.contact-container {
+  padding-top: 50px;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    margin: 10px 40px;
+  }
+
 }
