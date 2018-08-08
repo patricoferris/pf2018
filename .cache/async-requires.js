@@ -13,8 +13,8 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/layout-index.json"),
-  "optimise-your-website.json": require("gatsby-module-loader?name=path---optimise-your-website!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/optimise-your-website.json"),
   "graphics-and-p-5.json": require("gatsby-module-loader?name=path---graphics-and-p-5!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/graphics-and-p-5.json"),
+  "optimise-your-website.json": require("gatsby-module-loader?name=path---optimise-your-website!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/optimise-your-website.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/dev-404-page.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404.json"),
   "about.json": require("gatsby-module-loader?name=path---about!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/about.json"),

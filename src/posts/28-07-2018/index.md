@@ -3,6 +3,7 @@ path: '/optimise-your-website'
 title: 'Optimising your Website'
 subtitle: 'Tips and tricks to keep your website lean and fast'
 date: '2018-07-28'
+imageUrl: 'https://res.cloudinary.com/patricoferris/image/upload/v1532781201/pf2018/blogposts/28-07-2018/website_optimisation_2.png' 
 ---
 ![Optimising your Website](https://res.cloudinary.com/patricoferris/image/upload/v1532781201/pf2018/blogposts/28-07-2018/website_optimisation_2.png)
 Inspired by a [Syntax](https://syntax.fm/) podcast, I got really interested in website optimisation. It can often be an overlooked aspect in web development with more focus on design and functionality, I realised my number one priority whenever I visited a website is load speed. My attention is a website’s number one goal, lose it and they lose all potential ad revenue or possibility to give me whatever information I was looking for. [Many seem to agree. 53% of users abandon websites that take more than 3 seconds to load](https://developers.google.com/web/fundamentals/performance/get-started/). No amount of fancy graphics or parallax scrolling that appears five seconds after someone’s clicked will hide the slow loading times.

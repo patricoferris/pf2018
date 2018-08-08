@@ -3,6 +3,7 @@ path: '/graphics-and-p5'
 title: 'Computer Graphics for Everyone'
 subtitle: 'An Introduction to Computer Graphics using p5.js'
 date: '2018-02-27'
+imageUrl: 'https://res.cloudinary.com/patricoferris/image/upload/v1532857964/pf2018/blogposts/27-02-2018/tree.png'
 ---
 
 ![Recursive Tree](https://res.cloudinary.com/patricoferris/image/upload/v1532857964/pf2018/blogposts/27-02-2018/tree.png)

@@ -18,8 +18,8 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/layout-index.json"),
-  "optimise-your-website.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/optimise-your-website.json"),
   "graphics-and-p-5.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/graphics-and-p-5.json"),
+  "optimise-your-website.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/optimise-your-website.json"),
   "dev-404-page.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404.json"),
   "about.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/about.json"),
