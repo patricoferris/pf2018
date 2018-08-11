@@ -20,12 +20,12 @@ exports.json = {
   "layout-index.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/layout-index.json"),
   "graphics-and-p-5.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/graphics-and-p-5.json"),
   "optimise-your-website.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/optimise-your-website.json"),
+  "teach-physics-and-programming.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/teach-physics-and-programming.json"),
   "dev-404-page.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404.json"),
   "about.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/about.json"),
   "blog-page.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/blog-page.json"),
   "contact.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/contact.json"),
   "index.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/index.json"),
-  "404-html.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404-html.json"),
-  "teach-physics-and-programming.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/teach-physics-and-programming.json")
+  "404-html.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404-html.json")
 }

@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f23ab3a12b210305c6ee5d68159e7db3",
+        "contentDigest": "f3fe59b2d3eb5984074039ae665b9306",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -1215,12 +1215,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-11T10:25:04.329Z",
+      "buildTime": "2018-08-11T10:50:04.544Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8b53d9bb61dc6ae2e40287c56a037cb7",
+        "contentDigest": "31dddad5f45adcd2c03b874ddc2db2e7",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1230,7 +1230,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3a65ed661a90662c7afe6684261b9410",
+        "contentDigest": "f2c5f5847f637c21b84b1c0a1d384d2b",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1242,7 +1242,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-08-11T10:22:57.902Z",
-      "accessTime": "2018-08-11T10:25:09.013Z",
+      "accessTime": "2018-08-11T10:50:10.167Z",
       "changeTime": "2018-08-11T10:22:57.902Z",
       "birthTime": "2018-07-21T15:43:49.673Z",
       "root": "/",
@@ -1260,11 +1260,11 @@
       "blksize": 4194304,
       "ino": 8617091460,
       "blocks": 0,
-      "atimeMs": 1533983109013.0474,
+      "atimeMs": 1533984610166.7673,
       "mtimeMs": 1533982977902.2908,
       "ctimeMs": 1533982977902.2908,
       "birthtimeMs": 1532187829672.5415,
-      "atime": "2018-08-11T10:25:09.013Z",
+      "atime": "2018-08-11T10:50:10.167Z",
       "mtime": "2018-08-11T10:22:57.902Z",
       "ctime": "2018-08-11T10:22:57.902Z",
       "birthtime": "2018-07-21T15:43:49.673Z"
@@ -1274,7 +1274,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7b72a37559a8ea67774880b7c0b4c9a4",
+        "contentDigest": "616e64351e79764cb2fb211ee6ed43e8",
         "type": "Directory",
         "description": "Directory \"src/posts/27-02-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -1286,7 +1286,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-05T14:56:27.919Z",
-      "accessTime": "2018-08-11T10:25:09.016Z",
+      "accessTime": "2018-08-11T10:50:10.171Z",
       "changeTime": "2018-08-05T14:56:27.919Z",
       "birthTime": "2018-07-21T15:44:22.915Z",
       "root": "/",
@@ -1304,11 +1304,11 @@
       "blksize": 4194304,
       "ino": 8617091493,
       "blocks": 0,
-      "atimeMs": 1533983109016.327,
+      "atimeMs": 1533984610170.761,
       "mtimeMs": 1533480987918.871,
       "ctimeMs": 1533480987918.871,
       "birthtimeMs": 1532187862914.7139,
-      "atime": "2018-08-11T10:25:09.016Z",
+      "atime": "2018-08-11T10:50:10.171Z",
       "mtime": "2018-08-05T14:56:27.919Z",
       "ctime": "2018-08-05T14:56:27.919Z",
       "birthtime": "2018-07-21T15:44:22.915Z"
@@ -1318,7 +1318,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "dadeea2f94fd83263cef77faf18ee190",
+        "contentDigest": "5f9b5106c55d7a1d2b2b77a38e30f264",
         "type": "Directory",
         "description": "Directory \"src/posts/28-07-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -1330,7 +1330,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-07-28T12:08:05.522Z",
-      "accessTime": "2018-08-11T10:25:09.016Z",
+      "accessTime": "2018-08-11T10:50:10.171Z",
       "changeTime": "2018-07-28T12:08:05.522Z",
       "birthTime": "2018-07-28T11:20:57.778Z",
       "root": "/",
@@ -1348,11 +1348,11 @@
       "blksize": 4194304,
       "ino": 8617440847,
       "blocks": 0,
-      "atimeMs": 1533983109016.3057,
+      "atimeMs": 1533984610170.784,
       "mtimeMs": 1532779685521.9407,
       "ctimeMs": 1532779685521.9407,
       "birthtimeMs": 1532776857777.7642,
-      "atime": "2018-08-11T10:25:09.016Z",
+      "atime": "2018-08-11T10:50:10.171Z",
       "mtime": "2018-07-28T12:08:05.522Z",
       "ctime": "2018-07-28T12:08:05.522Z",
       "birthtime": "2018-07-28T11:20:57.778Z"
@@ -1362,7 +1362,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e4783e399c79110c0c46e429b42e11bf",
+        "contentDigest": "ad0a7bddbc3ec3f230557f9c370d110f",
         "type": "Directory",
         "description": "Directory \"src/posts/claps\"",
         "owner": "gatsby-source-filesystem"
@@ -1374,7 +1374,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T17:13:20.949Z",
-      "accessTime": "2018-08-11T10:25:09.016Z",
+      "accessTime": "2018-08-11T10:50:10.171Z",
       "changeTime": "2018-07-21T17:13:20.949Z",
       "birthTime": "2018-07-21T17:13:09.268Z",
       "root": "/",
@@ -1392,11 +1392,11 @@
       "blksize": 4194304,
       "ino": 8617100366,
       "blocks": 0,
-      "atimeMs": 1533983109016.3457,
+      "atimeMs": 1533984610170.7986,
       "mtimeMs": 1532193200949.1204,
       "ctimeMs": 1532193200949.1204,
       "birthtimeMs": 1532193189267.6887,
-      "atime": "2018-08-11T10:25:09.016Z",
+      "atime": "2018-08-11T10:50:10.171Z",
       "mtime": "2018-07-21T17:13:20.949Z",
       "ctime": "2018-07-21T17:13:20.949Z",
       "birthtime": "2018-07-21T17:13:09.268Z"
@@ -1861,7 +1861,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4075c9a5c0f48702644be11bc164d4f9",
+        "contentDigest": "3aaf47a05f9fa709caf0dda124e038a5",
         "type": "Directory",
         "description": "Directory \"src/posts/11-08-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -1873,7 +1873,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-11T10:23:03.070Z",
-      "accessTime": "2018-08-11T10:25:09.016Z",
+      "accessTime": "2018-08-11T10:50:10.171Z",
       "changeTime": "2018-08-11T10:23:03.070Z",
       "birthTime": "2018-08-11T10:22:57.902Z",
       "root": "/",
@@ -1891,11 +1891,11 @@
       "blksize": 4194304,
       "ino": 8618148532,
       "blocks": 0,
-      "atimeMs": 1533983109016.2908,
+      "atimeMs": 1533984610170.7332,
       "mtimeMs": 1533982983070.3857,
       "ctimeMs": 1533982983070.3857,
       "birthtimeMs": 1533982977902.275,
-      "atime": "2018-08-11T10:25:09.016Z",
+      "atime": "2018-08-11T10:50:10.171Z",
       "mtime": "2018-08-11T10:23:03.070Z",
       "ctime": "2018-08-11T10:23:03.070Z",
       "birthtime": "2018-08-11T10:22:57.902Z"
@@ -1947,195 +1947,6 @@
       "ctime": "2018-08-11T10:44:22.423Z",
       "birthtime": "2018-08-11T10:23:03.070Z"
     },
-    "SitePage /graphics-and-p5": {
-      "layout": "index",
-      "jsonName": "graphics-and-p-5.json",
-      "internalComponentName": "ComponentGraphicsAndP5",
-      "path": "/graphics-and-p5",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "id": "SitePage /graphics-and-p5",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2555d3c664f8f8f4ff33d34485dd1634",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /optimise-your-website": {
-      "layout": "index",
-      "jsonName": "optimise-your-website.json",
-      "internalComponentName": "ComponentOptimiseYourWebsite",
-      "path": "/optimise-your-website",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "id": "SitePage /optimise-your-website",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "3b0c935a4b0a402be9d5113e80949d64",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5a156765e62a8199ec0c654c634b4eca",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /about/": {
-      "layout": "index",
-      "jsonName": "about.json",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/about.js",
-      "componentChunkName": "component---src-pages-about-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/about.js",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4bad5c03002f12730ac15cca51afa91e",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /blog-page/": {
-      "layout": "index",
-      "jsonName": "blog-page.json",
-      "internalComponentName": "ComponentBlogPage",
-      "path": "/blog-page/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
-      "componentChunkName": "component---src-pages-blog-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
-      "id": "SitePage /blog-page/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4154027f97e9e0e8a6bf7f2b63264a9c",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /contact/": {
-      "layout": "index",
-      "jsonName": "contact.json",
-      "internalComponentName": "ComponentContact",
-      "path": "/contact/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/contact.js",
-      "componentChunkName": "component---src-pages-contact-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/contact.js",
-      "id": "SitePage /contact/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c233665bf97b7f0efb16f19c8be8f891",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "ab362d6bbeb44d1602c423cf309d2e6c",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5957ba16390d70c5ea8bf65d7b0e1b2c",
-        "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /teach-physics-and-programming": {
-      "layout": "index",
-      "jsonName": "teach-physics-and-programming.json",
-      "internalComponentName": "ComponentTeachPhysicsAndProgramming",
-      "path": "/teach-physics-and-programming",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "id": "SitePage /teach-physics-and-programming",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "6c820fa852560584ed70619373533b86",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/11-08-2018/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/11-08-2018/index.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -2158,6 +1969,195 @@
       "excerpt": "",
       "rawMarkdownBody": "![Earth and Moon Pixel Art](https://res.cloudinary.com/patricoferris/image/upload/v1533983316/pf2018/blogposts/11-08-2018/New_Piskel_1.png)\n*A geographically, physically and artistically incorrect representation of the Earth and Moon — created using Piskel*\n\nIf you haven’t read my [original post](https://medium.com/hackers-at-cambridge/computer-graphics-for-everyone-c80fc7e89cdc) about p5.js then I highly recommend you do before starting with this one. It covers all of the basics and will get you up to speed with the p5 library. This post is structured like a lesson with the aim of either teaching people about how to use p5 or showing people how they can captivate their students by making use of p5 in their lessons.\n\nLike I pointed out before, the people at p5 have the humble mission to make:\n\n…coding accessible for artists, designers, educators and beginners…\n\nOriginally I was blinded by the potential for artists and graphic designers. I gave little thought to the true potential of the library when concerning educators. Of course, you can show people how graphics work and they can learn through a higher-level abstraction of how real graphics programs are written, but what about other domains? Mathematics? Physics? In this article, we’ll build a physical representation of the Earth and Moon using the true equations that govern their motion, whilst also teaching about programming fundamentals like Object-Oriented Programming, inheritance and methods. If you’re ready, buckle in!\n\n###The Basic Setup\n\nLike all of our p5 sketches we begin with our two fundamental building blocks. The setup() function: this is where we initialise all of the objects and variables we will be using and the draw() function: a loop where we do all of our rendering to the canvas.\n\n ```javascript\nfunction setup() {\n  createCanvas(640, 640);\n}\n\nfunction draw() {\n  //Updates, renders etc.\n}\n ```\n\nRemember to include the [CDNs](https://p5js.org/download/) and your scripts in any HTML document you may be writing this in. If even that’s too much, [Codepen](https://codepen.io/) is a great sandbox for creating HTML, CSS and javascript masterpieces as well as an environment for teaching.\n\n###The Planet Class\n\nNow that we’ve got the set up out of the way we can start to teach some core programming fundamentals. First of all, what are objects and classes? I like to think of a class as the template or blue-print to building objects. Imagine the blue-prints to a house for example. If I design these well by including things like the functionalities of the house, the types and quantities of materials, then I can go on to build lots of houses based on this theme. That’s a class. All those houses we’re building, they’re the objects.\n\nHow does this relate to planets? Well we might want to make lots of planets and we don’t want to have to painstakingly re-write lines of code to construct new planets everytime! So, we define a blue-print. A class called Planet.\n\nWhen coding classes it’s always a good thing to think “what are the bare minimum things I need to define what I’m building?”. For a planet it could be a position, velocity, mass and radius. And if we’re being artists, a colour as well. And what functionality should it have? Well for now, let’s just draw it.\n\n ```javascript\nclass Planet {\n  //The 'build' method\n  constructor(position, mass, radius, color) {\n    this.position = position;\n    //A p5 Vector\n    this.velocity = createVector(0, 0);\n    this.mass = mass;\n    this.radius = radius;\n    this.color = color;\n  }\n\n  show() {\n    //pushing and popping is like save and restore\n    push();\n    //that way we can translate over to here\n    translate(this.position.x, this.position.y);\n    fill(this.color);\n    //draw our planet\n    ellipse(0, 0, this.radius, this.radius);\n    //and pop back to wherever we were before\n    pop();\n  }\n}\n\n ```\n\n###The Satellite Class\n\nSo now we want to have a Moon too. The Moon is a natural satellite and in the future we might want more satellites (like the [International Space Station](https://www.nasa.gov/mission_pages/station/main/index.html)), so we’re better off generalising our next class to a Satellite class.\n\nOne thing to always remember is, for the most part, programmers are lazy. Rewriting code takes time and not only that, but it allows bugs to creep into your code like reassigning a variable or changing arrays you didn’t want to. The astute amongst you may have realised that a Satellite, like the Moon, is an awful lot like a planet. In fact, if we could just inherit all of the characteristics of the Planet class and then just define the add-ons that a Satellite has that would save us time and lines of code. And we can!\n\nInheritance is the ability for a class to become a subclass of another superclass. In order to achieve this we use the extends keyword in javascript along with a special call to a super() function. This just tells the superclass to do the same constructing it would normally do. So, what else should our Satellite do? Well it’s going to be moving so we need an update() function, and there will also be a force applied to it so an applyForce(force) function also makes a lot of sense. One thing we didn’t define before was an acceleration, so we can do that now too!\n\n ```javascript\nclass Satellite extends Planet {\n  constructor(position, mass, radius, color, vel) {\n    //Telling Planet to build a base planet for us\n    super(position, mass, radius, color);\n    //Redefining the velocity to be something we pass it (shadowing)\n    this.velocity = vel;\n    //Our new variable acceleration\n    this.acceleration = createVector(0, 0);\n  }\n\n  //An apply force function - check the physics section to understand this\n  applyForce(force) {\n    var f = p5.Vector.div(force, this.mass);\n    this.acceleration.add(f);\n  }\n\n  //And an update function\n  update() {\n    this.velocity.add(this.acceleration)\n    this.position.add(this.velocity);\n    this.acceleration.mult(0);\n  }\n}\n ```\n\n###The Physics\n\nWe’ve already introduced some physics when we built our satellite class, one of the most widely taught and beautiful equations. Newton’s second law:\n\nforce = mass x acceleration\n\nIn our case we were applying an external force to our satellite and we already knew the mass so what we really wanted to change was the acceleration. Lucky for us the p5 library makes vector maths incredibly simple. Using vectors to represent position, velocity and acceleration is incredibly useful in teaching. Often people just assume these values to be scalars, but they’re not! Using this approach to teaching them makes this abundantly clear. Our function then looks like this.\n\n```javascript\n//applying a force to our object (force is also a vector)\napplyForce(force) {\n    // f = ma -> f/m = a\n    let f = p5.Vector.div(force, this.mass);\n    this.acceleration.add(f);\n}\n```\nAnother common stumbling block for students is the relationship between position, velocity and acceleration. Telling students that velocity is the change in position with respect to time is a little obtuse, especially if they’re new to the subject. In our update() function, however, it becomes clear how they relate. The acceleration nudges the velocity which in turn nudges the position before resetting the acceleration to zero. Why? Just ask Isaac Newton! Unless more force is being applied to our object we don’t want the acceleration to constantly increase otherwise our object would indefinitely speed up.\n\nSo far so good. But, what force are we actually applying here? What force keeps the Moon orbiting the Earth? The [centripetal force](http://hyperphysics.phy-astr.gsu.edu/hbase/cf.html). The equation for calculating the force is f = (m * v^2)/r where m is the mass of the Moon, v is the Moon’s velocity and r is the distance to the centre of the Earth. One more important point is the direction of the force. The centripetal force is always directed towards the centre of rotation. We can calculate this direction quite easily using the position vectors of the Earth and the Moon:\n\nlet force = p5.Vector.sub(satellite.position, centre.position).normalize();\n\nNotice we have to normalize() this force because we only want its direction not any associated magnitude, that comes from the equation above. Our full function looks something like this.\n\n ```javascript\nfunction centripetalForce(satellite, centre) {\n  //Get the direction of the force\n  let force = p5.Vector.sub(centre, satellite.position).normalize();\n  //Get the distance to centre of rotation from our satellite\n  let radius = p5.Vector.sub(centre, satellite.position).mag();\n  //The velocity squared\n  let velocitySquared = p5.Vector.dot(satellite.velocity, satellite.velocity);\n  //Pull it all together with the f = (m * v^2) / r equation\n  force.mult(velocitySquared);\n  force.mult(satellite.mass);\n  force.mult(1/radius);\n  return force;\n}\n ```\n\nGreat! Now we have all the pieces to put our Earth-Moon model together.\n\n###The Model\n\nLet’s create our Earth and Moon as variables in the global scope and then set them in our setup() function. This is common practice in a lot of programming and in fact is often the cause of a lot of headaches when you forget to initialise your variables and wonder why you have null pointer exceptions everywhere.\n\n ```javascript\n//Our global variables\nlet earth;\nlet moon;\nlet r = 225;\n\nfunction setup() {\n  createCanvas(640, 640);\n  //Creating our Earth and Moon\n  earth = new Planet(createVector(width/2, height/2), 1000, 100, 'blue');\n  //Notice we're starting the moon directly 'east' to our Earth, so the initial velocity is straight upwards.\n  //Feel free to experiment with this initial velocity to see how it affects the orbit\n  moon = new Satellite(createVector(width/2 + r, height/2), 10, 50, 'white', createVector(0, -4));\n}\n\nfunction draw() {\n  //Clear the canvas\n  background(0);\n  //Draw the Earth\n  earth.show();\n  //If the Moon is close enough to the Earth, apply the force\n  if(getDistance(earth, moon) <= r) {\n    moon.applyForce(centripetalForce(moon, earth.position));\n  }\n\n  //Update the moon\n  moon.update();\n  //Render it to the canvas... and then loop back to the start\n  moon.show();\n}\n ```\n\nAnd that’s it! We now have a fully functioning Earth and Moon model. We’ve been able to teach some of the core programming fundamentals, as well as offering a more intuitive and visual understanding of the laws of motion. All in our browser of choice! For a full demo check out the Codepen below.\n\n<iframe height='500' scrolling='no' title='Earth - Moon Model' src='//codepen.io/patricoferris/embed/djRbQv/?height=500&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/patricoferris/pen/djRbQv/'>Earth - Moon Model</a> by Patrick Ferris (<a href='https://codepen.io/patricoferris'>@patricoferris</a>) on <a href='https://codepen.io'>CodePen</a>.\n</iframe>\n\nI hope this article can inspire you to create your own educative experiences in the browser using p5.js. This has only scratched the surface. Two great resources to inspire you even more are:\n\nDaniel Shiffman’s The Coding Train who I owe a lot of how I got interested in programming too.\n\nThe p5 examples page and in particular the “simulate” subsection.\n\nHappy coding and creating!\n\n![Space Man](https://res.cloudinary.com/patricoferris/image/upload/v1533984203/pf2018/blogposts/11-08-2018/space.gif)\n",
       "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/11-08-2018/index.md"
+    },
+    "SitePage /graphics-and-p5": {
+      "layout": "index",
+      "jsonName": "graphics-and-p-5.json",
+      "internalComponentName": "ComponentGraphicsAndP5",
+      "path": "/graphics-and-p5",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "id": "SitePage /graphics-and-p5",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0f2f9039f595c4fe629f338b3fc40b47",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /optimise-your-website": {
+      "layout": "index",
+      "jsonName": "optimise-your-website.json",
+      "internalComponentName": "ComponentOptimiseYourWebsite",
+      "path": "/optimise-your-website",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "id": "SitePage /optimise-your-website",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9367968a161feb08c8593f9163e94e82",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /teach-physics-and-programming": {
+      "layout": "index",
+      "jsonName": "teach-physics-and-programming.json",
+      "internalComponentName": "ComponentTeachPhysicsAndProgramming",
+      "path": "/teach-physics-and-programming",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "id": "SitePage /teach-physics-and-programming",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5b2a31eac084e50cdae0037b858876ca",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c83165854ea9094d3ee4e0d15e08b12d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f01279dd1954755d57b794b631cbce02",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog-page/": {
+      "layout": "index",
+      "jsonName": "blog-page.json",
+      "internalComponentName": "ComponentBlogPage",
+      "path": "/blog-page/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
+      "componentChunkName": "component---src-pages-blog-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
+      "id": "SitePage /blog-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aeb04b5e6b697c94e0cc9d598a4d5107",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "141db20ffe00ede96a50c401cad3f26a",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "efa9e8db909cb63caf17d2239b35a559",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "933cf4765079629b43998be571b559dd",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {

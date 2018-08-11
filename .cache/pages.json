@@ -14,6 +14,13 @@
         "path": "/optimise-your-website"
     },
     {
+        "componentChunkName": "component---src-templates-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "teach-physics-and-programming.json",
+        "path": "/teach-physics-and-programming"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -61,12 +68,5 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "404-html.json",
         "path": "/404.html"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "teach-physics-and-programming.json",
-        "path": "/teach-physics-and-programming"
     }
 ]
