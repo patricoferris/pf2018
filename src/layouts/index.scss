@@ -219,9 +219,9 @@ iframe {
     padding-top: 5px;
     box-shadow: 0px 0px 170px -39px rgba(0,0,0,0.81);
     border-top: none;
-    background-size: 140%;
+    background-size: 110%;
     &:hover {
-      background-size: 170%;
+      background-size: 140%;
       background-color: white;
       background-blend-mode: lighten;
     }
@@ -261,8 +261,8 @@ iframe {
   line-height: 190%;
   font-family: 'Merriweather', serif;
   @media (min-width: $min-width) {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   h3 {
