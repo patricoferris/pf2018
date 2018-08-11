@@ -3,10 +3,7 @@ import Link from 'gatsby-link';
 import Blogpost from '../components/Blogpost';
 
 const About = () => (
-  <div style={{
-    padding: `40px 100px`,
-    lineHeight: `1.5em`
-  }}>
+  <div className='about'>
     <div className='image-holder'>
       <div id='home-image'></div>
     </div>
