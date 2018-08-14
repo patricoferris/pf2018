@@ -193,8 +193,8 @@ iframe {
   @media (min-width: $min-width) {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: 100%;
-    height: 200px;
+    grid-template-rows: 50% 50%;
+    height: 400px;
   }
 
   a {
