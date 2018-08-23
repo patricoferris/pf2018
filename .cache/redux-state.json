@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f2226d7bf22107c15293d74161537206",
+        "contentDigest": "0a1e919413ee8e90dbbb90486d91bfc3",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -1215,12 +1215,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-14T21:07:05.726Z",
+      "buildTime": "2018-08-23T21:53:20.358Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a06bcbb7728d5471e8f2eba9a3528b0d",
+        "contentDigest": "3f1d26f48987761096bd2b2b9e5545ad",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1230,7 +1230,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e263c12787a46b23159be22ae9f2c320",
+        "contentDigest": "4625e9468f8fd088936481561ae04cb5",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1242,7 +1242,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2018-08-14T20:55:07.334Z",
-      "accessTime": "2018-08-14T21:07:10.906Z",
+      "accessTime": "2018-08-23T21:53:25.097Z",
       "changeTime": "2018-08-14T20:55:07.334Z",
       "birthTime": "2018-07-21T15:43:49.673Z",
       "root": "/",
@@ -1260,11 +1260,11 @@
       "blksize": 4194304,
       "ino": 8617091460,
       "blocks": 0,
-      "atimeMs": 1534280830906.4746,
+      "atimeMs": 1535061205096.62,
       "mtimeMs": 1534280107334.0496,
       "ctimeMs": 1534280107334.0496,
       "birthtimeMs": 1532187829672.5415,
-      "atime": "2018-08-14T21:07:10.906Z",
+      "atime": "2018-08-23T21:53:25.097Z",
       "mtime": "2018-08-14T20:55:07.334Z",
       "ctime": "2018-08-14T20:55:07.334Z",
       "birthtime": "2018-07-21T15:43:49.673Z"
@@ -1274,7 +1274,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6641d1b9acbc4bb70d8b00f794f2eed2",
+        "contentDigest": "27c6da8301840bf7b0a7a87881c9a7f3",
         "type": "Directory",
         "description": "Directory \"src/posts/27-02-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -1286,7 +1286,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-05T14:56:27.919Z",
-      "accessTime": "2018-08-14T21:07:10.910Z",
+      "accessTime": "2018-08-23T21:53:25.101Z",
       "changeTime": "2018-08-05T14:56:27.919Z",
       "birthTime": "2018-07-21T15:44:22.915Z",
       "root": "/",
@@ -1304,11 +1304,11 @@
       "blksize": 4194304,
       "ino": 8617091493,
       "blocks": 0,
-      "atimeMs": 1534280830909.9812,
+      "atimeMs": 1535061205101.2178,
       "mtimeMs": 1533480987918.871,
       "ctimeMs": 1533480987918.871,
       "birthtimeMs": 1532187862914.7139,
-      "atime": "2018-08-14T21:07:10.910Z",
+      "atime": "2018-08-23T21:53:25.101Z",
       "mtime": "2018-08-05T14:56:27.919Z",
       "ctime": "2018-08-05T14:56:27.919Z",
       "birthtime": "2018-07-21T15:44:22.915Z"
@@ -1318,7 +1318,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4a08cba9eef8367f76b0b9d7d3e4cc99",
+        "contentDigest": "f5f7b5eb8788c7a5cb75ae1bf909c279",
         "type": "Directory",
         "description": "Directory \"src/posts/28-07-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -1330,7 +1330,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-07-28T12:08:05.522Z",
-      "accessTime": "2018-08-14T21:07:10.910Z",
+      "accessTime": "2018-08-23T21:53:25.101Z",
       "changeTime": "2018-07-28T12:08:05.522Z",
       "birthTime": "2018-07-28T11:20:57.778Z",
       "root": "/",
@@ -1348,11 +1348,11 @@
       "blksize": 4194304,
       "ino": 8617440847,
       "blocks": 0,
-      "atimeMs": 1534280830909.9937,
+      "atimeMs": 1535061205101.2454,
       "mtimeMs": 1532779685521.9407,
       "ctimeMs": 1532779685521.9407,
       "birthtimeMs": 1532776857777.7642,
-      "atime": "2018-08-14T21:07:10.910Z",
+      "atime": "2018-08-23T21:53:25.101Z",
       "mtime": "2018-07-28T12:08:05.522Z",
       "ctime": "2018-07-28T12:08:05.522Z",
       "birthtime": "2018-07-28T11:20:57.778Z"
@@ -1362,7 +1362,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "21a203ff20f169d1ba1c4d450a95bc5b",
+        "contentDigest": "2fcb28722d4cc2623766b2ba29b8488e",
         "type": "Directory",
         "description": "Directory \"src/posts/claps\"",
         "owner": "gatsby-source-filesystem"
@@ -1374,7 +1374,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-21T17:13:20.949Z",
-      "accessTime": "2018-08-14T21:07:10.910Z",
+      "accessTime": "2018-08-23T21:53:25.101Z",
       "changeTime": "2018-07-21T17:13:20.949Z",
       "birthTime": "2018-07-21T17:13:09.268Z",
       "root": "/",
@@ -1392,11 +1392,11 @@
       "blksize": 4194304,
       "ino": 8617100366,
       "blocks": 0,
-      "atimeMs": 1534280830910.0156,
+      "atimeMs": 1535061205101.2688,
       "mtimeMs": 1532193200949.1204,
       "ctimeMs": 1532193200949.1204,
       "birthtimeMs": 1532193189267.6887,
-      "atime": "2018-08-14T21:07:10.910Z",
+      "atime": "2018-08-23T21:53:25.101Z",
       "mtime": "2018-07-21T17:13:20.949Z",
       "ctime": "2018-07-21T17:13:20.949Z",
       "birthtime": "2018-07-21T17:13:09.268Z"
@@ -1861,7 +1861,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7fae27f08a6f0e9a2a82bc0992acfb18",
+        "contentDigest": "3a2e0991627e78b9c2e58d6de6cacd2e",
         "type": "Directory",
         "description": "Directory \"src/posts/11-08-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -1873,7 +1873,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-11T10:23:03.070Z",
-      "accessTime": "2018-08-14T21:07:10.910Z",
+      "accessTime": "2018-08-23T21:53:25.101Z",
       "changeTime": "2018-08-11T10:23:03.070Z",
       "birthTime": "2018-08-11T10:22:57.902Z",
       "root": "/",
@@ -1891,11 +1891,11 @@
       "blksize": 4194304,
       "ino": 8618148532,
       "blocks": 0,
-      "atimeMs": 1534280830909.9395,
+      "atimeMs": 1535061205101.172,
       "mtimeMs": 1533982983070.3857,
       "ctimeMs": 1533982983070.3857,
       "birthtimeMs": 1533982977902.275,
-      "atime": "2018-08-14T21:07:10.910Z",
+      "atime": "2018-08-23T21:53:25.101Z",
       "mtime": "2018-08-11T10:23:03.070Z",
       "ctime": "2018-08-11T10:23:03.070Z",
       "birthtime": "2018-08-11T10:22:57.902Z"
@@ -1975,7 +1975,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c40a49d2944241fd43a07248607953b7",
+        "contentDigest": "2ce0b8c9c472d8d988cfe0bf1640cf22",
         "type": "Directory",
         "description": "Directory \"src/posts/14-08-2018\"",
         "owner": "gatsby-source-filesystem"
@@ -1987,7 +1987,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-14T20:55:15.873Z",
-      "accessTime": "2018-08-14T21:07:10.910Z",
+      "accessTime": "2018-08-23T21:53:25.101Z",
       "changeTime": "2018-08-14T20:55:15.873Z",
       "birthTime": "2018-08-14T20:55:07.334Z",
       "root": "/",
@@ -2005,11 +2005,11 @@
       "blksize": 4194304,
       "ino": 8618318758,
       "blocks": 0,
-      "atimeMs": 1534280830909.9575,
+      "atimeMs": 1535061205101.1873,
       "mtimeMs": 1534280115873.2356,
       "ctimeMs": 1534280115873.2356,
       "birthtimeMs": 1534280107334.0364,
-      "atime": "2018-08-14T21:07:10.910Z",
+      "atime": "2018-08-23T21:53:25.101Z",
       "mtime": "2018-08-14T20:55:15.873Z",
       "ctime": "2018-08-14T20:55:15.873Z",
       "birthtime": "2018-08-14T20:55:07.334Z"
@@ -2061,216 +2061,6 @@
       "ctime": "2018-08-14T21:20:01.440Z",
       "birthtime": "2018-08-14T20:55:15.873Z"
     },
-    "SitePage /graphics-and-p5": {
-      "layout": "index",
-      "jsonName": "graphics-and-p-5.json",
-      "internalComponentName": "ComponentGraphicsAndP5",
-      "path": "/graphics-and-p5",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "id": "SitePage /graphics-and-p5",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2414140edb2c31fcdeb77c1a125ef22d",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /optimise-your-website": {
-      "layout": "index",
-      "jsonName": "optimise-your-website.json",
-      "internalComponentName": "ComponentOptimiseYourWebsite",
-      "path": "/optimise-your-website",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "id": "SitePage /optimise-your-website",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "a57e9f039201ddbbf8e0a3c666272fe8",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /teach-physics-and-programming": {
-      "layout": "index",
-      "jsonName": "teach-physics-and-programming.json",
-      "internalComponentName": "ComponentTeachPhysicsAndProgramming",
-      "path": "/teach-physics-and-programming",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "id": "SitePage /teach-physics-and-programming",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "d1b4e4832fa8bda190bcbdd4e3d504dd",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "e61c4477b65f019a2af9a9025f11586e",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /about/": {
-      "layout": "index",
-      "jsonName": "about.json",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/about.js",
-      "componentChunkName": "component---src-pages-about-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/about.js",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "0f15167d93a7eea5a2d2a53071a13381",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /blog-page/": {
-      "layout": "index",
-      "jsonName": "blog-page.json",
-      "internalComponentName": "ComponentBlogPage",
-      "path": "/blog-page/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
-      "componentChunkName": "component---src-pages-blog-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
-      "id": "SitePage /blog-page/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "8873ba806e9fbd9f29c50c0ae574a3de",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /contact/": {
-      "layout": "index",
-      "jsonName": "contact.json",
-      "internalComponentName": "ComponentContact",
-      "path": "/contact/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/contact.js",
-      "componentChunkName": "component---src-pages-contact-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/contact.js",
-      "id": "SitePage /contact/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "8fb1dcb48dbed6bc4b26175662c8657e",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "106c48d83e086ee68757268333fa2872",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "dbd69b3b0554c5fec32b7593002c1889",
-        "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /tensorflow-word2vec-tsne": {
-      "layout": "index",
-      "jsonName": "tensorflow-word-2-vec-tsne.json",
-      "internalComponentName": "ComponentTensorflowWord2VecTsne",
-      "path": "/tensorflow-word2vec-tsne",
-      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "componentChunkName": "component---src-templates-post-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
-      "id": "SitePage /tensorflow-word2vec-tsne",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "69dcd2be3d9d87b6cfa022aae2aef445",
-        "description": "Your site's \"gatsby-node.js\"",
-        "owner": "internal-data-bridge"
-      }
-    },
     "/Users/patrickferris/Documents/Projects/pf2018/src/posts/14-08-2018/index.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/14-08-2018/index.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -2293,6 +2083,216 @@
       "excerpt": "",
       "rawMarkdownBody": "*Posted on [freeCodeCamp](https://medium.freecodecamp.org/learn-tensorflow-the-word2vec-model-and-the-tsne-algorithm-using-rock-bands-97c99b5dcb3a)*\n![KMEAN Clustering of the Genres](https://res.cloudinary.com/patricoferris/image/upload/v1534280789/pf2018/blogposts/14-08-2018/KMEANS_CLUSTERING.png)\n\nLearning the “TensorFlow way” to build a neural network can seem like a big hurdle to getting started with machine learning. In this tutorial, we’ll take it step by step and explain all of the critical components involved as we build a Bands2Vec model using [Pitchfork](https://www.kaggle.com/nolanbconaway/pitchfork-data) data from [Kaggle](https://www.kaggle.com/nolanbconaway/pitchfork-data). For the full code, check out the GitHub [page](https://github.com/patricoferris/machinelearning/blob/master/word2vec/Pitchfork.ipynb).\n\n###The Word2Vec Model\n\nNeural networks consume numbers and produce numbers. They’re very good at it. But give them some text, and they’ll throw a tantrum and do nothing remotely interesting. If it is the neural network’s job to crunch the numbers and produce meaningful output, then it is our job to make sure that whatever we are feeding it is meaningful too. This quest for a meaningful representation of information gave birth to the Word2Vec model.\n\nOne approach to working with words is to form [one-hot encoded vectors](https://en.wikipedia.org/wiki/One-hot). Create a long (the number of distinct words in our vocabulary) list of zeroes, and have each word point to a unique index of this list. If we see this word, make that index in the list a number one.\n\nWhile this approach works, it requires a lot space and is completely devoid of meaning. ‘Good’ and ‘Excellent’ are as similar as ‘Duck’ and ‘Blackhole’. If only there was a way to vectorise words so that we preserved this contextual similarity…\n\nThankfully, there is a way!\n\nUsing a neural network, we can produce ‘[embeddings](https://en.wikipedia.org/wiki/Word_embedding)’ of our words. These are vectors that represent each unique word extracted from the weights of the connections within our network.\n\nBut the question remains: how do we make sure they’re meaningful? The answer: feed in pairs of words as a target word and a context word. Do this enough times, throwing in some bad examples too, and the neural network begins to learn what words appear together and how this forms almost a graph. Like a social network of words interconnected by contexts. ‘Good’ goes to ‘helpful’ which goes to ‘caring’ and so on. Our task is to feed this data into the neural network.\n\nOne of the most common approaches is the [Skipgram](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) model, generating these target-context pairings based on moving a window across a dataset of text. But what if our data isn’t sentences, but we still have contextual meaning? In this tutorial, our words are artist names and our contexts are genres and mean review scores. We want artist A to be close to artist B if they share a genre and have a mean review score that is similar. So let’s get started.\n\nBuilding our Dataset\n\n[Pitchfork](https://pitchfork.com/) is an online American music magazine covering mostly rock, independent, and new music. The data released to Kaggle was scraped from their website and contains information like reviews, genres, and dates linked to each artist.\n\nLet’s create an artist class and dictionary to store all of the useful information we want.\n\n ```python\n# Connecting to the Kaggle Pitchfork Database\nimport sqlite3 as sql\nimport numpy as np\n\n\ndb = sql.connect('../../data/pitchfork.sqlite')\ncursor = db.cursor()\n\nartist_dict = {}\nartist_lookup = {}\n\n#An artist class for holding the information\nclass Artist:\n    def __init__(self, name):\n        self.name = name\n        self.reviews = []\n        self.genres = []\n        self.scores = []\n    def add_review(self, review):\n        self.reviews.append(review)\n    def add_genre(self, genre):\n        self.genres.append(genre)\n    def add_score(self, score):\n        self.scores.append(score)\n    def __str__(self):\n        return self.name\n\n#Reading in the data and storing it as Aritst objects in our dictionary\ncursor.execute('select reviews.reviewid, artist, genre, score from reviews join genres on genres.reviewid = reviews.reviewid')\nfor row in cursor:\n    if row[1] not in artist_dict:\n        artist_dict[row[1]] = Artist(row[1])\n        artist_dict[row[1]].add_review(row[0])\n        artist_dict[row[1]].add_genre(row[2])\n        artist_dict[row[1]].add_score(row[3])\n        artist_lookup[row[1]] = len(artist_lookup)\n    else:\n        artist_dict[row[1]].add_review(row[0])\n        artist_dict[row[1]].add_genre(row[2])\n        artist_dict[row[1]].add_score(row[3])\n ```\n\nGreat! Now we want to manufacture our target-context pairings based on genre and mean review score. To do this, we’ll create two dictionaries: one for the different unique genres, and one for the scores (discretised to integers).\n\nWe’ll add all our artists to the corresponding genre and mean score in these dictionaries to use later when generating pairs of artists.\n\n ```python\ngenres = {}\ngenre_lookup = {}\nscores = {}\ncursor.execute('select distinct genre from genres')\n\nfor row in cursor:\n    genre_lookup[len(genre_lookup)] = row[0]\n    genres[row[0]] = []\n\nfor i in range(11):\n    scores[i] = []\n\n#We start adding the different artists into our dictionaries\nfor artist in artist_dict:\n    for genre in artist_dict[artist].genres:\n        #We don't want to add them more than once - although maybe this could be a weighting\n        #as in how 'rocky' are the band?\n        if artist not in genres[genre]:\n            genres[genre].append(artist_lookup[artist])\n    mean_score = np.mean(artist_dict[artist].scores)\n    scores[round(mean_score)].append(artist_lookup[artist])\n ```\n\nOne last step before we dive into the TensorFlow code: generating a batch! A batch is like a sample of data that our neural network will use for each epoch. An epoch is one sweep across the neural network in a training phase. We want to generate two numpy arrays. One will contain the following code:\n\n ```python\n#Our batch generator - the bias allows us to control how much of the context is from genre and how much is from score\ndef gen_batch(genres, scores, size, bias):\n    #Initialise the numpy arrays - the xs are the target words and the ys the inidividual contexts.\n    xs = np.ndarray(shape=(size), dtype=np.int32)\n    ys = np.ndarray(shape=(size, 1), dtype=np.int32)\n    for idx in range(size):\n        b = np.random.randint(10)\n        if b < bias:\n            genre = np.random.randint(len(genres))\n            g1 = np.random.randint(len(genres[genre_lookup[genre]]))\n            g2 = np.random.randint(len(genres[genre_lookup[genre]]))\n            #Probably an inefficient way to make sure we don't choose the same artist\n            while g1 == g2:\n                g2 = np.random.randint(len(genres[genre_lookup[genre]]))\n            #Adding the artist unique integer id\n            xs[idx] = genres[genre_lookup[genre]][g1]\n            ys[idx][0] = genres[genre_lookup[genre]][g2]\n        else:\n            score = np.random.randint(len(scores))\n            s1 = np.random.randint(len(scores[score]))\n            s2 = np.random.randint(len(scores[score]))\n            while s1 == s2:\n                s2 = np.random.randint(len(scores[score]))\n            xs[idx] = scores[score][s1]\n            ys[idx][0] = scores[score][s2]\n    return xs, ys\n\n#A useful dictionary to go from unique integer to artist name\nartist_decode = dict(zip(artist_lookup.values(), artist_lookup.keys()))\n ```\n\nTensorFlow\n\nThere are a myriad of TensorFlow tutorials and sources of knowledge out there. Any of these [excellent articles](https://medium.freecodecamp.org/search?q=tensorflow) will help you as well as the [documentation](https://www.tensorflow.org/tutorials/). The following code is heavily based on the [word2vec](https://github.com/tensorflow/tensorflow/blob/r1.9/tensorflow/examples/tutorials/word2vec/word2vec_basic.py) tutorial from the TensorFlow people themselves. Hopefully I can demystify some of it and boil it down to the essentials.\n\nThe first step is understanding the ‘graph’ representation. This is incredibly useful for the [TensorBoard](https://www.tensorflow.org/guide/summaries_and_tensorboard) visualisations and for creating a mental image of the data flows within the neural network.\n\nTake some time to read through the code and comments below. Before we feed data to a neural network, we have to initialise all of the parts we’re going to use. The placeholders are the inputs taking whatever we give the ‘feed_dict’. The variables are mutable parts of the graph that we will eventually tweak. The most important part of our model is the loss function. It’s the score of how well we did and the treasure map to how we can improve.\n\n ```python\n#Before we dive in we need to declare some variables\nvocabulary_size = len(artist_lookup)\n#How big we want our final vectors to be\nembedding_size = 64\n#The number of training samples passed per epoch\nbatch_size = 64\n#Number of negative samples to use in NCE [see below]\nnum_sampled = 16\n\n#BAND2VEC - Tensorflow Time!\nimport tensorflow as tf\nimport math\n\ngraph = tf.Graph()\n\nwith graph.as_default():\n    #Defining variables and functions in a scope is good practice - adds a prefix to the operations\n    with tf.name_scope('inputs'):\n        #Tensorflow Placeholders are the mouths of the neural network - they will constantly be fed new information\n        training_inputs = tf.placeholder(tf.int32, shape=[batch_size])\n        training_labels = tf.placeholder(tf.int32, shape=[batch_size, 1])\n\n    #Using the CPU\n    with tf.device('/cpu:0'):\n        with tf.name_scope('embeddings'):\n            #The embeddings - variables are maintained across runs and need to be initialised with a shape and type\n            #Each row is a band represented by a vector of length 'embedding_size'\n            embeddings = tf.Variable(tf.random_uniform([vocabulary_size, embedding_size], -1.0, 1.0))\n            #Like passing muliple indices to a numpy array we get the vectors quickly with this function\n            embed = tf.nn.embedding_lookup(embeddings, training_inputs)\n\n        with tf.name_scope('weights'):\n            #Like embeddings we initialise our weights and also...\n            nce_weights = tf.Variable(\n                tf.truncated_normal()\n                    [vocabulary_size, embedding_size],\n                    stddev=1.0 / math.sqrt(embedding_size)))\n\n        with tf.name_scope('biases'):\n            #...our biases\n            nce_biases = tf.Variable(tf.zeros([vocabulary_size]))\n\n    with tf.name_scope('loss'):\n        #Finally our loss function - see below for an explanation of the Noise Contrastive Estimation Approach\n        loss = tf.reduce_mean(\n            tf.nn.nce_loss(\n                weights=nce_weights,\n                biases=nce_biases,\n                labels=training_labels,\n                inputs=embed,\n                num_sampled=num_sampled,\n                num_classes=vocabulary_size))\n\n    with tf.name_scope('optimizer'):\n        optimizer = tf.train.GradientDescentOptimizer(1.0).minimize(loss)\n ```\n\nNoise Contrastive Estimation (NCE) is a loss function. Usually we would use cross-entropy and softmax, but in the natural language processing world, all of our classes amount to every single unique word.\n\nComputationally, this is bad. NCE changes the framing of the problem from probabilities of classes to whether or not a target-context pairing is correct (a binary classification). It takes a true pairing and then samples to get bad pairings, the constant num\\_sampled controls this. Our neural network learns to distinguish between these good and bad pairings. Ultimately, it learns the contexts! You can read more about NCE and how it works [here](https://www.tensorflow.org/api_docs/python/tf/nn/nce_loss).\n\n###Run the Neural Network\n\nNow that everything is set up nicely, we just have to hit the big green ‘go’ button and twiddle our thumbs for a bit.\n\n ```python\n#Running our Neural Network!\n#First we init the session\niterations = 100000\n\nwith tf.Session(graph=graph) as sess:\n    #We run the initialize all global variables operation\n    sess.run(tf.global_variables_initializer())\n    average_loss = 0.0\n    #For all of the iterations\n    for index in range(iterations)\n        #Generate a batch\n        ti, tl = gen_batch(genres, scores, batch_size, 8)\n        #Put these in our feed dictionary\n        feed_dict = {training_inputs: ti, training_labels: tl}\n        #Run the NN! Notice the feed dict feeding our placeholders from before\n        _, loss_val = sess.run([optimizer, loss], feed_dict=feed_dict)\n        #Some metrics so we can see how we're doing\n        average_loss += loss_val\n        if (index + 1) % 2000 == 0:\n            print('Average loss at step', index + 1, average_loss / (index + 1))\n    #Returns our Embeddings so we can access them       \n\n    final_embeddings = embeddings.eval()\n ```\n\nVisualization using TSNE\n\nOkay, we’re not quite done. We now have context-rich, 64-dimensional vectors for our artists, but that’s perhaps too many dimensions to really visualize its usefulness.\n\nLucky for us we can squash this information into two dimensions while retaining as many of the properties as the 64 dimensions had! This is T-distributed Stochastic Neighbor Embedding, or TSNE for short. This [video](https://www.youtube.com/watch?v=NEaUSP4YerM) does a great job of explaining the main idea behind TSNE, but I’ll try to give a broad overview.\n\nTSNE is an approach to dimensionality reduction that retains the similarities (like Euclidean distance) of higher dimensions. To do this, it first builds a matrix of point-to-point similarities calculated using a normal distribution. The centre of the distribution is the first point, and the similarity of the second point is the value of the distribution at the distance between the points away from the centre of the distribution.\n\nThen we project randomly onto the dimension below and do exactly the same process using a t-distribution. Now we have two matrices of point-to-point similarities. The algorithm then slowly moves the points in the lower dimension to try and make it look like the matrix for the higher dimension where the similarities were preserved. And repeat. Thankfully, Sci-kit Learn has a function which can do the number crunching for us.\n\n ```python\ntry:\n    from sklearn.manifold import TSNE\n    import matplotlib.pyplot as plt\n\n    tsne = TSNE(perplexity=30, n_components=2, verbose=1, init='pca', n_iter=500, method='exact')\n    plot_only = len(artist_lookup)\n\n    low_dim_embs = tsne.fit_transform(final_embeddings[:plot_only, :])\nexcept ImportError as ex:\n    print('Please install sklearn, matplotlib, and scipy to show embeddings.')\n    print(ex)\n ```\n\n### The Results\n\n![All of the Artists plotted using their low dimensional embedding](https://res.cloudinary.com/patricoferris/image/upload/v1534280792/pf2018/blogposts/14-08-2018/LOW_DIM_EMBS_ALL.png)\n\nThe amazing aspect of these embeddings is that, just like vectors, they support mathematical operations. The classic example being: King — Man + Woman = Queen , or at least very close to it. Let’s try an example.\n\nTake the low dimensional embeddings of Coil, a band with the following genres, [‘electronic’, ‘experimental', ‘rock’] , and mean score 7.9. Now subtract the low dimensional embeddings of Elder Ones, a band with genres,['electronic'] , and mean score 7.8. With this embedding difference, find the closest bands to it and print their names and genres.\n\nArtist: black lips, Mean Score: 7.48, Genres: ['rock', 'rock', 'rock', 'rock', 'rock']\n\nArtist: crookers, Mean Score: 5.5, Genres: ['electronic']\n\nArtist: guided by voices, Mean Score: 7.23043478261, Genres: ['rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock', 'rock']\n\nIt worked! We’re getting rock and electronic bands with vaguely similar review scores. Below are the first three hundred bands plotted with labels. Hopefully you’ve found this project educational and inspiring. Go forth and build, explore, and play!\n\n![Three hundred artists plotted and labelled](https://res.cloudinary.com/patricoferris/image/upload/v1534280789/pf2018/blogposts/14-08-2018/FIRST_300.png)\n",
       "fileAbsolutePath": "/Users/patrickferris/Documents/Projects/pf2018/src/posts/14-08-2018/index.md"
+    },
+    "SitePage /graphics-and-p5": {
+      "layout": "index",
+      "jsonName": "graphics-and-p-5.json",
+      "internalComponentName": "ComponentGraphicsAndP5",
+      "path": "/graphics-and-p5",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "id": "SitePage /graphics-and-p5",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3e71e7245a6ef916041e25e0f8624c8b",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /optimise-your-website": {
+      "layout": "index",
+      "jsonName": "optimise-your-website.json",
+      "internalComponentName": "ComponentOptimiseYourWebsite",
+      "path": "/optimise-your-website",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "id": "SitePage /optimise-your-website",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c7436e5aaf8a2b25490850f58acdee6d",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /teach-physics-and-programming": {
+      "layout": "index",
+      "jsonName": "teach-physics-and-programming.json",
+      "internalComponentName": "ComponentTeachPhysicsAndProgramming",
+      "path": "/teach-physics-and-programming",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "id": "SitePage /teach-physics-and-programming",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "403116bd3b1a0352bfae9d37cbff3bd6",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tensorflow-word2vec-tsne": {
+      "layout": "index",
+      "jsonName": "tensorflow-word-2-vec-tsne.json",
+      "internalComponentName": "ComponentTensorflowWord2VecTsne",
+      "path": "/tensorflow-word2vec-tsne",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/templates/post.js",
+      "id": "SitePage /tensorflow-word2vec-tsne",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d8fda9259bcf79af1be0b82d398668e3",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "961af39084cb828e250a569b0bc33a90",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "458c50ed04b0a1635950e0951875b165",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog-page/": {
+      "layout": "index",
+      "jsonName": "blog-page.json",
+      "internalComponentName": "ComponentBlogPage",
+      "path": "/blog-page/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
+      "componentChunkName": "component---src-pages-blog-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/blog-page.js",
+      "id": "SitePage /blog-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8daa95741155e724974c618c4940dcdf",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0c8083f8a2af8adf62a7ee47bd15344a",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "877f6d2bbdff4799b1cc185556763abc",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/patrickferris/Documents/Projects/pf2018/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "28d070e0fdb799a591d1365a9daabfd0",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {

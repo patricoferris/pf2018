@@ -16,14 +16,14 @@ exports.json = {
   "graphics-and-p-5.json": require("gatsby-module-loader?name=path---graphics-and-p-5!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/graphics-and-p-5.json"),
   "optimise-your-website.json": require("gatsby-module-loader?name=path---optimise-your-website!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/optimise-your-website.json"),
   "teach-physics-and-programming.json": require("gatsby-module-loader?name=path---teach-physics-and-programming!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/teach-physics-and-programming.json"),
+  "tensorflow-word-2-vec-tsne.json": require("gatsby-module-loader?name=path---tensorflow-word-2-vec-tsne!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/tensorflow-word-2-vec-tsne.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/dev-404-page.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404.json"),
   "about.json": require("gatsby-module-loader?name=path---about!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/about.json"),
   "blog-page.json": require("gatsby-module-loader?name=path---blog-page!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/blog-page.json"),
   "contact.json": require("gatsby-module-loader?name=path---contact!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/contact.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/index.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404-html.json"),
-  "tensorflow-word-2-vec-tsne.json": require("gatsby-module-loader?name=path---tensorflow-word-2-vec-tsne!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/tensorflow-word-2-vec-tsne.json")
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404-html.json")
 }
 
 exports.layouts = {
