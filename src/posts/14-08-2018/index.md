@@ -10,7 +10,7 @@ imageUrl: 'https://res.cloudinary.com/patricoferris/image/upload/v1534280789/pf2
 
 Learning the “TensorFlow way” to build a neural network can seem like a big hurdle to getting started with machine learning. In this tutorial, we’ll take it step by step and explain all of the critical components involved as we build a Bands2Vec model using [Pitchfork](https://www.kaggle.com/nolanbconaway/pitchfork-data) data from [Kaggle](https://www.kaggle.com/nolanbconaway/pitchfork-data). For the full code, check out the GitHub [page](https://github.com/patricoferris/machinelearning/blob/master/word2vec/Pitchfork.ipynb).
 
-###The Word2Vec Model
+### The Word2Vec Model
 
 Neural networks consume numbers and produce numbers. They’re very good at it. But give them some text, and they’ll throw a tantrum and do nothing remotely interesting. If it is the neural network’s job to crunch the numbers and produce meaningful output, then it is our job to make sure that whatever we are feeding it is meaningful too. This quest for a meaningful representation of information gave birth to the Word2Vec model.
 
@@ -26,7 +26,7 @@ But the question remains: how do we make sure they’re meaningful? The answer: 
 
 One of the most common approaches is the [Skipgram](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) model, generating these target-context pairings based on moving a window across a dataset of text. But what if our data isn’t sentences, but we still have contextual meaning? In this tutorial, our words are artist names and our contexts are genres and mean review scores. We want artist A to be close to artist B if they share a genre and have a mean review score that is similar. So let’s get started.
 
-Building our Dataset
+### Building our Dataset
 
 [Pitchfork](https://pitchfork.com/) is an online American music magazine covering mostly rock, independent, and new music. The data released to Kaggle was scraped from their website and contains information like reviews, genres, and dates linked to each artist.
 
@@ -137,7 +137,7 @@ def gen_batch(genres, scores, size, bias):
 artist_decode = dict(zip(artist_lookup.values(), artist_lookup.keys()))
  ```
 
-TensorFlow
+### TensorFlow
 
 There are a myriad of TensorFlow tutorials and sources of knowledge out there. Any of these [excellent articles](https://medium.freecodecamp.org/search?q=tensorflow) will help you as well as the [documentation](https://www.tensorflow.org/tutorials/). The following code is heavily based on the [word2vec](https://github.com/tensorflow/tensorflow/blob/r1.9/tensorflow/examples/tutorials/word2vec/word2vec_basic.py) tutorial from the TensorFlow people themselves. Hopefully I can demystify some of it and boil it down to the essentials.
 
@@ -207,7 +207,7 @@ Noise Contrastive Estimation (NCE) is a loss function. Usually we would use cros
 
 Computationally, this is bad. NCE changes the framing of the problem from probabilities of classes to whether or not a target-context pairing is correct (a binary classification). It takes a true pairing and then samples to get bad pairings, the constant num\_sampled controls this. Our neural network learns to distinguish between these good and bad pairings. Ultimately, it learns the contexts! You can read more about NCE and how it works [here](https://www.tensorflow.org/api_docs/python/tf/nn/nce_loss).
 
-###Run the Neural Network
+### Run the Neural Network
 
 Now that everything is set up nicely, we just have to hit the big green ‘go’ button and twiddle our thumbs for a bit.
 
@@ -237,7 +237,7 @@ with tf.Session(graph=graph) as sess:
     final_embeddings = embeddings.eval()
  ```
 
-Visualization using TSNE
+###Visualization using TSNE
 
 Okay, we’re not quite done. We now have context-rich, 64-dimensional vectors for our artists, but that’s perhaps too many dimensions to really visualize its usefulness.
 
