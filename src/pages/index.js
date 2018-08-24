@@ -36,7 +36,9 @@ const IndexPage = () => (
           <img className='logos' src="https://res.cloudinary.com/patricoferris/image/upload/v1532377832/sass.png"/>
         </a>
       </p>
-      <h1 style={{textAlign: `center`, textDecoration: `none`, color: `rgb(238, 144, 53)`}}><a href='https://res.cloudinary.com/patricoferris/image/upload/v1535061267/pf2018/cv.pdf'>CV</a></h1>
+      <h1 style={{textAlign: `center`}}>
+        <a style={{textDecoration: `none`, color: `rgb(238, 144, 53)`}} href='https://res.cloudinary.com/patricoferris/image/upload/v1535061267/pf2018/cv.pdf'>CV</a>
+      </h1>
     </div>
     <div id='code'>
       <Highlight className='javascript'>
