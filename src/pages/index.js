@@ -12,11 +12,11 @@ const IndexPage = () => (
       <h2 className='ttitle'>Greetings</h2>
       <h4 className='ssubtitle'>WELCOME TO MY SPACE ON THE WEB</h4>
       <p>My name is Patrick Ferris and I am a nineteen year old programmer, blogger and all-round tech enthusiast. I am currently Editor in Chief of the Hacker's at Cambridge blog.</p>
-      <p>In the blog section you can check out all of my recent ideas and interests including the Medium articles I've been reading recently</p>
+      <p>In the blog section you can check out all of my recent ideas and interests including the Medium articles I've been reading recently.</p>
       <p>My highly-changeable todos:</p>
     </div>
     <div className='site-description'>
-    <p> The point of my website is not only to make myself a home on the internet for my projects, ideas and blogs but also to learn web development </p>
+    <p> The point of my website is not only to make myself a home on the internet for my projects, ideas and blogs but also to learn web development.</p>
     <p> Here are some of the awesome bits of tech working hard so you can read this (and which I wanted to learn): </p>
       <p style={{
         textAlign: `center`,
