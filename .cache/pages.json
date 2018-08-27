@@ -28,6 +28,13 @@
         "path": "/tensorflow-word2vec-tsne"
     },
     {
+        "componentChunkName": "component---src-templates-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "explainable-ai.json",
+        "path": "/explainable-AI"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",

@@ -22,6 +22,7 @@ exports.json = {
   "optimise-your-website.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/optimise-your-website.json"),
   "teach-physics-and-programming.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/teach-physics-and-programming.json"),
   "tensorflow-word-2-vec-tsne.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/tensorflow-word-2-vec-tsne.json"),
+  "explainable-ai.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/explainable-ai.json"),
   "dev-404-page.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/404.json"),
   "about.json": require("/Users/patrickferris/Documents/Projects/pf2018/.cache/json/about.json"),
