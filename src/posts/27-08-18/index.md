@@ -122,10 +122,10 @@ Hopefully this post also sheds some light onto why it is such an important area 
 
 If you find yourself wanting more papers and areas to read about, try some of the following.
 
-DeepMind’s research on Concept Activation Vectors, as well as the slides from Victoria Krakovna’s talk at Neural Information Processing Systems (NIPS) conference.
+ - [DeepMind](http://proceedings.mlr.press/v80/kim18d/kim18d.pdf)’s research on Concept Activation Vectors, as well as the [slides](http://s.interpretable.ml/nips_interpretable_ml_2017_victoria_Krakovna.pdf) from Victoria Krakovna’s talk at Neural Information Processing Systems (NIPS) conference.
 
-A paper by Dung Huk Park et al. on datasets for measuring explainable models.
+ - A [paper](https://arxiv.org/pdf/1711.07373.pdf) by Dung Huk Park et al. on datasets for measuring explainable models.
 
-Finale Doshi-Velez and Been Kim’s paper on the field in general
+ - [Finale Doshi-Velez](https://www.seas.harvard.edu/directory/finale) and [Been Kim](https://beenkim.github.io/)’s [paper](https://arxiv.org/pdf/1702.08608.pdf) on the field in general
 
 Artificial intelligence should not become a powerful deity which we follow blindly. But neither should we forget about it and the beneficial insight it can have. Ideally, we will build flexible and interpretable models that can work in collaboration with experts and their domain knowledge to provide a brighter future for everyone.
