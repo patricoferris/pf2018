@@ -29,11 +29,11 @@ const Header = ({ siteTitle, subTitle }) => (
     }}>
       <Link style={{textDecoration: `none`}} to='/'>
         <h1 className='title' style={{
-          fontFamily: `Helvetica Neue`,
+          fontFamily: `Helvetica Neue, Arial, sans-serif`,
         }}> {siteTitle} </h1>
       </Link>
       <h3 className='subtitle' style={{
-        fontFamily: `Helvetica Neue`,
+        fontFamily: `Helvetica Neue, Arial, sans-serif`,
         fontSize: `0.9em`
       }}> {subTitle.toUpperCase()} </h3>
     </div>
