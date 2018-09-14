@@ -46,11 +46,17 @@ const IndexPage = () => (
   todoArray: [
     {
       todo: 'Learn more ReactJS,
-              GatbsyJS and Meteor',
+              GatbsyJS and other web dev things',
       timeFrame: 'As long as is needed',
       priority: 'HIGH',
       tag: 'Web Development'
     },
+    {
+      todo: 'Continue learning Swift and iOS',
+      timeFrame: 'N/A',
+      priority: 'HIGH',
+      tag: 'Swifty'
+    }
     {
       todo: 'Deep dive into Tensorflow
               and Machine Learning',
