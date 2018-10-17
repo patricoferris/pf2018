@@ -3,6 +3,13 @@
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "teach-physics-and-programming.json",
+        "path": "/teach-physics-and-programming"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "graphics-and-p-5.json",
         "path": "/graphics-and-p5"
     },
@@ -10,15 +17,8 @@
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "optimise-your-website.json",
-        "path": "/optimise-your-website"
-    },
-    {
-        "componentChunkName": "component---src-templates-post-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "teach-physics-and-programming.json",
-        "path": "/teach-physics-and-programming"
+        "jsonName": "explainable-ai.json",
+        "path": "/explainable-AI"
     },
     {
         "componentChunkName": "component---src-templates-post-js",
@@ -31,8 +31,15 @@
         "componentChunkName": "component---src-templates-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "explainable-ai.json",
-        "path": "/explainable-AI"
+        "jsonName": "global-exporting-network-d-3-and-networkx.json",
+        "path": "/global-exporting-network-d3-and-networkx"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "optimise-your-website.json",
+        "path": "/optimise-your-website"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
