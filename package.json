@@ -5,7 +5,9 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "d3": "^5.7.0",
     "gatsby": "^1.9.277",
+    "gatsby-cli": "^2.4.3",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-react-helmet": "^2.0.10",
