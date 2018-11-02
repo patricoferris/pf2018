@@ -45,8 +45,7 @@ const IndexPage = () => (
         {`let todos = {
   todoArray: [
     {
-      todo: 'Learn more ReactJS,
-              GatbsyJS and other web dev things',
+      todo: 'Improve my backend understanding',
       timeFrame: 'As long as is needed',
       priority: 'HIGH',
       tag: 'Web Development'
